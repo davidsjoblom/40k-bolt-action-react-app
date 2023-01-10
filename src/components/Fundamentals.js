@@ -62,6 +62,10 @@ function Fundamentals() {
         Some kind of container to place the Order dice in is needed from which a
         random Order die can be drawn.{' '}
       </p>
+      <h2>Tokens</h2>
+      <p>Some way to represent Pins on units and mark objectives is needed.</p>
+      <h2>Table</h2>
+      <p>The game is played on a 72" by 48" flat area.</p>
     </>
   );
 }

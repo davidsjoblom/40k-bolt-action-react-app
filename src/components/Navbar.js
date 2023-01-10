@@ -8,10 +8,10 @@ function Navbar() {
       </h1>
       <ul>
         <li>
-          <NavLink to="/rules">Rules</NavLink>
+          <NavLink to="/fundamentals">Fundamentals</NavLink>
         </li>
         <li>
-          <NavLink to="/fundamentals">Fundamentals</NavLink>
+          <NavLink to="/theTurn">The Turn</NavLink>
         </li>
       </ul>
     </nav>
