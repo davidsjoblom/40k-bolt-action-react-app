@@ -13,6 +13,9 @@ function Navbar() {
         <li>
           <NavLink to="/theTurn">The Turn</NavLink>
         </li>
+        <li>
+          <NavLink to="/orders">Orders</NavLink>
+        </li>
       </ul>
     </nav>
   );
