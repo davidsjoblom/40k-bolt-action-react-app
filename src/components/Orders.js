@@ -10,13 +10,13 @@ const Orders = function () {
       <p>The unit does not move and may preform a Shooting action.</p>
       <h2>Advance Order</h2>
       <p>
-        The unit may preform a Move action up to its Speed and then preform a
-        Shooting action.
+        The unit may preform a Move action up to its Movement speed and then
+        preform a Shooting action.
       </p>
       <h2>Run Order</h2>
       <p>
-        The unit may either preform a Move action up to double its Speed or it
-        may declare a Charge action.
+        The unit may either preform a Move action up to double its Movement
+        speed or it may declare a Charge action.
       </p>
       <h2>Ambush Order</h2>
       <p>
@@ -28,8 +28,8 @@ const Orders = function () {
       </p>
       <h2>Rally Order</h2>
       <p>
-        The unit takes a Discipline test igoring any negative penalties from
-        pins. If successful then D6+1 pins are removed from the unit.
+        Order tests taken when issuing Rally orders igoring any negative
+        Discipline penalties from pins. The unit may remove D6+1 Pins.
       </p>
       <h2>Down Order</h2>
       <p>

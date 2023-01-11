@@ -19,6 +19,9 @@ function Navbar() {
         <li>
           <NavLink to="/discipline">Discipline</NavLink>
         </li>
+        <li>
+          <NavLink to="/movement">Movement</NavLink>
+        </li>
       </ul>
     </nav>
   );
