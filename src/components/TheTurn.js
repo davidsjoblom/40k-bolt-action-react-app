@@ -15,10 +15,10 @@ const TheTurn = function () {
           an order by placing the dice next to it.
         </li>
         <li>
-          If necessary a Discipline test is taken to determine if the unit
-          follows the order.
+          If the unit has pins on it a Discipline test has to be passed or else
+          the unit is instead automatically issued a Down order instead.
         </li>
-        <li>The player resolves the unit's order.</li>
+        <li>The unit's order is resolved.</li>
         <li>Repeate until the dice bag is empty.</li>
       </ol>
       <h2>End of Turn</h2>

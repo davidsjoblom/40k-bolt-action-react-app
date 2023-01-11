@@ -16,6 +16,9 @@ function Navbar() {
         <li>
           <NavLink to="/orders">Orders</NavLink>
         </li>
+        <li>
+          <NavLink to="/discipline">Discipline</NavLink>
+        </li>
       </ul>
     </nav>
   );

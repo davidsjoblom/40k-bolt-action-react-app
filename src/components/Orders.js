@@ -7,7 +7,7 @@ const Orders = function () {
         given one order per turn.
       </p>
       <h2>Fire Order</h2>
-      <p>The unit remains stationary and may preform a Shooting action.</p>
+      <p>The unit does not move and may preform a Shooting action.</p>
       <h2>Advance Order</h2>
       <p>
         The unit may preform a Move action up to its Speed and then preform a
@@ -27,8 +27,16 @@ const Orders = function () {
         continue its action.
       </p>
       <h2>Rally Order</h2>
-      <p>The unit</p>
+      <p>
+        The unit takes a Discipline test igoring any negative penalties from
+        pins. If successful then D6+1 pins are removed from the unit.
+      </p>
       <h2>Down Order</h2>
+      <p>
+        The unit does not move and enemy units targeting the unit suffers a -1
+        to hit. Units that keep their Down order at the end of turn may remove
+        D3 pin markers.
+      </p>
     </>
   );
 };
