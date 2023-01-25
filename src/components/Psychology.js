@@ -1,7 +1,7 @@
-const Discipline = function () {
+const Psychology = function () {
   return (
     <>
-      <h1>Discipline</h1>
+      <h1>Psychology</h1>
       <h2>Discipline Test</h2>
       <p>
         A unit preforms a Discipline test by rolling 2D6, adding the results
@@ -38,4 +38,4 @@ const Discipline = function () {
     </>
   );
 };
-export default Discipline;
+export default Psychology;

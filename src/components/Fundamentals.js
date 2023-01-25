@@ -22,11 +22,15 @@ function Fundamentals() {
         A unit is a model or a group of models that recieve and carry out orders
         together.
       </p>
-      <h3>Unit Cohesion & Spacing</h3>
+      <h3>Unit Cohesion</h3>
       <p>
         A unit may never voluntarily finish resolving an order with any of its
-        models more than 1" away from any other model in the unit or within 1"
-        of any enemy models.
+        models more than 1" away from all other models in the unit.
+      </p>
+      <h3>Unit Spacing</h3>
+      <p>
+        A unit may never voluntarily finish resolving an order with any of its
+        models within 1" of any enemy models.
       </p>
       <h2>Measuring Distances</h2>
       <p>

@@ -6,9 +6,10 @@ import Fundamentals from './components/Fundamentals';
 import TheTurn from './components/TheTurn';
 import Orders from './components/Orders';
 import Movement from './components/Movement';
+import Characteristics from './components/Characteristics';
+import Psychology from './components/Psychology';
 
-import './styles.css';
-import Discipline from './components/Discipline';
+import './style.css';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
           <Route path="/fundamentals" element={<Fundamentals />} />
           <Route path="/theTurn" element={<TheTurn />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/discipline" element={<Discipline />} />
+          <Route path="/psychology" element={<Psychology />} />
           <Route path="/movement" element={<Movement />} />
+          <Route path="/characteristics" element={<Characteristics />} />
         </Routes>
       </main>
     </Router>
