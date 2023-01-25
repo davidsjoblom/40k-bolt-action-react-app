@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/40k-bolt-action-react-app/static/css/main.aa0fedc7.css",
+    "main.js": "/40k-bolt-action-react-app/static/js/main.9dcfa66a.js",
+    "index.html": "/40k-bolt-action-react-app/index.html",
+    "main.aa0fedc7.css.map": "/40k-bolt-action-react-app/static/css/main.aa0fedc7.css.map",
+    "main.9dcfa66a.js.map": "/40k-bolt-action-react-app/static/js/main.9dcfa66a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa0fedc7.css",
+    "static/js/main.9dcfa66a.js"
+  ]
+}
