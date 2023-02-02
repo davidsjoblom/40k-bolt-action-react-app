@@ -6,10 +6,10 @@ function Terrain() {
       <h2>Terrain Types</h2>
       <h3>Rough Terrain</h3>
       <p>Movement through Rough terrain counts as double.</p>
-      <h3>Covering Terrain (Soft/Hard cover)</h3>
+      <h3>Covering Terrain (Soft / Hard)</h3>
       <p>
         Shooting at models in/or behind Covering terrain suffer penalties to
-        hit. The penalty depends on whether its Soft or Hard cover where Soft
+        hit. The penalty depends on whether its Soft cover or Hard cover where Soft
         gives a -1 penalty and Hard -2 penalty.
       </p>
       <h3>Opaque Terrain</h3>
@@ -36,13 +36,16 @@ function Terrain() {
       <h3>Ruins</h3>
       Ruins are Rough terrain and Covering terrain(Hard cover) for models inside
       and behind it.
-      <h3>Shallow Water</h3>
+      <h3>Mud & Shallow Water</h3>
       Shallow water is Rough terrain.
       <h3>Deep Water</h3>
       <p>Deep water is Impassible terrain.</p>
       <h3>Hills</h3>
       <p>Hills are Opaque and Elevated terrain.</p>
-      <h3>Walls</h3>
+      <h3>Hedge Rows & Wooden Fences</h3>
+      <p>Hedge rows are Covering terrain(Soft cover) to models behind and within 1" of them.</p>
+      <h3>Stone Walls & Sandbags</h3>
+      <p>Walls are Covering terrain(Hard cover) to models behind and within 1" of them.</p>
       <h3>Board Edge</h3>
     </>
   );
