@@ -2,6 +2,7 @@ function Fundamentals() {
   return (
     <>
       <h1>Fundamentals</h1>
+      <hr />
       <h2>How to play</h2>
       <p>
         A game of 40k BA is played between 2 players, each commanding an army of
@@ -32,6 +33,7 @@ function Fundamentals() {
         A unit may never voluntarily finish resolving an order with any of its
         models within 1" of any enemy models.
       </p>
+      <hr />
       <h2>Measuring Distances</h2>
       <p>
         Distances and ranges are measured in inches. Distance between 2 models
@@ -68,8 +70,6 @@ function Fundamentals() {
       </p>
       <h2>Tokens</h2>
       <p>Some way to represent Pins on units and mark objectives is needed.</p>
-      <h2>Table</h2>
-      <p>The game is played on a 72" by 48" flat area.</p>
     </>
   );
 }

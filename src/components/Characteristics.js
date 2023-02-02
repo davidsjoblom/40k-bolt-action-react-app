@@ -2,6 +2,7 @@ function Characteristics() {
   return (
     <>
       <h1>Characteristics</h1>
+      <hr />
       <h2>Movement Speed</h2>
       <p>
         How fast a model moves. A number of 0 or more and typically written with
@@ -19,39 +20,41 @@ function Characteristics() {
         number usually around 6 to 10. Higher number means a more disciplined
         model.
       </p>
+      <h2>Base Size</h2>
+      <p>The dimensions of the base the model is mounted on. A single number means a round base while 2 numbers seperated by 'x' means a rectangle base with the first number being the front.</p>
       <h2>Points Cost</h2>
       <p>
         How many points a model costs to include in an army. Higher Cost
         generally means a more capable model.
       </p>
-      <h2 className="centered-h2">Example Statline</h2>
-      <div className="example-stat-table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Movement</th>
-              <th>Toughness</th>
-              <th>Discipline</th>
-              <th>Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Rifleman</td>
-              <td className="stat-table-cell">6"</td>
-              <td className="stat-table-cell">4+</td>
-              <td className="stat-table-cell">9</td>
-              <td>10pts</td>
-            </tr>
-            <tr>
-              <td colSpan={5} className="statline-special-rules-cell">
-                Rifle
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h2>Example Statline</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Movement</th>
+            <th>Toughness</th>
+            <th>Discipline</th>
+            <th>Base</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rifleman</td>
+            <td className="stat-table-cell">6"</td>
+            <td className="stat-table-cell">4+</td>
+            <td className="stat-table-cell">9</td>
+            <td className="stat-table-cell">25mm</td>
+            <td>10pts</td>
+          </tr>
+          <tr>
+            <td colSpan={6} className="statline-special-rules-cell">
+              Rifle
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 }

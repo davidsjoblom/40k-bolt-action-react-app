@@ -2,7 +2,7 @@ function Home() {
   return (
     <>
       <h1>40k Bolt Action</h1>
-      <p>Because i wanna play 40k but good.</p>
+      <hr />
       <h2>Changes from vanilla Bolt Action</h2>
       <ul>
         <li>Premeasuring is allowed.</li>
@@ -36,12 +36,8 @@ function Home() {
           Support big single bases for weapon teams, wounds..? Or small square
           bases for support weapons?
         </li>
-        <li>
-          Seperating Advance move speed from Run move speed. 
-        </li>
-        <li>
-          Charging multiple units. 
-        </li>
+        <li>Seperating Advance move speed from Run move speed.</li>
+        <li>Charging multiple units.</li>
       </ul>
     </>
   );

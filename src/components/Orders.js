@@ -2,28 +2,25 @@ const Orders = function () {
   return (
     <>
       <h1>Orders</h1>
-      <p>
-        There are 6 different orders a unit can be given. A unit can only be
-        given one order per turn.
-      </p>
+      <hr />
       <h2>Fire Order</h2>
       <p>The unit does not move and may preform a Shooting action.</p>
       <h2>Advance Order</h2>
       <p>
-        The unit may move up to its Movement speed and then
-        preform a Shooting action.
+        The unit may move up to its Movement speed and then preform a Shooting
+        action.
       </p>
       <h2>Run Order</h2>
       <p>
-        The unit may either move up to double its Movement
-        speed or it may Charge an enemy unit.
+        The unit may either move up to double its Movement speed or it may
+        Charge an enemy unit.
       </p>
       <h2>Ambush Order</h2>
       <p>
         The unit does nothing immediately but may choose to at any point during
-        a move of an enemy unit spring its Ambush and preform a Shooting
-        action against that unit, interrupting its action. The Order dice is
-        then flipped to Fire, the unit is no longer in ambush and the target may
+        a move of an enemy unit spring its Ambush and preform a Shooting action
+        against that unit, interrupting its action. The Order dice is then
+        flipped to Fire, the unit is no longer in ambush and the target may
         continue its action.
       </p>
       <h2>Rally Order</h2>

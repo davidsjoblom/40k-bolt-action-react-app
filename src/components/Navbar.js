@@ -34,6 +34,9 @@ function Navbar() {
         <li>
           <NavLink to="/closecombat">Close Combat</NavLink>
         </li>
+        <li>
+          <NavLink to="/terrain">Terrain</NavLink>
+        </li>
       </ul>
     </nav>
   );

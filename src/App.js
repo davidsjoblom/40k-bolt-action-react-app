@@ -11,6 +11,7 @@ import Psychology from './components/Psychology';
 import Shooting from './components/Shooting';
 import Weapons from './components/Weapons';
 import CloseCombat from './components/CloseCombat';
+import Terrain from './components/Terrain';
 
 import 'normalize.css';
 import './style.css';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/shooting" element={<Shooting />} />
           <Route path="/weapons" element={<Weapons />} />
           <Route path="/closecombat" element={<CloseCombat />} />
+          <Route path="/terrain" element={<Terrain />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

@@ -2,11 +2,7 @@ const TheTurn = function () {
   return (
     <>
       <h1>The Turn</h1>
-      <p>
-        40k Bolt Action is played in turns. A full game lasts for 6 turns.
-        Before the first turn place all of each player's order dice in the dice
-        bag.
-      </p>
+      <hr />
       <h2>Turn Sequence</h2>
       <ol>
         <li>Draw a random order dice from the dice bag.</li>
