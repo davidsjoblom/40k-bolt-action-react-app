@@ -25,6 +25,15 @@ function Navbar() {
         <li>
           <NavLink to="/movement">Movement</NavLink>
         </li>
+        <li>
+          <NavLink to="/shooting">Shooting</NavLink>
+        </li>
+        <li>
+          <NavLink to="/weapons">Weapons</NavLink>
+        </li>
+        <li>
+          <NavLink to="/closecombat">Close Combat</NavLink>
+        </li>
       </ul>
     </nav>
   );

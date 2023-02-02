@@ -2,13 +2,16 @@
   font-family: sans-serif;
   color: #fff;
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
-body {
+html {
   background-color: #333;
-  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1,
@@ -48,10 +51,59 @@ nav ul li a {
   justify-content: center;
 }
 
+nav ul li :hover {
+  background-color: #111;
+  border-radius: 1rem;
+}
+
 main {
   background-color: #222;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
-  box-shadow: 0 0 1rem black;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  background-color: #000;
+  border-radius: 1rem;
+}
+
+.example-stat-table-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  display: inline-block;
+}
+
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: start;
+}
+
+th,
+td {
+  padding: 0.2rem 0.4rem;
+}
+
+.stat-table-cell {
+  text-align: center;
+}
+
+.statline-special-rules-cell {
+  font-style: italic;
+}
+
+.centered-h2 {
+  text-align: center;
 }
