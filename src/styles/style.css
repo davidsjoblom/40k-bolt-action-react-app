@@ -112,3 +112,17 @@ td {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+
+/* Various elements */
+
+.wrapper-battlefield-example {
+  overflow: auto;
+}
+
+.battlefield-example {
+  min-width: 20rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+

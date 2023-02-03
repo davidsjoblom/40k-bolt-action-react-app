@@ -14,7 +14,8 @@ import CloseCombat from './components/CloseCombat';
 import Terrain from './components/Terrain';
 
 import 'normalize.css';
-import './style.css';
+import './styles/style.css';
+import './styles/numberheadings.css';
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+import battlefield from '../graphics/battlefield.svg';
+
 function Terrain() {
   return (
     <>
@@ -9,8 +11,8 @@ function Terrain() {
       <h3>Covering Terrain (Soft / Hard)</h3>
       <p>
         Shooting at models in/or behind Covering terrain suffer penalties to
-        hit. The penalty depends on whether its Soft cover or Hard cover where Soft
-        gives a -1 penalty and Hard -2 penalty.
+        hit. The penalty depends on whether its Soft cover or Hard cover where
+        Soft gives a -1 penalty and Hard -2 penalty.
       </p>
       <h3>Opaque Terrain</h3>
       <p>
@@ -43,84 +45,97 @@ function Terrain() {
       <h3>Hills</h3>
       <p>Hills are Opaque and Elevated terrain.</p>
       <h3>Hedge Rows & Wooden Fences</h3>
-      <p>Hedge rows are Covering terrain(Soft cover) to models behind and within 1" of them.</p>
+      <p>
+        Hedge rows are Covering terrain(Soft cover) to models behind and within
+        1" of them.
+      </p>
       <h3>Stone Walls & Sandbags</h3>
-      <p>Walls are Covering terrain(Hard cover) to models behind and within 1" of them.</p>
-      <h3>Board Edge</h3>
+      <p>
+        Walls are Covering terrain(Hard cover) to models behind and within 1" of
+        them.
+      </p>
+      <h3>Trenches</h3>
+      <p>Trenches are Covering terrain(Hard cover) for models inside them.</p>
+      <h3>Impass & Board Edge</h3>
+      Impass terrain and the Board edge are Impassible and Opaque terrain.
       <hr />
-      <h2>Summary</h2>
+      <h2>Terrain Summary</h2>
       <table>
-         <thead>
-            <tr>
-               <th>Terrain</th>
-               <th>Movement</th>
-               <th>Cover</th>
-               <th>Line of Sight</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>Forest</td>
-               <td>Half</td>
-               <td>Soft</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Fields</td>
-               <td></td>
-               <td>Soft</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Ruins</td>
-               <td>Half</td>
-               <td>Hard</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Mud</td>
-               <td>Half</td>
-               <td></td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Water</td>
-               <td>None</td>
-               <td></td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Hills</td>
-               <td></td>
-               <td></td>
-               <td>Not through</td>
-            </tr>
-            <tr>
-               <td>Hedges</td>
-               <td></td>
-               <td>Soft</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Walls</td>
-               <td></td>
-               <td>Hard</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>Impass</td>
-               <td>None</td>
-               <td></td>
-               <td>None</td>
-            </tr>
-            <tr>
-               <td>Smoke</td>
-               <td></td>
-               <td>Soft</td>
-               <td>Not through</td>
-            </tr>
-         </tbody>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Movement</th>
+            <th>Cover</th>
+            <th>Line of Sight</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Forest</td>
+            <td>Half</td>
+            <td>Soft</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Fields</td>
+            <td></td>
+            <td>Soft</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ruins</td>
+            <td>Half</td>
+            <td>Hard</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Mud</td>
+            <td>Half</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Water</td>
+            <td>None</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Hills</td>
+            <td></td>
+            <td></td>
+            <td>Not through</td>
+          </tr>
+          <tr>
+            <td>Hedges</td>
+            <td></td>
+            <td>Soft</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Walls</td>
+            <td></td>
+            <td>Hard</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Impass</td>
+            <td>None</td>
+            <td></td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Smoke</td>
+            <td></td>
+            <td>Soft</td>
+            <td>Not through</td>
+          </tr>
+        </tbody>
       </table>
+      <h2>Example Battlefield</h2>
+      <div className="wrapper-battlefield-example">
+        <img src={battlefield} alt="abo" class="battlefield-example" />
+      </div>
     </>
   );
 }

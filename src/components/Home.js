@@ -22,6 +22,11 @@ function Home() {
           Exceptional damage removed as a general rule, restricted to weapons
           such as snipers.
         </li>
+        <li>Complete terrain and cover rework</li>
+        <li>
+          Panic tests from shooting losses cause unit to go Down instead of
+          being destroyed.
+        </li>
       </ul>
       <h2>Potential changes under consideration</h2>
       <ul>
@@ -38,6 +43,7 @@ function Home() {
         </li>
         <li>Seperating Advance move speed from Run move speed.</li>
         <li>Charging multiple units.</li>
+        <li>Broken unit cohesion by casualty removal.</li>
       </ul>
     </>
   );
