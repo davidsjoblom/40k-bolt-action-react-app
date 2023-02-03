@@ -47,6 +47,80 @@ function Terrain() {
       <h3>Stone Walls & Sandbags</h3>
       <p>Walls are Covering terrain(Hard cover) to models behind and within 1" of them.</p>
       <h3>Board Edge</h3>
+      <hr />
+      <h2>Summary</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Terrain</th>
+               <th>Movement</th>
+               <th>Cover</th>
+               <th>Line of Sight</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Forest</td>
+               <td>Half</td>
+               <td>Soft</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Fields</td>
+               <td></td>
+               <td>Soft</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Ruins</td>
+               <td>Half</td>
+               <td>Hard</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Mud</td>
+               <td>Half</td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Water</td>
+               <td>None</td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Hills</td>
+               <td></td>
+               <td></td>
+               <td>Not through</td>
+            </tr>
+            <tr>
+               <td>Hedges</td>
+               <td></td>
+               <td>Soft</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Walls</td>
+               <td></td>
+               <td>Hard</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Impass</td>
+               <td>None</td>
+               <td></td>
+               <td>None</td>
+            </tr>
+            <tr>
+               <td>Smoke</td>
+               <td></td>
+               <td>Soft</td>
+               <td>Not through</td>
+            </tr>
+         </tbody>
+      </table>
     </>
   );
 }
