@@ -5,9 +5,11 @@ const Movement = function () {
       <hr />
       <h2>Moving Units</h2>
       <p>
-        A unit is moved by moving each model in the unit one at a time up to a
-        certain distance depending on the order being resolved. Models may be
-        moved in any direction.
+        A unit is moved by moving each of its models one at a time in any
+        direction up to a certain distance depending on the units Movement
+        characteristic and Order being resolved. A model may move in a straight
+        line for the whole move or change direction at any point and move in an
+        new direction.
       </p>
       <h2>Moving Through Friendly Models</h2>
       <p>
@@ -18,6 +20,17 @@ const Movement = function () {
       <p>Models may not move through enemy models.</p>
       <h2>Moving Through Terrain</h2>
       <p>Some terrain affect movement, see Terrain chapter for details.</p>
+      <h2>Unit Cohesion</h2>
+      <p>
+        A unit consisting of more than one model has to end a move in either a
+        clump or line formation with all models within 1" of at least one other
+        friendly model.
+      </p>
+      <h2>Unit Spacing</h2>
+      <p>
+        A model may never end a move within 1" of an enemy model unless
+        Charging.
+      </p>
     </>
   );
 };
