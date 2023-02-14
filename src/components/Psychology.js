@@ -15,7 +15,6 @@ const Psychology = function () {
         to show its current number of Pins. A unit with at least one Pin needs
         to take a Discipline test when recieving an order. Units taking
         Discipline tests suffers a -1 penalty per Pin it has to its Discipline.
-        Units preform Shooting actions suffer a -1 penalty to hit rolls per Pin.
       </p>
       <h2>Order Test</h2>
       <p>
@@ -33,8 +32,8 @@ const Psychology = function () {
       </p>
       <h2>Squad Leaders</h2>
       <p>
-        Units with Squad leaders that lose them suffers a -1 penalty to their
-        Discipline characteristic for the rest of the game.
+        Units that started with a Squad leader that lose them suffers a -1
+        penalty to their Discipline characteristic for the rest of the game.
       </p>
     </>
   );

@@ -7,9 +7,9 @@ const Shooting = function () {
         <li>Choose target</li>
         <li>Target reacts</li>
         <li>Measure range & Line of Sight</li>
-        <li>Roll to Hit</li>
+        <li>Roll to Hit & place Pins</li>
         <li>Roll to Wound</li>
-        <li>Remove casualties and place pins</li>
+        <li>Remove casualties</li>
         <li>Target checks morale</li>
       </ol>
       <h2>Choose target</h2>
@@ -32,7 +32,7 @@ const Shooting = function () {
         shooting with then it is considered to be in range. Any model that is in
         range and has Line of Sight to the target may shoot its weapon.
       </p>
-      <h2>Roll to Hit</h2>
+      <h2>Roll to Hit & place Pins</h2>
       <p>
         Each model shooting rolls a die per Shot its weapon has. In order to
         score a Hit a 3 or more(3+) needs to be rolled but there's a multitude
@@ -47,6 +47,11 @@ const Shooting = function () {
       <p>
         The target number can never be less than 2+. If the target number
         exceeds 7+ then the shot automatically misses.
+      </p>
+      <p>
+        If at least one hit is scored place Pin markers depending on the weapon
+        that caused the hit. If several hits are scored only one of them apply
+        Pin markers choosen by the player controlling the unit shooting.
       </p>
       <table>
         <thead>
@@ -106,18 +111,35 @@ const Shooting = function () {
       <p>The target has been issued a Down Order.</p>
       <h3>Soft Cover</h3>
       <p>
-        If the majority of the closest half of the target units models(rounded
-        up) are visible and is in at least Soft cover the whole unit is
-        considered to be in Soft Cover.
+        If the majority of half of the models(rounded up) in the target unit
+        that are closest to the shooter are visible and is in at least Soft
+        cover the whole unit is considered to be in Soft Cover.
       </p>
       <h3>Hard Cover</h3>
       <p>
-        If the majority of the closest half of the target units models(rounded
-        up) are either not visible or is in Hard cover the whole unit is
-        considered to be in Hard Cover.
+        If the majority of half of the models(rounded up) in the target unit
+        that are closest to the shooter are either not visible or is in Hard
+        cover the whole unit is considered to be in Hard Cover.
       </p>
       <h2>Roll to Wound</h2>
-      <p></p>
+      <p>
+        Each die that scored a hit is now rolled again with the target number
+        being the Toughness of the target unit modified by the Penetration of
+        the weapon. Each successful to Wound roll results in a casualty.
+      </p>
+      <h2>Remove casualties</h2>
+      <p>
+        For each causalty inflicted a model is removed in the targeted unit
+        chosen by its controlling player. If all models in the unit are
+        removed the unit is considered destroyed and any excess casualties
+        caused are disregarded.
+      </p>
+      <h2>Target checks morale</h2>
+      <p>
+        If half or more of the target units models were removed as casualties
+        due to a single shooting attack it has to take a Discipline test. If it
+        fails this test it immediately takes an additional Pin marker.
+      </p>
     </>
   );
 };
