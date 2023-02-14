@@ -44,6 +44,16 @@ function Home() {
         <li>Seperating Advance move speed from Run move speed.</li>
         <li>Charging multiple units.</li>
         <li>Broken unit cohesion by casualty removal.</li>
+        <li>Optional targeting of parts of units for cover purposes.</li>
+      </ul>
+      <h2>Feature List</h2>
+      <ul>
+        <li>Core rules</li>
+        <li>Generic army list</li>
+        <li>Army builder tool(saved as cookies..?)</li>
+        <li>Login with server saved army lists</li>
+        <li>Tornament management tool</li>
+        <li>Map pack/generator</li>
       </ul>
     </>
   );

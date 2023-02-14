@@ -37,6 +37,12 @@ function Navbar() {
         <li>
           <NavLink to="/terrain">Terrain</NavLink>
         </li>
+        <li>
+          <NavLink to="/specialrules">Special Rules</NavLink>
+        </li>
+        <li>
+          <NavLink to="/vehicles">Vehicles</NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -7,8 +7,9 @@ const TheTurn = function () {
       <ol>
         <li>Draw a random order dice from the dice bag.</li>
         <li>
-          The player whose dice was drawn chooses one of his units and issues it
-          an order by placing the dice next to it.
+          The player whose dice was drawn chooses one of his units that has not
+          yet recieved an order and issues it one by placing the dice next to
+          it.
         </li>
         <li>
           If the unit has pins on it a Discipline test has to be passed or else
