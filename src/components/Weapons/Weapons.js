@@ -7,6 +7,8 @@ const Weapons = function () {
     <>
       <h1>Weapons</h1>
       <hr />
+      <h2>Light Weapons</h2>
+      <p>Light weapons are weapons that can be carried and operated by infantrymen and are either the main armament of a squad or integrated support weapons.</p>
       <table>
         <thead>
           <tr>

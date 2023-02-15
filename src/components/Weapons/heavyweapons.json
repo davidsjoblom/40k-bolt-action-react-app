@@ -17,7 +17,7 @@
     "name": "Auto Cannon",
     "range": 48,
     "shots": 2,
-    "penetration": "+1",
+    "penetration": "+2",
     "specialrules": "Blast(D2)"
   },
   {
@@ -60,20 +60,34 @@
     "range": 60,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Indirect(24\"), Blast(D6)"
+    "specialrules": "Indirect(24\"), Blast(2D3)"
   },
   {
     "name": "Light Howitzer",
     "range": 48,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Howitzer(24\"), Blast(D6)"
+    "specialrules": "Howitzer(24\"), Blast(D3+1)"
   },
   {
     "name": "Medium Howitzer",
     "range": 60,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Howitzer(24\"), Blast(D6)"
+    "specialrules": "Howitzer(30\"), Blast(2D3)"
+  },
+  {
+    "name": "Heavy Howitzer",
+    "range": 72,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Howitzer(36\"), Blast(2D3+1)"
+  },
+  {
+    "name": "Heavy Flamethrower",
+    "range": 12,
+    "shots": 1,
+    "penetration": "+1",
+    "specialrules": "Flamethrower"
   }
 ]

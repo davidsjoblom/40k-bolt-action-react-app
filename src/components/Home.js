@@ -46,7 +46,7 @@ function Home() {
         <li>Broken unit cohesion by casualty removal.</li>
         <li>Optional targeting of parts of units for cover purposes.</li>
       </ul>
-      <h2>Feature List</h2>
+      <h2>Planned Feature List</h2>
       <ul>
         <li>Core rules</li>
         <li>Generic army list</li>

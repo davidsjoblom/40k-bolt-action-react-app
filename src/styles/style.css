@@ -9,6 +9,10 @@ html {
   position: relative;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 #root {
   position: relative;
 }
@@ -124,5 +128,3 @@ td {
   width: 100%;
   max-width: 30rem;
 }
-
-

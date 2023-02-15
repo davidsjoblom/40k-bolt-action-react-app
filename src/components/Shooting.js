@@ -16,7 +16,8 @@ const Shooting = function () {
       <p>
         The unit shooting chooses one enemy unit to shoot at as well as the
         weapons it will be using should any model in the unit have several
-        weapons available. A model may only use one weapon at a time.
+        weapons available. A model may only use one weapon at a time. All models
+        have to shoot at the same target.
       </p>
       <h2>Target reacts</h2>
       <p>
@@ -59,9 +60,9 @@ const Shooting = function () {
         exceeds 7+ then the shot automatically misses.
       </p>
       <p>
-        If at least one hit is scored place Pin markers depending on the weapon
-        that caused the hit. If several hits are scored only one of them apply
-        Pin markers choosen by the player controlling the unit shooting.
+        If at least one hit is scored place a Pin marker on the hit unit. If the
+        shooting unit has scored hits on several different enemy units then only
+        one of the hit units take a Pin choosen by the shooting player.
       </p>
       <table>
         <thead>
