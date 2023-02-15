@@ -9,7 +9,7 @@ import Movement from './components/Movement';
 import Characteristics from './components/Characteristics';
 import Psychology from './components/Psychology';
 import Shooting from './components/Shooting';
-import Weapons from './components/Weapons';
+import Weapons from './components/Weapons/Weapons';
 import CloseCombat from './components/CloseCombat';
 import Terrain from './components/Terrain';
 import SpecialRules from './components/SpecialRules';

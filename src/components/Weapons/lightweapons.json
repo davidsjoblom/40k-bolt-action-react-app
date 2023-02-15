@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Pistol",
+    "range": 6,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Quick to Fire"
+  },
+  {
+    "name": "Sub Machine Gun",
+    "range": 12,
+    "shots": 2,
+    "penetration": "-",
+    "specialrules": "Quick to Fire"
+  },
+  {
+    "name": "Assualt Rifle",
+    "range": 18,
+    "shots": 2,
+    "penetration": "-",
+    "specialrules": ""
+  },
+  {
+    "name": "Rifle",
+    "range": 24,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": ""
+  },
+  {
+    "name": "Heavy Rifle",
+    "range": 30,
+    "shots": 1,
+    "penetration": "1",
+    "specialrules": "Unwieldy"
+  },
+  {
+    "name": "Light Machine Gun",
+    "range": 30,
+    "shots": 4,
+    "penetration": "-",
+    "specialrules": "Unwieldy"
+  },
+  {
+    "name": "Anti-tank Rifle",
+    "range": 36,
+    "shots": 1,
+    "penetration": "2",
+    "specialrules": "Unwieldy, Anti-tank"
+  },
+  {
+    "name": "Rocket Launcher",
+    "range": 36,
+    "shots": 1,
+    "penetration": "3",
+    "specialrules": "Unwieldy, Anti-tank / Blast(D3)"
+  }
+]

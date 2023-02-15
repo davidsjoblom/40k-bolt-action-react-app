@@ -32,6 +32,12 @@ const Shooting = function () {
         shooting with then it is considered to be in range. Any model that is in
         range and has Line of Sight to the target may shoot its weapon.
       </p>
+      <p>
+        Line of Sight for shooting purposes may NOT be drawn through friendly
+        models or within 1" of them. While units can technically still see
+        through friendly units they will not risk friendly fire and shoot
+        through them.
+      </p>
       <h2>Roll to Hit & place Pins</h2>
       <p>
         Each model shooting rolls a die per Shot its weapon has. In order to
@@ -130,9 +136,9 @@ const Shooting = function () {
       <h2>Remove casualties</h2>
       <p>
         For each causalty inflicted a model is removed in the targeted unit
-        chosen by its controlling player. If all models in the unit are
-        removed the unit is considered destroyed and any excess casualties
-        caused are disregarded.
+        chosen by its controlling player. If all models in the unit are removed
+        the unit is considered destroyed and any excess casualties caused are
+        disregarded.
       </p>
       <h2>Target checks morale</h2>
       <p>
