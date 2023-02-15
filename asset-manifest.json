@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/40k-bolt-action-react-app/static/css/main.05fa272e.css",
-    "main.js": "/40k-bolt-action-react-app/static/js/main.69a72463.js",
+    "main.css": "/40k-bolt-action-react-app/static/css/main.1f118d42.css",
+    "main.js": "/40k-bolt-action-react-app/static/js/main.5e49e528.js",
     "static/media/battlefield.svg": "/40k-bolt-action-react-app/static/media/battlefield.e7f6dfe38d84dbd8b077b8b16f8db13f.svg",
     "index.html": "/40k-bolt-action-react-app/index.html",
-    "main.05fa272e.css.map": "/40k-bolt-action-react-app/static/css/main.05fa272e.css.map",
-    "main.69a72463.js.map": "/40k-bolt-action-react-app/static/js/main.69a72463.js.map"
+    "main.1f118d42.css.map": "/40k-bolt-action-react-app/static/css/main.1f118d42.css.map",
+    "main.5e49e528.js.map": "/40k-bolt-action-react-app/static/js/main.5e49e528.js.map"
   },
   "entrypoints": [
-    "static/css/main.05fa272e.css",
-    "static/js/main.69a72463.js"
+    "static/css/main.1f118d42.css",
+    "static/js/main.5e49e528.js"
   ]
 }
