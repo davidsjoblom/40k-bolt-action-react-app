@@ -14,6 +14,7 @@ import CloseCombat from './components/CloseCombat';
 import Terrain from './components/Terrain';
 import SpecialRules from './components/SpecialRules';
 import Vehicles from './components/Vehicles';
+import Teams from './components/Teams';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/terrain" element={<Terrain />} />
           <Route path="/specialrules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
+          <Route path="/teams" element={<Teams />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

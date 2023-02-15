@@ -8,6 +8,10 @@ function SpecialRules() {
         <li>Unwieldy</li>
         <li>Heavy</li>
         <li>Anti-tank</li>
+        <li>Blast(X)</li>
+        <li>Hard Target(X)</li>
+        <li>Accurate</li>
+        <li>Indirect</li>
       </ul>
     </>
   );

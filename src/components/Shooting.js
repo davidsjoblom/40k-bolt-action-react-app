@@ -13,7 +13,11 @@ const Shooting = function () {
         <li>Target checks morale</li>
       </ol>
       <h2>Choose target</h2>
-      <p>The unit shooting chooses one enemy unit to shoot at.</p>
+      <p>
+        The unit shooting chooses one enemy unit to shoot at as well as the
+        weapons it will be using should any model in the unit have several
+        weapons available. A model may only use one weapon at a time.
+      </p>
       <h2>Target reacts</h2>
       <p>
         If the unit targeted has not yet recieved an order it may immediately be

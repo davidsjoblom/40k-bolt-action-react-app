@@ -41,6 +41,9 @@ function Navbar() {
           <NavLink to="/specialrules">Special Rules</NavLink>
         </li>
         <li>
+          <NavLink to="/teams">Teams</NavLink>
+        </li>
+        <li>
           <NavLink to="/vehicles">Vehicles</NavLink>
         </li>
       </ul>

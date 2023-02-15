@@ -10,42 +10,70 @@
     "name": "Heavy Machine Gun",
     "range": 36,
     "shots": 3,
-    "penetration": "1",
+    "penetration": "+1",
     "specialrules": ""
   },
   {
     "name": "Auto Cannon",
     "range": 48,
     "shots": 2,
-    "penetration": "1",
+    "penetration": "+1",
     "specialrules": "Blast(D2)"
   },
   {
     "name": "Light AT Gun",
     "range": 48,
     "shots": 1,
-    "penetration": "4",
-    "specialrules": "Anti-tank, Blast(D2)"
+    "penetration": "+4",
+    "specialrules": "Anti-tank or Blast(D2)"
   },
   {
     "name": "Medium AT Gun",
     "range": 60,
     "shots": 1,
-    "penetration": "5",
-    "specialrules": "Anti-tank, Blast(D2)"
+    "penetration": "+5",
+    "specialrules": "Anti-tank or Blast(D2)"
   },
   {
     "name": "Heavy AT Gun",
     "range": 72,
     "shots": 1,
-    "penetration": "6",
-    "specialrules": "Anti-tank, Blast(D3)"
+    "penetration": "+6",
+    "specialrules": "Anti-tank or Blast(D3)"
   },
   {
     "name": "Super-heavy AT Gun",
     "range": 84,
     "shots": 1,
-    "penetration": "7",
-    "specialrules": "Anti-tank, Blast(D6)"
+    "penetration": "+7",
+    "specialrules": "Anti-tank or Blast(D3)"
+  },
+  {
+    "name": "Medium Mortar",
+    "range": 48,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Indirect(24\"), Blast(D3+1)"
+  },
+  {
+    "name": "Heavy Mortar",
+    "range": 60,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Indirect(24\"), Blast(D6)"
+  },
+  {
+    "name": "Light Howitzer",
+    "range": 48,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Howitzer(24\"), Blast(D6)"
+  },
+  {
+    "name": "Medium Howitzer",
+    "range": 60,
+    "shots": 1,
+    "penetration": "-",
+    "specialrules": "Howitzer(24\"), Blast(D6)"
   }
 ]
