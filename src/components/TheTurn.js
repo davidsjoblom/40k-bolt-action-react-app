@@ -8,7 +8,7 @@ const TheTurn = function () {
         <li>Draw a random order dice from the dice bag.</li>
         <li>
           The player whose dice was drawn chooses one of his units that has not
-          yet recieved an order and issues it one by placing the dice next to
+          yet received an order and issues it one by placing the dice next to
           it.
         </li>
         <li>
@@ -16,7 +16,7 @@ const TheTurn = function () {
           the unit is instead automatically issued a Down order instead.
         </li>
         <li>The unit's order is resolved.</li>
-        <li>Repeate until the dice bag is empty.</li>
+        <li>Repeat until the dice bag is empty.</li>
       </ol>
       <h2>End of Turn</h2>
       <p>

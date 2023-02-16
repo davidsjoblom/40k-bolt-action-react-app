@@ -21,13 +21,13 @@ function Characteristics() {
         model.
       </p>
       <h2>Base Size</h2>
-      <p>The dimensions of the base the model is mounted on. A single number means a round base while 2 numbers seperated by 'x' means a rectangle base with the first number being the front.</p>
+      <p>The dimensions of the base the model is mounted on. A single number means a round base while 2 numbers separated by 'x' means a rectangle base with the first number being the front.</p>
       <h2>Points Cost</h2>
       <p>
         How many points a model costs to include in an army. Higher Cost
         generally means a more capable model.
       </p>
-      <h2>Example Statline</h2>
+      <h2>Example Profile</h2>
       <table>
         <thead>
           <tr>

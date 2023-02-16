@@ -4,76 +4,83 @@
     "range": 6,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Quick to Fire"
+    "specialRules": "Quick to Fire"
   },
   {
     "name": "Submachine Gun",
     "range": 12,
     "shots": 2,
     "penetration": "-",
-    "specialrules": "Quick to Fire"
+    "specialRules": "Quick to Fire"
   },
   {
-    "name": "Assualt Rifle",
+    "name": "Shotgun",
+    "range": 12,
+    "shots": 1,
+    "penetration": "+1",
+    "specialRules": "Quick to Fire"
+  },
+  {
+    "name": "Assault Rifle",
     "range": 18,
     "shots": 2,
     "penetration": "-",
-    "specialrules": ""
+    "specialRules": ""
   },
   {
     "name": "Rifle",
     "range": 24,
     "shots": 1,
     "penetration": "-",
-    "specialrules": ""
+    "specialRules": ""
   },
   {
     "name": "Light Machine Gun",
     "range": 30,
     "shots": 4,
     "penetration": "-",
-    "specialrules": "Unwieldy"
+    "specialRules": "Unwieldy"
   },
   {
     "name": "Light Mortar",
     "range": 30,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Indirect(12\"), Blast(D3)"
+    "specialRules": "Indirect(12\"), Blast(D3)"
   },
   {
     "name": "Multiple Grenade Launcher",
     "range": 18,
     "shots": 2,
     "penetration": "-",
-    "specialrules": "Blast(D2)"
+    "specialRules": "Blast(D2)"
   },
   {
     "name": "Disposable AT Rocket",
     "range": 24,
     "shots": 1,
     "penetration": "+5",
-    "specialrules": "Unwieldy, Anti-tank, One Use Only"
+    "specialRules": "Unwieldy, Anti-tank, One Use Only"
   },
   {
     "name": "Rocket Launcher",
     "range": 30,
     "shots": 1,
     "penetration": "+5",
-    "specialrules": "Unwieldy, Anti-tank or Blast(D3)"
+    "specialRules": "Unwieldy, Anti-tank or Blast(D3)"
   },
   {
     "name": "Anti-tank Rifle",
     "range": 36,
     "shots": 1,
     "penetration": "+2",
-    "specialrules": "Unwieldy, Anti-tank"
+    "specialRules": "Unwieldy, Anti-tank"
   },
   {
     "name": "Flamethrower",
     "range": 6,
     "shots": 1,
     "penetration": "-",
-    "specialrules": "Flamethrower"
+    "specialRules": "Flamethrower"
   }
 ]

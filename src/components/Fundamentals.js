@@ -10,7 +10,7 @@ function Fundamentals() {
         each turn the players alternate giving orders to their units and then
         resolving those orders. At the end of the game the winner is determined
         by tallying destroyed enemy units and a potential bonus depending on if
-        a senario was played.
+        a scenario was played.
       </p>
       <h2>Models</h2>
       <p>
@@ -20,7 +20,7 @@ function Fundamentals() {
       </p>
       <h2>Units</h2>
       <p>
-        A unit is a model or a group of models that recieve and carry out orders
+        A unit is a model or a group of models that receive and carry out orders
         together.
       </p>
       <h2>Armies</h2>

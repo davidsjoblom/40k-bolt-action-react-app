@@ -13,14 +13,14 @@ const Psychology = function () {
       <p>
         Units take Pins when fired upon. Pins markers are placed next to a unit
         to show its current number of Pins. A unit with at least one Pin needs
-        to take a Discipline test when recieving an order. Units taking
+        to take a Discipline test when receiving an order. Units taking
         Discipline tests suffers a -1 penalty per Pin it has to its Discipline.
       </p>
       <h2>Order Test</h2>
       <p>
         When a unit with Pins is issued an order it has to pass a Discipline
         test or automatically be issued a Down order instead. A unit that passes
-        a Discipline test when recieving an order may remove a single Pin
+        a Discipline test when receiving an order may remove a single Pin
         marker. A Down order does not require a Discipline test when issued but
         does not remove a Pin.
       </p>

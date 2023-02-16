@@ -25,7 +25,7 @@ const Orders = function () {
       </p>
       <h2>Rally Order</h2>
       <p>
-        Order tests taken when issuing Rally orders igoring any negative
+        Order tests taken when issuing Rally orders ignoring any negative
         Discipline penalties from pins. The unit may remove D6+1 Pins.
       </p>
       <h2>Down Order</h2>

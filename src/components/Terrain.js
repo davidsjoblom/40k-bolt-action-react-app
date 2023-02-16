@@ -15,10 +15,10 @@ function Terrain() {
       <h3>Elevated terrain</h3>
       <p>
         Models in Elevated terrain counts as Elevated. Line of Sight drawn to
-        and from Elevated models ignores any interviening none-Elevated models.
+        and from Elevated models ignores any intervening none-Elevated models.
       </p>
-      <h3>Impassible Terrain</h3>
-      <p>Impassible terrain blocks all movement.</p>
+      <h3>Impassable Terrain</h3>
+      <p>Impassable terrain blocks all movement.</p>
       <h3>Opaque Terrain</h3>
       <p>
         Line of Sight cannot be drawn through Opaque terrain. Line of Sight can
@@ -47,9 +47,9 @@ function Terrain() {
         Hedge rows and fences are Covering terrain(Soft cover) to models behind
         and within 1" of them.
       </p>
-      <h3>Impass & Board Edge</h3>
+      <h3>Impasse & Board Edge</h3>
       <p>
-        Impass terrain and the Board edge are Impassible and Opaque terrain.
+        Impasse and the Board edge are Impassible and Opaque terrain.
       </p>
       <h3>Mud</h3>
       <p>Mud is Rough terrain.</p>
@@ -128,7 +128,7 @@ function Terrain() {
             <td></td>
           </tr>
           <tr>
-            <td>Impass</td>
+            <td>Impasse</td>
             <td>None</td>
             <td></td>
             <td>None</td>

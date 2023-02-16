@@ -6,7 +6,7 @@ function WeaponItem({ weapon }) {
         <td>{weapon.range}"</td>
         <td>{weapon.shots}</td>
         <td>{weapon.penetration}</td>
-        <td>{weapon.specialrules}</td>
+        <td>{weapon.specialRules}</td>
       </tr>
     </>
   );

@@ -26,6 +26,10 @@ const Movement = function () {
         clump or line formation with all models within 1" of at least one other
         friendly model.
       </p>
+      <p>
+        If a unit is unable to achieve Unit Cohesion then it has to end the
+        move as close as possible to fulfilling it.
+      </p>
       <h2>Unit Spacing</h2>
       <p>
         A model may never end a move within 1" of an enemy model unless

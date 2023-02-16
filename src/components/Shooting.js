@@ -21,7 +21,7 @@ const Shooting = function () {
       </p>
       <h2>Target reacts</h2>
       <p>
-        If the unit targeted has not yet recieved an order it may immediately be
+        If the unit targeted has not yet received an order it may immediately be
         issued an out of sequence Down order. Collect an Order dice from the
         Dice bag and issue the Down order as normal.
       </p>
@@ -62,7 +62,7 @@ const Shooting = function () {
       <p>
         If at least one hit is scored place a Pin marker on the hit unit. If the
         shooting unit has scored hits on several different enemy units then only
-        one of the hit units take a Pin choosen by the shooting player.
+        one of the hit units take a Pin chosen by the shooting player.
       </p>
       <table>
         <thead>
@@ -140,7 +140,7 @@ const Shooting = function () {
       </p>
       <h2>Remove casualties</h2>
       <p>
-        For each causalty inflicted a model is removed in the targeted unit
+        For each casualty inflicted a model is removed in the targeted unit
         chosen by its controlling player. If all models in the unit are removed
         the unit is considered destroyed and any excess casualties caused are
         disregarded.

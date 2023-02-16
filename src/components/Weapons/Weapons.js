@@ -1,5 +1,5 @@
-import lightweapons from './lightweapons.json';
-import heavyweapons from './heavyweapons.json';
+import lightWeapons from './lightWeapons.json';
+import heavyWeapons from './heavyWeapons.json';
 import WeaponItem from './WeaponItem';
 
 const Weapons = function () {
@@ -20,7 +20,7 @@ const Weapons = function () {
           </tr>
         </thead>
         <tbody>
-          {lightweapons.map(weapon => (
+          {lightWeapons.map(weapon => (
             <WeaponItem weapon={weapon} />
           ))}
         </tbody>
@@ -37,7 +37,7 @@ const Weapons = function () {
           </tr>
         </thead>
         <tbody>
-          {heavyweapons.map(weapon => (
+          {heavyWeapons.map(weapon => (
             <WeaponItem weapon={weapon} />
           ))}
         </tbody>

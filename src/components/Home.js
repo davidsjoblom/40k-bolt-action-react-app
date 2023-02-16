@@ -5,7 +5,7 @@ function Home() {
       <hr />
       <h2>Changes from vanilla Bolt Action</h2>
       <ul>
-        <li>Premeasuring is allowed.</li>
+        <li>Pre-measuring is allowed.</li>
         <li>Random Charges, Base Move + 2D6</li>
         <li>
           Set number of Order dice depending on points level played independent
@@ -41,7 +41,7 @@ function Home() {
           Support big single bases for weapon teams, wounds..? Or small square
           bases for support weapons?
         </li>
-        <li>Seperating Advance move speed from Run move speed.</li>
+        <li>Separating Advance move speed from Run move speed.</li>
         <li>Charging multiple units.</li>
         <li>Broken unit cohesion by casualty removal.</li>
         <li>Optional targeting of parts of units for cover purposes.</li>
@@ -52,7 +52,7 @@ function Home() {
         <li>Generic army list</li>
         <li>Army builder tool(saved as cookies..?)</li>
         <li>Login with server saved army lists</li>
-        <li>Tornament management tool</li>
+        <li>Tournament management tool</li>
         <li>Map pack/generator</li>
       </ul>
     </>
