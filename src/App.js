@@ -10,15 +10,16 @@ import Characteristics from './components/Characteristics';
 import Psychology from './components/Psychology';
 import Shooting from './components/Shooting';
 import Weapons from './components/Weapons/Weapons';
-import CloseCombat from './components/CloseCombat';
 import Terrain from './components/Terrain';
 import SpecialRules from './components/SpecialRules';
 import Vehicles from './components/Vehicles';
 import Teams from './components/Teams';
+import MeleeCombat from './components/MeleeCombat';
+import Charging from './components/Charging';
 
 import 'normalize.css';
 import './styles/style.css';
-import './styles/numberheadings.css';
+import './styles/numberHeadings.css';
 
 function App() {
   return (
@@ -35,14 +36,16 @@ function App() {
           <Route path="/characteristics" element={<Characteristics />} />
           <Route path="/shooting" element={<Shooting />} />
           <Route path="/weapons" element={<Weapons />} />
-          <Route path="/closecombat" element={<CloseCombat />} />
+          <Route path="/charging" element={<Charging />} />
+          <Route path="/melee-combat" element={<MeleeCombat />} />
           <Route path="/terrain" element={<Terrain />} />
-          <Route path="/specialrules" element={<SpecialRules />} />
+          <Route path="/special-rules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
+      <div className="bottom-spacer"></div>
     </>
   );
 }

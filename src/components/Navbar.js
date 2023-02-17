@@ -32,13 +32,16 @@ function Navbar() {
           <NavLink to="/weapons">Weapons</NavLink>
         </li>
         <li>
-          <NavLink to="/closecombat">Close Combat</NavLink>
+          <NavLink to="/charging">Charging</NavLink>
+        </li>
+        <li>
+          <NavLink to="/melee-combat">Melee Combat</NavLink>
         </li>
         <li>
           <NavLink to="/terrain">Terrain</NavLink>
         </li>
         <li>
-          <NavLink to="/specialrules">Special Rules</NavLink>
+          <NavLink to="/special-rules">Special Rules</NavLink>
         </li>
         <li>
           <NavLink to="/teams">Teams</NavLink>

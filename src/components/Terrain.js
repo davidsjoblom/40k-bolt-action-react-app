@@ -48,9 +48,7 @@ function Terrain() {
         and within 1" of them.
       </p>
       <h3>Impasse & Board Edge</h3>
-      <p>
-        Impasse and the Board edge are Impassible and Opaque terrain.
-      </p>
+      <p>Impasse and the Board edge are Impassible and Opaque terrain.</p>
       <h3>Mud</h3>
       <p>Mud is Rough terrain.</p>
       <h3>Ruins</h3>
@@ -143,7 +141,7 @@ function Terrain() {
       </table>
       <h2>Example Battlefield</h2>
       <div className="wrapper-battlefield-example">
-        <img src={battlefield} alt="abo" class="battlefield-example" />
+        <img src={battlefield} alt="abo" className="battlefield-example" />
       </div>
     </>
   );

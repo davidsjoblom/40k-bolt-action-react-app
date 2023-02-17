@@ -49,7 +49,7 @@ function Characteristics() {
             <td>10pts</td>
           </tr>
           <tr>
-            <td colSpan={6} className="statline-special-rules-cell">
+            <td colSpan={6} className="stat-line-special-rules-cell">
               Rifle
             </td>
           </tr>

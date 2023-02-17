@@ -37,6 +37,7 @@ const Shooting = function () {
         shooting with then it is considered to be in range. Any model that is in
         range and has Line of Sight to the target may shoot its weapon.
       </p>
+      <h3>Shooting through friendly units</h3>
       <p>
         Line of Sight for shooting purposes may NOT be drawn through friendly
         models or within 1" of them. While units can technically still see
