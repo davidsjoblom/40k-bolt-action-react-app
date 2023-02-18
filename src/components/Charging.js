@@ -77,9 +77,9 @@ const MeleeCombat = function () {
         as they have to. This means that charges are not slowed down by Rough
         terrain.
       </p>
-      <h3>Charging through Rough terrain</h3>
+      <h3>Disrupted Charge</h3>
       <p>
-        Any charging model that moved through Rough terrain during its charge
+        Any charging model that moved through Rough terrain or a Wall during its charge
         move counts as a Disrupted Charge.
       </p>
       <h2>Pile in charged models</h2>
