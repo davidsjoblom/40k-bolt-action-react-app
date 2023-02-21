@@ -5,12 +5,30 @@ function Terrain() {
     <>
       <h1>Terrain</h1>
       <hr />
+      <h2>Terrain and Model Interpretation</h2>
+      <h3>Inside Terrain</h3>
+      <p>
+        A model is considered to be inside a terrain feature if the center of
+        its base is inside the terrain feature.
+      </p>
+      <h3>Behind Terrain</h3>
+      <p>
+        A model is considered to be behind a terrain feature from the point of
+        another model if the straight line drawn from center of its base to the
+        center of the other models base contacts the terrain feature at any
+        point.
+      </p>
+      <h3>Obscured</h3>
+      <p>
+        A model is considered Obscured from the point of another model if the
+        straight line drawn line drawn from center of it to the center of the
+        other models base contacts a Line of Sight blocker.
+      </p>
       <h2>Terrain Types</h2>
       <h3>Covering Terrain (Soft / Hard)</h3>
       <p>
-        Shooting at models in/or behind Covering terrain suffer penalties to
-        hit. The penalty depends on whether its Soft cover or Hard cover where
-        Soft gives a -1 penalty and Hard -2 penalty.
+        Models in or behind (depending on the terrain feature) benefit from
+        either Soft or Hard cover (depending on the type of Covering terrain).
       </p>
       <h3>Elevated terrain</h3>
       <p>
@@ -21,8 +39,8 @@ function Terrain() {
       <p>Impassable terrain blocks all movement.</p>
       <h3>Opaque Terrain</h3>
       <p>
-        Line of Sight cannot be drawn through Opaque terrain. Line of Sight can
-        be drawn into and out of Opaque terrain.
+        Line of Sight drawn through Opaque terrain is blocked. Line of Sight
+        drawn into and out of Opaque terrain is not blocked.
       </p>
       <h3>Rough Terrain</h3>
       <p>Movement through Rough terrain counts as double.</p>

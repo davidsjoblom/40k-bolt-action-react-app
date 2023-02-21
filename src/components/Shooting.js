@@ -63,7 +63,8 @@ const Shooting = function () {
       <p>
         If at least one hit is scored place a Pin marker on the hit unit. If the
         shooting unit has scored hits on several different enemy units then only
-        one of the hit units take a Pin chosen by the shooting player.
+        one of the hit units take a Pin chosen by the shooting player. Note that
+        only hits that can actually wound the target inflict Pins.
       </p>
       <table>
         <thead>
@@ -124,20 +125,30 @@ const Shooting = function () {
       <h3>Soft Cover</h3>
       <p>
         If the majority of half of the models(rounded up) in the target unit
-        that are closest to the shooter are visible and is in at least Soft
-        cover the whole unit is considered to be in Soft Cover.
+        that are closest to the shooter are visible and benefit from at least
+        Soft cover the whole unit is considered to be in Soft Cover.
+      </p>
+      <p>
+        A unit cannot benefit from Soft cover if it is also considered to be in
+        Hard cover.
       </p>
       <h3>Hard Cover</h3>
       <p>
         If the majority of half of the models(rounded up) in the target unit
-        that are closest to the shooter are either not visible or is in Hard
-        cover the whole unit is considered to be in Hard Cover.
+        that are closest to the shooter either benefit from Hard cover or are
+        Obscured the whole unit is considered to be in Hard Cover.
       </p>
       <h2>Roll to Wound</h2>
       <p>
         Each die that scored a hit is now rolled again with the target number
         being the Toughness of the target unit modified by the Penetration of
         the weapon. Each successful to Wound roll results in a casualty.
+      </p>
+      <h3>Impossible to Wound</h3>
+      <p>
+        If the target number needed exceeds 6 then it is impossible to
+        successfully wound the target. Hits that cannot wound does not inflict
+        Pins either.
       </p>
       <h2>Remove casualties</h2>
       <p>

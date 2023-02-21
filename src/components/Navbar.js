@@ -20,6 +20,9 @@ function Navbar() {
           <NavLink to="/characteristics">Characteristics</NavLink>
         </li>
         <li>
+          <NavLink to="/square-bases">Square Bases</NavLink>
+        </li>
+        <li>
           <NavLink to="/psychology">Psychology</NavLink>
         </li>
         <li>
@@ -42,9 +45,6 @@ function Navbar() {
         </li>
         <li>
           <NavLink to="/special-rules">Special Rules</NavLink>
-        </li>
-        <li>
-          <NavLink to="/teams">Teams</NavLink>
         </li>
         <li>
           <NavLink to="/vehicles">Vehicles</NavLink>

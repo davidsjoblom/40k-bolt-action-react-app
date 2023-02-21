@@ -13,9 +13,9 @@ import Weapons from './components/Weapons/Weapons';
 import Terrain from './components/Terrain';
 import SpecialRules from './components/SpecialRules';
 import Vehicles from './components/Vehicles';
-import Teams from './components/Teams';
 import MeleeCombat from './components/MeleeCombat';
 import Charging from './components/Charging';
+import SquareBases from './components/SquareBases';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -41,7 +41,7 @@ function App() {
           <Route path="/terrain" element={<Terrain />} />
           <Route path="/special-rules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/square-bases" element={<SquareBases />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

@@ -1,0 +1,40 @@
+<svg width="100mm" height="100mm" viewBox="0 0 100 100"
+   xmlns="http://www.w3.org/2000/svg">
+   <defs>
+      <path id="a" d="M255.368 117.887h38.546v23.128h-38.546z"/>
+   </defs>
+   <path style="fill:none;fill-opacity:1;stroke:#000;stroke-width:.535292;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M37.768 30.268h24.465v49.465H37.768z"/>
+   <path style="fill:none;fill-opacity:1;stroke:#000;stroke-width:.421822;stroke-linejoin:miter;stroke-dasharray:.843644,.421822;stroke-dashoffset:0;stroke-opacity:1" d="M62.65 29.85 92.35.15M7.65 109.85l29.7-29.7M7.65.15l29.7 29.7M62.65 80.15l29.7 29.7"/>
+   <text xml:space="preserve" style="font-size:3.27068px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family: sans-serif;" x="39.128" y="29.055" transform="scale(1.02315 .97737)">
+      <tspan style="fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="39.128" y="29.055">Front Facing</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-family: sans-serif;font-size:5.86371px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.184683;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="34.492" y="7.602" transform="scale(1.00973 .99036)">
+      <tspan style="stroke-width:.184683" x="34.492" y="7.602">Front Arch</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:3.27068px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="39.774" y="84.701" transform="scale(1.02315 .97737)">
+      <tspan style="fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="39.774" y="84.701">Rear Facing</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:3.175px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.1;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="56.07" y="88.101"/>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:3.27068px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="61.859" y="53.643" transform="scale(1.02315 .97737)">
+      <tspan style="fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="61.859" y="53.643">Flank </tspan>
+      <tspan style="fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="61.859" y="57.731">Facing</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:3.27068px;direction:rtl;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;image-rendering:auto" x="36.367" y="53.643" transform="scale(1.02315 .97737)">
+      <tspan style="direction:rtl;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="36.367" y="53.643">Flank </tspan>
+      <tspan style="direction:rtl;fill:#000;fill-opacity:1;stroke:none;stroke-width:.103014;stroke-dasharray:none" x="36.367" y="57.731">Facing</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:5.86371px;fill:#000;fill-opacity:1;stroke:none;stroke-width:.184683;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="35.445" y="98.866" transform="scale(1.00973 .99036)">
+      <tspan style="stroke-width:.184683" x="35.445" y="98.866">Rear Arch</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:5.86371px;direction:rtl;fill:#000;fill-opacity:1;stroke:none;stroke-width:.184683;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x="97.342" y="52.922" transform="scale(1.00973 .99036)">
+      <tspan style="direction:rtl;stroke-width:.184683" x="97.342" y="52.922">Flank </tspan>
+      <tspan style="direction:rtl;stroke-width:.184683" x="97.342" y="60.252">Arch</tspan>
+   </text>
+   <text xml:space="preserve" style="font-family: sans-serif;font-size:5.86371px;direction:ltr;fill:#000;fill-opacity:1;stroke:none;stroke-width:.184683;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" x=".925" y="52.922" transform="scale(1.00973 .99036)">
+      <tspan style="direction:ltr;stroke-width:.184683" x=".925" y="52.922">Flank </tspan>
+      <tspan style="direction:ltr;stroke-width:.184683" x=".925" y="60.252">Arch</tspan>
+   </text>
+   <text xml:space="preserve" transform="matrix(.26458 0 0 .26458 -4.537 -1.412)" style="font-family: sans-serif;direction:ltr;white-space:pre;shape-inside:url(#a);display:inline;fill:#000;fill-opacity:1;stroke:none;stroke-width:.377953;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <tspan x="255.367" y="128.835">135° </tspan>
+   </text>
+</svg>

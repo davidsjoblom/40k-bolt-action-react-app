@@ -13,10 +13,9 @@ const MeleeCombat = function () {
       </ol>
       <h2>Declare charge</h2>
       <p>
-        In order for a unit to engage an enemy in Melee combat it has to be
-        issued a Run order and then choose which enemy unit it intends to
-        Charge. This enemy unit has to be visible and within the charging units
-        Movement Speed + 12".
+        A unit issued a Run order may instead of the normal move declare a
+        Charge on an enemy unit. This enemy unit has to be visible and within
+        the charging units Movement Speed + 12".
       </p>
       <h2>Target reacts</h2>
       <p>
@@ -41,8 +40,10 @@ const MeleeCombat = function () {
       </p>
       <p>
         If the result is less than the distance between the charging unit and
-        the unit being charged then the charge fails and the charging unit is
-        immediately issued a Down order instead.
+        the unit being charged then the charge fails and the charging unit
+        stumbles a number of inches towards the targeted unit equal to the
+        highest single value rolled on the 2D6 and then immediately issued a
+        Down order instead.
       </p>
       <h2>Move charging models</h2>
       <p>
@@ -79,8 +80,8 @@ const MeleeCombat = function () {
       </p>
       <h3>Disrupted Charge</h3>
       <p>
-        Any charging model that moved through Rough terrain or a Wall during its charge
-        move counts as a Disrupted Charge.
+        Any charging model that moved through Rough terrain or a Wall during its
+        charge move counts as a Disrupted Charge.
       </p>
       <h2>Pile in charged models</h2>
       <p>

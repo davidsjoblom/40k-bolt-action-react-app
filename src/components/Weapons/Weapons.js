@@ -7,8 +7,6 @@ const Weapons = function () {
     <>
       <h1>Weapons</h1>
       <hr />
-      <h2>Light Weapons</h2>
-      <p>Light weapons are weapons that can be carried and operated by infantrymen and are either the main armament of a squad or integrated support weapons.</p>
       <table>
         <thead>
           <tr>
@@ -21,7 +19,7 @@ const Weapons = function () {
         </thead>
         <tbody>
           {lightWeapons.map(weapon => (
-            <WeaponItem weapon={weapon} />
+            <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
         </tbody>
       </table>
@@ -38,7 +36,7 @@ const Weapons = function () {
         </thead>
         <tbody>
           {heavyWeapons.map(weapon => (
-            <WeaponItem weapon={weapon} />
+            <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
         </tbody>
       </table>

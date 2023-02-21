@@ -132,3 +132,9 @@ td {
   width: 100%;
   max-width: 30rem;
 }
+
+.square-base-diagram {
+  filter: invert(100%);
+  width: 100%;
+  padding: 1rem;
+}
