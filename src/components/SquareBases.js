@@ -15,7 +15,7 @@ function SquareBases() {
       </p>
       <p>
         Some square bases are technically rectangular but they are treated the
-        same and are all refered to as square bases for rules purposes.
+        same and are all referred to as square bases for rules purposes.
       </p>
       <h2>Facings</h2>
       <p>
@@ -23,12 +23,12 @@ function SquareBases() {
         to a side of a square base. The Rear facing is directly opposite to the
         Front facing and the Flank facing makes up the remaining sides.
       </p>
-      <h3>Square Base Orientation</h3>
+      <h3>Square Base Size Interpretation</h3>
       <p>
-        A square base is always oriented with the first value of its Base Size
-        characteristic being the Front and Rear facings, e.g. a Base Size of
-        50x100mm would have a Front and Rear facing being 50mm long and 2 Flank
-        facings being 100mm long.
+        The first value of a models Base Size characteristic is the length of
+        the Front and Rear facings and the second is the length of the Flank
+        facings, e.g. a Base Size of 50x100mm would have a Front and Rear facing
+        being 50mm long and 2 Flank facings being 100mm long.
       </p>
       <p>
         It should be made obvious which Facing is which on the model or its
@@ -45,7 +45,7 @@ function SquareBases() {
       <img
         src={squareBaseDiagram}
         alt="square-base-diagram.svg"
-        className='square-base-diagram'
+        className="square-base-diagram"
       />
     </>
   );

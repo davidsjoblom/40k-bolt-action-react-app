@@ -161,7 +161,17 @@ const Shooting = function () {
       <p>
         If half or more of the target units models were removed as casualties
         due to a single shooting attack it has to take a Discipline test. If it
-        fails this test it immediately takes an additional Pin marker.
+        fails this test it panics, is immediately removed from play and
+        considered Destroyed.
+      </p>
+      <h3>Panicking in Cover</h3>
+      <p>
+        If the unit benefited from Soft cover during the shooting attack that
+        caused the morale check it gains +1 Discipline for that test.
+      </p>
+      <p>
+        If the unit benefited from Hard cover during the shooting attack that
+        caused the morale check it gains +2 Discipline for that test.
       </p>
     </>
   );

@@ -16,6 +16,7 @@ import Vehicles from './components/Vehicles';
 import MeleeCombat from './components/MeleeCombat';
 import Charging from './components/Charging';
 import SquareBases from './components/SquareBases';
+import Armoured from './components/Armoured';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -32,8 +33,9 @@ function App() {
           <Route path="/theTurn" element={<TheTurn />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/psychology" element={<Psychology />} />
-          <Route path="/movement" element={<Movement />} />
           <Route path="/characteristics" element={<Characteristics />} />
+          <Route path="/square-bases" element={<SquareBases />} />
+          <Route path="/movement" element={<Movement />} />
           <Route path="/shooting" element={<Shooting />} />
           <Route path="/weapons" element={<Weapons />} />
           <Route path="/charging" element={<Charging />} />
@@ -41,8 +43,7 @@ function App() {
           <Route path="/terrain" element={<Terrain />} />
           <Route path="/special-rules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
-          <Route path="/square-bases" element={<SquareBases />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/armoured" element={<Armoured />} />
         </Routes>
       </main>
       <div className="bottom-spacer"></div>

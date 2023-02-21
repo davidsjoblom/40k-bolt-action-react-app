@@ -3,11 +3,12 @@ const Psychology = function () {
     <>
       <h1>Psychology</h1>
       <hr />
-      <h2>Discipline Test</h2>
+      <h2>Discipline Tests</h2>
       <p>
         A unit preforms a Discipline test by rolling 2D6, adding the results
-        together and if the sum is equal or less to its Discipline
-        characteristic the test is passed.
+        together and if the sum is equal to or less than its current Discipline
+        characteristic the test is passed. There are numerous modifiers which
+        can affect a units current Discipline.
       </p>
       <h2>Pin Markers</h2>
       <p>
@@ -16,7 +17,7 @@ const Psychology = function () {
         to take a Discipline test when receiving an order. Units taking
         Discipline tests suffers a -1 penalty per Pin it has to its Discipline.
       </p>
-      <h2>Order Test</h2>
+      <h2>Order Tests</h2>
       <p>
         When a unit with Pins is issued an order it has to pass a Discipline
         test or automatically be issued a Down order instead. A unit that passes

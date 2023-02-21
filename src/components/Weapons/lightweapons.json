@@ -17,7 +17,7 @@
     "name": "Shotgun",
     "range": 12,
     "shots": 1,
-    "penetration": "+1",
+    "penetration": "-",
     "specialRules": "Quick to Fire"
   },
   {
@@ -45,14 +45,14 @@
     "name": "Light Mortar",
     "range": 30,
     "shots": 1,
-    "penetration": "-",
+    "penetration": "Blast",
     "specialRules": "Indirect(12\"), Blast(D3)"
   },
   {
     "name": "Multiple Grenade Launcher",
     "range": 18,
     "shots": 2,
-    "penetration": "-",
+    "penetration": "Blast",
     "specialRules": "Blast(D2)"
   },
   {
@@ -60,7 +60,7 @@
     "range": 24,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Unwieldy, Anti-tank, One Use Only"
+    "specialRules": "Anti-tank, One Use Only"
   },
   {
     "name": "Rocket Launcher",

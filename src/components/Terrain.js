@@ -76,10 +76,21 @@ function Terrain() {
       </p>
       <h3>Trenches</h3>
       <p>Trenches are Covering terrain(Hard cover) for models inside them.</p>
+      <h4>Charging through Trenches</h4>
+      <p>
+        Charging models moving through a Trench during its charge move is
+        considered a Disrupted Charge.
+      </p>
       <h3>Walls</h3>
       <p>
         Walls are Covering terrain(Hard cover) to models behind and within 1" of
         them.
+      </p>
+      <h4>Charging over Walls</h4>
+      <p>
+        Charging models moving over a Wall during a charge move is considered a
+        Disrupted Charge unless the charging model started its charging move
+        within 1" of the Wall.
       </p>
       <h3>Water</h3>
       <p>Water is Impassible terrain.</p>

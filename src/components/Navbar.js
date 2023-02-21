@@ -49,6 +49,9 @@ function Navbar() {
         <li>
           <NavLink to="/vehicles">Vehicles</NavLink>
         </li>
+        <li>
+          <NavLink to="/armoured">Armoured</NavLink>
+        </li>
       </ul>
     </nav>
   );

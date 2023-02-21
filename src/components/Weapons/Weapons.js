@@ -10,7 +10,7 @@ const Weapons = function () {
       <table>
         <thead>
           <tr>
-            <th>Light Weapons</th>
+            <th>Weapons</th>
             <th>Range</th>
             <th>Shots</th>
             <th>Pen</th>
@@ -21,20 +21,6 @@ const Weapons = function () {
           {lightWeapons.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
-        </tbody>
-      </table>
-      <p></p>
-      <table>
-        <thead>
-          <tr>
-            <th>Heavy Weapons</th>
-            <th>Range</th>
-            <th>Shots</th>
-            <th>Pen</th>
-            <th>Special Rules</th>
-          </tr>
-        </thead>
-        <tbody>
           {heavyWeapons.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
