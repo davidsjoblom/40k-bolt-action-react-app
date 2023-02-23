@@ -3,9 +3,7 @@ function Armoured() {
     <>
       <h1>Armoured</h1>
       <hr />
-      <h2>Armoured model bases</h2>
-      <p>All Armoured models have Square bases.</p>
-      <h2>Shooting at Armoured models</h2>
+      <h2>Shooting at Armoured Vehicles</h2>
       <h3>Flank shot</h3>
       <p>
         Models shooting at an Armoured model that has its center in either of
@@ -21,11 +19,12 @@ function Armoured() {
         Weapons with '-' Penetration do not benefit from additional Pen for
         being in the Flank or Rear Arcs.
       </p>
-      <h2>Armoured Shock</h2>
+      <h2>Armoured Assault</h2>
       <p>
         Armoured units issued a Run order may 'run over' enemy units in the way
         as long as it has enough move and space to fully clear all enemy models
-        on the other side.
+        on the other side. Enemy Vehicle models still block movement and may not
+        me 'run over'.
       </p>
       <p>
         Any enemy unit 'run over' suffers a number of hits equal to the number

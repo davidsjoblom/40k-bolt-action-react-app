@@ -114,6 +114,13 @@ function Vehicles() {
         exceeded the target number by 3 or more then roll an additional time on
         the Penetration table and apply its result as well.
       </p>
+      <h2>Vehicles and Routing</h2>
+      <p>
+        When the number of Pins on a Vehicle equals or exceeds that Vehicles
+        unmodified Discipline characteristic it is immediately considered
+        destroyed like normal but instead of removing the model it is marked as
+        a wreck.
+      </p>
       <h2>Vehicles and Terrain</h2>
       <p>
         Some terrain can be risky for a Vehicle to traverse. Only one Dangerous

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Multiple Grenade Launcher",
+    "range": 18,
+    "shots": 2,
+    "penetration": "-",
+    "specialRules": "Blast(D3)"
+  },
+  {
+    "name": "Disposable AT Rocket",
+    "range": 24,
+    "shots": 1,
+    "penetration": "+5",
+    "specialRules": "Anti-tank, One Use Only"
+  },
+  {
+    "name": "Rocket Launcher",
+    "range": 30,
+    "shots": 1,
+    "penetration": "+5",
+    "specialRules": "Unwieldy, Anti-tank or Blast(D3+1)"
+  },
+  {
+    "name": "Anti-tank Rifle",
+    "range": 36,
+    "shots": 1,
+    "penetration": "+2",
+    "specialRules": "Unwieldy, Anti-tank"
+  },
+  {
+    "name": "Flamethrower",
+    "range": 6,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Flamethrower"
+  }
+]

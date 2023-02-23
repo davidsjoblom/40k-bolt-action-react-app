@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Pistol",
+    "range": 6,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Quick to Fire"
+  },
+  {
+    "name": "Submachine Gun",
+    "range": 12,
+    "shots": 2,
+    "penetration": "-",
+    "specialRules": "Quick to Fire"
+  },
+  {
+    "name": "Shotgun",
+    "range": 12,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Quick to Fire"
+  },
+  {
+    "name": "Assault Rifle",
+    "range": 18,
+    "shots": 2,
+    "penetration": "-",
+    "specialRules": ""
+  },
+  {
+    "name": "Rifle",
+    "range": 24,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": ""
+  },
+  {
+    "name": "Sniper",
+    "range": 36,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Sniper, Accurate, Unwieldy"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Light Machine Gun",
+    "range": 30,
+    "shots": 4,
+    "penetration": "-",
+    "specialRules": "Unwieldy"
+  },
+  {
+    "name": "Medium Machine Gun",
+    "range": 36,
+    "shots": 5,
+    "penetration": "-",
+    "specialRules": ""
+  },
+  {
+    "name": "Heavy Machine Gun",
+    "range": 36,
+    "shots": 3,
+    "penetration": "+1",
+    "specialRules": ""
+  }
+]

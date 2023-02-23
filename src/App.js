@@ -11,7 +11,7 @@ import Psychology from './components/Psychology';
 import Shooting from './components/Shooting';
 import Weapons from './components/Weapons/Weapons';
 import Terrain from './components/Terrain';
-import SpecialRules from './components/SpecialRules';
+import SpecialRules from './components/Special Rules/SpecialRules';
 import Vehicles from './components/Vehicles';
 import MeleeCombat from './components/MeleeCombat';
 import Charging from './components/Charging';

@@ -91,6 +91,10 @@ td {
   padding: 0.2rem 0.4rem;
 }
 
+th {
+  text-align: center;
+}
+
 .stat-table-cell {
   text-align: center;
 }

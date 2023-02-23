@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Light Howitzer",
+    "range": 48,
+    "shots": 1,
+    "penetration": "+1",
+    "specialRules": "Howitzer(24\"), Blast(D3+1)"
+  },
+  {
+    "name": "Medium Howitzer",
+    "range": 60,
+    "shots": 1,
+    "penetration": "+2",
+    "specialRules": "Howitzer(30\"), Blast(2D3)"
+  },
+  {
+    "name": "Heavy Howitzer",
+    "range": 72,
+    "shots": 1,
+    "penetration": "+3",
+    "specialRules": "Howitzer(36\"), Blast(2D3+1)"
+  }
+]

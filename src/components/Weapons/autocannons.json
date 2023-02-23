@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Light Autocannon",
+    "range": 36,
+    "shots": 2,
+    "penetration": "+2",
+    "specialRules": "Anti-tank or Blast(D3)"
+  },
+  {
+    "name": "Medium Autocannon",
+    "range": 48,
+    "shots": 2,
+    "penetration": "+3",
+    "specialRules": "Anti-tank or Blast(D3)"
+  },
+  {
+    "name": "Heavy Autocannon",
+    "range": 60,
+    "shots": 2,
+    "penetration": "+4",
+    "specialRules": "Anti-tank or Blast(D3+1)"
+  }
+]

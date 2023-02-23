@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Accurate",
+    "description": "Accurate weapons ignore the penalty for shooting at Long range"
+  },
+  {
+    "name": "All-terrain(X)",
+    "description": "All-terrain Vehicles gain a +X modifier on Dangerous terrain tests."
+  },
+  {
+    "name": "Anti-tank",
+    "description": "Anti-tank weapons targeting non-vehicle units suffer an additional -1 Penalty to hit"
+  },
+  {
+    "name": "Commanding Presence(X)",
+    "description": "Friendly units within 12\" gains +X to its Discipline"
+  },
+  {
+    "name": "Indirect(X)",
+    "description": "May shoot through friendly unit. May not target enemy units fully within X\""
+  },
+  {
+    "name": "Howitzer(X)",
+    "description": "May choose to shoot as if it had Indirect(X)"
+  }
+]
