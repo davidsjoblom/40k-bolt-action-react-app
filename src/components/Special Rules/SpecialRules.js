@@ -29,12 +29,14 @@ function SpecialRules() {
             <th>Description</th>
           </tr>
         </thead>
-        {specialRules.map(specialRule => (
-          <SpecialRuleItem
-            specialRule={specialRule}
-            key={specialRule.name.toString()}
-          />
-        ))}
+        <tbody>
+          {specialRules.map(specialRule => (
+            <SpecialRuleItem
+              specialRule={specialRule}
+              key={specialRule.name.toString()}
+            />
+          ))}
+        </tbody>
       </table>
     </>
   );

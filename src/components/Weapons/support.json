@@ -4,7 +4,7 @@
     "range": 36,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Sniper, Accurate, Unwieldy"
+    "specialRules": "Sniper, Accurate"
   },
   {
     "name": "Multiple Grenade Launcher",
@@ -25,18 +25,25 @@
     "range": 30,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Unwieldy, Anti-tank or Blast(D3+1)"
+    "specialRules": "Anti-tank or Blast(D3+1)"
   },
   {
     "name": "Anti-tank Rifle",
     "range": 36,
     "shots": 1,
     "penetration": "+2",
-    "specialRules": "Unwieldy"
+    "specialRules": ""
   },
   {
     "name": "Flamethrower",
     "range": 6,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Flamethrower"
+  },
+  {
+    "name": "Heavy Flamethrower",
+    "range": 12,
     "shots": 1,
     "penetration": "-",
     "specialRules": "Flamethrower"

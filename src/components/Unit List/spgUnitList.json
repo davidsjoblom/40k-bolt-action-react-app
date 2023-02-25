@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Light Self Propelled Gun",
+    "modelName": "Light SPG",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "base": "50x75",
+    "equipment": "",
+    "special": "Vehicle, Armoured, All-Terrain(2), Open-topped",
+    "startingCost": 100,
+    "options": [
+      {
+        "mount": "Must take one Forward facing",
+        "selections": [
+          "Medium AT Gun for free",
+          "Medium Autocannon for free",
+          "Medium Howitzer for free",
+          "Medium Directed Energy for free",
+          "Heavy Flamethrower for free"
+        ]
+      },
+      {
+        "mount": "May choose one",
+        "selections": [
+          "Front facing Medium Machine Gun for 10pts",
+          "Pintle Mounted Medium Machine Gun for 10pts"
+        ]
+      },
+      {
+        "mount": "May loose",
+        "selections": ["Open-topped for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Medium Self Propelled Gun",
+    "modelName": "Medium SPG",
+    "movement": 8,
+    "toughness": 9,
+    "discipline": 9,
+    "base": "50x100",
+    "equipment": "",
+    "special": "Vehicle, Armoured, All-Terrain(2), Open-topped",
+    "startingCost": 200,
+    "options": [
+      {
+        "mount": "Must take one Forward facing",
+        "selections": [
+          "Heavy AT Gun for free",
+          "Heavy Autocannon for free",
+          "Heavy Howitzer for free",
+          "Heavy Directed Energy for free",
+          "Heavy Flamethrower for free"
+        ]
+      },
+      {
+        "mount": "May choose one",
+        "selections": [
+          "Front facing Medium Machine Gun for 10pts",
+          "Pintle Mounted Medium Machine Gun for 10pts"
+        ]
+      },
+      {
+        "mount": "May loose",
+        "selections": ["Open-topped for 30pts"]
+      }
+    ]
+  }
+]

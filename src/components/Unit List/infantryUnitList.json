@@ -16,7 +16,7 @@
         "selections": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "replace": "May replace 2 Riflemen for a weapon team with Base Size 40mm, Team(2) and",
+        "replace": "May replace 2 Riflemen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "selections": [
           "Light Machine Gun for 10pts",
           "Anti-tank Rifle for 10pts",
@@ -50,8 +50,42 @@
         "selections": ["Shotgun for free"]
       },
       {
-        "replace": "May replace 2 Militiaman for a weapon team with Base Size 40mm, Team(2) and",
-        "selections": ["Sniper for 10pts", "Rocket Launcher for 20pts"]
+        "replace": "One Militiaman may take",
+        "selections": ["Explosive Charge(6) for 10pts"]
+      },
+      {
+        "replace": "May replace 2 Militiaman for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "selections": [
+          "Sniper for 10pts",
+          "Rocket Launcher for 20pts",
+          "Light Mortar for 10pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Conscripts",
+    "modelName": "Conscript",
+    "movement": 6,
+    "toughness": 3,
+    "discipline": 8,
+    "base": 25,
+    "equipment": "Rifle",
+    "special": "Scoring",
+    "startingSize": "Squad Leader and 4 Conscripts for 30pts",
+    "additionalModels": "may add up to 5 Conscripts for 6pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace Rifle with",
+        "selections": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "replace": "May replace 2 Militiaman for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "selections": [
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts",
+          "Light Mortar for 10pts"
+        ]
       }
     ]
   },
@@ -102,22 +136,22 @@
         "selections": ["Explosive Charge(6) for 10pts"]
       },
       {
-        "replace": "May replace 2 Jaegers for a weapon team with Base Size 40mm, Team(2) and",
+        "replace": "May replace 2 Jaegers for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "selections": ["Sniper for 10pts", "Light Machine Gun for 10pts"]
       }
     ]
   },
   {
-    "name": "Super Marines",
-    "modelName": "Marine",
+    "name": "Super Soldiers",
+    "modelName": "Super",
     "movement": 6,
     "toughness": 6,
     "discipline": 10,
-    "base": 25,
+    "base": 32,
     "equipment": "Assault Rifle",
     "special": "Scoring, Fearless, Crushing Strength(1)",
-    "startingSize": "Squad Leader and 2 Marines for 60pts",
-    "additionalModels": "may add up to 3 Marines for 20pts each",
+    "startingSize": "Squad Leader and 2 Supers for 60pts",
+    "additionalModels": "may add up to 3 Supers for 20pts each",
     "options": [
       {
         "replace": "Squad Leader may replace Assault Rifle with",
@@ -127,9 +161,14 @@
         ]
       },
       {
-        "replace": "One Marine may replace Assault Rifle with",
+        "replace": "Any Super may replace Assault Rifle with",
+        "selections": ["Shotgun and Melee Specialist of free"]
+      },
+      {
+        "replace": "One Super may replace Assault Rifle with",
         "selections": [
           "Anti-tank Rifle for 10pts",
+          "Light Machine Gun for 10pts",
           "Rocket Launcher for 20pts",
           "Flamethrower for 10pts",
           "Light DEW for 20pts"
