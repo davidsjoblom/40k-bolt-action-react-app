@@ -17,6 +17,7 @@ import MeleeCombat from './components/MeleeCombat';
 import Charging from './components/Charging';
 import SquareBases from './components/SquareBases';
 import Armoured from './components/Armoured';
+import UnitList from './components/Unit List/UnitList';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -44,6 +45,7 @@ function App() {
           <Route path="/special-rules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
           <Route path="/armoured" element={<Armoured />} />
+          <Route path="/unit-list" element={<UnitList />} />
         </Routes>
       </main>
       <div className="bottom-spacer"></div>

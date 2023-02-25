@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Infantry Regulars",
+    "modelName": "Rifleman",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "base": 25,
+    "equipment": "Rifle",
+    "special": "Scoring",
+    "startingSize": "Squad Leader and 4 Riflemen for 50pts",
+    "additionalModels": "may add up to 5 Riflemen for 10pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace Rifle with",
+        "selections": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "replace": "May replace 2 Riflemen for a weapon team with Base Size 40mm, Team(2) and",
+        "selections": [
+          "Light Machine Gun for 10pts",
+          "Anti-tank Rifle for 10pts",
+          "Light Mortar for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Militia",
+    "modelName": "Militiaman",
+    "movement": 6,
+    "toughness": 3,
+    "discipline": 8,
+    "base": 25,
+    "equipment": "Carbine",
+    "special": "Scoring",
+    "startingSize": "Squad Leader and 4 Militiamen for 25pts",
+    "additionalModels": "may add up to 5 Militiamen for 5pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace Carbine with",
+        "selections": [
+          "Shotgun for free",
+          "Pistol and Melee Specialist for free"
+        ]
+      },
+      {
+        "replace": "Any model may replace Carbine with",
+        "selections": ["Shotgun for free"]
+      },
+      {
+        "replace": "May replace 2 Militiaman for a weapon team with Base Size 40mm, Team(2) and",
+        "selections": ["Sniper for 10pts", "Rocket Launcher for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Assault Troopers",
+    "modelName": "Trooper",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "base": 25,
+    "equipment": "SMG",
+    "special": "Scoring",
+    "startingSize": "Squad Leader and 4 Troopers for 75pts",
+    "additionalModels": "may add up to 5 Troopers for 15pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace SMG with",
+        "selections": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "replace": "Any model may replace SMG with",
+        "selections": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "replace": "One model may replace SMG with",
+        "selections": ["Flamethrower for 10pts", "Light DEW for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Jaeger Infantry",
+    "modelName": "Jaeger",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 10,
+    "base": 25,
+    "equipment": "Rifle",
+    "special": "Scoring, Scout",
+    "startingSize": "Squad Leader and 4 Jaegers for 75pts",
+    "additionalModels": "may add up to 5 Jaegers for 15pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace Rifle with",
+        "selections": ["SMG for free"]
+      },
+      {
+        "replace": "One Jaeger may take",
+        "selections": ["Explosive Charge(6) for 10pts"]
+      },
+      {
+        "replace": "May replace 2 Jaegers for a weapon team with Base Size 40mm, Team(2) and",
+        "selections": ["Sniper for 10pts", "Light Machine Gun for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Super Marines",
+    "modelName": "Marine",
+    "movement": 6,
+    "toughness": 6,
+    "discipline": 10,
+    "base": 25,
+    "equipment": "Assault Rifle",
+    "special": "Scoring, Fearless, Crushing Strength(1)",
+    "startingSize": "Squad Leader and 2 Marines for 60pts",
+    "additionalModels": "may add up to 3 Marines for 20pts each",
+    "options": [
+      {
+        "replace": "Squad Leader may replace Assault Rifle with",
+        "selections": [
+          "Shotgun and Melee Specialist of free",
+          "Shotgun and Crushing Strength(3) for 15pts"
+        ]
+      },
+      {
+        "replace": "One Marine may replace Assault Rifle with",
+        "selections": [
+          "Anti-tank Rifle for 10pts",
+          "Rocket Launcher for 20pts",
+          "Flamethrower for 10pts",
+          "Light DEW for 20pts"
+        ]
+      }
+    ]
+  }
+]

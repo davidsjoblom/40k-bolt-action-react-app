@@ -52,6 +52,9 @@ function Navbar() {
         <li>
           <NavLink to="/armoured">Armoured</NavLink>
         </li>
+        <li>
+          <NavLink to="/unit-list">Unit List</NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -3,9 +3,9 @@ function WeaponItem({ weapon }) {
     <>
       <tr>
         <td>{weapon.name}</td>
-        <td>{weapon.range}"</td>
-        <td>{weapon.shots}</td>
-        <td>{weapon.penetration}</td>
+        <td className="table-cell-center-text">{weapon.range}"</td>
+        <td className="table-cell-center-text">{weapon.shots}</td>
+        <td className="table-cell-center-text">{weapon.penetration}</td>
         <td>{weapon.specialRules}</td>
       </tr>
     </>

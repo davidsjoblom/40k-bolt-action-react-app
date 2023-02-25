@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Light Directed Energy",
+    "range": 12,
+    "shots": 1,
+    "penetration": "+5",
+    "specialRules": "Accurate, Quick to Fire"
+  },
+  {
+    "name": "Medium Directed Energy",
+    "range": 18,
+    "shots": 1,
+    "penetration": "+6",
+    "specialRules": "Accurate"
+  },
+  {
+    "name": "Heavy Directed Energy",
+    "range": 24,
+    "shots": 1,
+    "penetration": "+7",
+    "specialRules": "Accurate"
+  }
+]

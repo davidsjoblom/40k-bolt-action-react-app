@@ -6,6 +6,7 @@ import autocannons from './autocannons.json';
 import ATguns from './ATguns.json';
 import mortars from './mortars.json';
 import howitzers from './howitzers.json';
+import DEW from './DEW.json';
 
 const Weapons = function () {
   return (
@@ -16,9 +17,9 @@ const Weapons = function () {
       <table>
         <thead>
           <tr>
-            <th></th>
-            <th>Range</th>
-            <th>Shots</th>
+            <th className="no-border-table-corner"></th>
+            <th>Rng</th>
+            <th>Sht</th>
             <th>Pen</th>
             <th>Special Rules</th>
           </tr>
@@ -94,17 +95,19 @@ const Weapons = function () {
           {howitzers.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
+          <tr>
+            <th>Directed Energy</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          {DEW.map(weapon => (
+            <WeaponItem weapon={weapon} key={weapon.name.toString()} />
+          ))}
         </tbody>
       </table>
       <h2>Blast weapons</h2>
-      <h3>Blast Hit multiplier</h3>
-      <p>
-        Hits from Blast weapons are multiplied by its Hit multiplier depending
-        on its Size. A single Blast hit cannot cause more hits than there are
-        models in the target unit. Blast hits are resolved with the Blast Pen
-        instead of the Pen of the weapon that fired the Blast.
-      </p>
-      <h3>Vehicles hit by blast</h3>
       <table>
         <thead>
           <tr>
@@ -136,6 +139,38 @@ const Weapons = function () {
           </tr>
         </tbody>
       </table>
+      <h3>Blast Hit multiplier</h3>
+      <p>
+        Hits from Blast weapons are multiplied by its Hit multiplier depending
+        on its Size. A single Blast hit cannot cause more hits than there are
+        models in the target unit. Blast hits are resolved with the Blast Pen
+        instead of the Pen of the weapon that fired the Blast.
+      </p>
+      <h3>Blast Partial hits</h3>
+      <p>
+        Missed to hit rolls from Blast weapons may be rerolled. If this second
+        roll is a hit it causes no damage but may be the hit selected for
+        placing Pin markers.
+      </p>
+      <h3>Blast vs Downed targets</h3>
+      <p>
+        Blast weapons ignore the to hit penalty for targeting units with Down
+        orders but the number of hits per Blast hit is halved rounding up.
+      </p>
+      <h2>Indirect(X)</h2>
+      <p>
+        Indirect weapons may shoot through friendly units, ignore all to hit
+        penalties and always hit on a 6+.
+      </p>
+      <h3>Zeroing</h3>
+      <p>
+        Indirect weapons targeting a unit that it had missed or partially hit
+        during its previous Order gains a cumulative +1 to hit modifier for each
+        miss or partial hit in a row. Indirect weapons targeting a unit that it
+        has previously hit gains +5 to hit instead. A targeted unit may 'shake'
+        the zero by moving at least 6" away from its previous location,
+        resetting all the Indirect weapons modifiers.
+      </p>
       <h2>'or'</h2>
       <p>
         Some weapons have several firing modes. Rules separated by 'or' are only

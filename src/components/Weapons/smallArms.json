@@ -21,6 +21,13 @@
     "specialRules": "Quick to Fire"
   },
   {
+    "name": "Carbine",
+    "range": 18,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": ""
+  },
+  {
     "name": "Assault Rifle",
     "range": 18,
     "shots": 2,
@@ -33,12 +40,5 @@
     "shots": 1,
     "penetration": "-",
     "specialRules": ""
-  },
-  {
-    "name": "Sniper",
-    "range": 36,
-    "shots": 1,
-    "penetration": "-",
-    "specialRules": "Sniper, Accurate, Unwieldy"
   }
 ]

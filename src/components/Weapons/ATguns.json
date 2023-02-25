@@ -25,6 +25,6 @@
     "range": 84,
     "shots": 1,
     "penetration": "+7",
-    "specialRules": "Anti-tank or Blast(D3+1)"
+    "specialRules": "Anti-tank or Blast(2D3)"
   }
 ]

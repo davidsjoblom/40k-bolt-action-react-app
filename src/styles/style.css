@@ -95,10 +95,6 @@ th {
   text-align: center;
 }
 
-.stat-table-cell {
-  text-align: center;
-}
-
 .stat-line-special-rules-cell {
   font-style: italic;
 }
@@ -141,4 +137,13 @@ th {
   filter: invert(100%);
   width: 100%;
   padding: 1rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.no-border-table-corner {
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
 }

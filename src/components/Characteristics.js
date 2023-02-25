@@ -42,10 +42,10 @@ function Characteristics() {
         <tbody>
           <tr>
             <td>Rifleman</td>
-            <td className="stat-table-cell">6"</td>
-            <td className="stat-table-cell">4+</td>
-            <td className="stat-table-cell">9</td>
-            <td className="stat-table-cell">25mm</td>
+            <td className="center-text">6"</td>
+            <td className="center-text">4+</td>
+            <td className="center-text">9</td>
+            <td className="center-text">25mm</td>
             <td>10pts</td>
           </tr>
           <tr>
