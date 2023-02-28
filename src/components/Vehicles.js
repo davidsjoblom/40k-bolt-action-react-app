@@ -44,7 +44,10 @@ function Vehicles() {
         change its orientation.
       </p>
       <h2>Vehicles and Shooting</h2>
-      <p>Vehicles may fire all of its weapons at the same time.</p>
+      <p>
+        Vehicles may fire all of its weapons at the once and may target any
+        number of targets.
+      </p>
       <h2>Vehicles and Charging</h2>
       <p>Vehicles may not preform charges.</p>
       <h2>Shooting at Vehicles</h2>
@@ -150,6 +153,46 @@ function Vehicles() {
       <p>
         Vehicles treat Building terrain features as Impasse terrain features
         instead.
+      </p>
+      <h2>Vehicle Weapon Mountings</h2>
+      <p>
+        Vehicle weapons are usually mounted in a particular way affecting how it
+        draws Line of Sight. Line of Sight is drawn and cover determined
+        individually for each weapon when acquiring targets and shooting.
+      </p>
+      <h3>Turret Mounted</h3>
+      <p>
+        Turret mounted weapons draws Line of Sight and determines cover from the
+        center of the model.
+      </p>
+      <h3>Coax Mounted</h3>
+      <p>
+        Coaxial weapons draw Line of Sight and determines cover the same way to
+        weapon it is Coaxed to and has to target the same unit when shooting.
+      </p>
+      <h3>Front Mounted</h3>
+      <p>
+        Front mounted weapons draw Line of Sight and determines cover from the
+        center of the models Front facing. It may only target units at least
+        partially in the models Front arc.
+      </p>
+      <h3>Sponson Mounted</h3>
+      <p>
+        Sponson mounted weapons draw Line of Sight and determines cover from the
+        center of the models Flank facing it is mounted on. It may only target
+        units at least partially in the 90 degree arc projected straight forward
+        and straight out from the center of the Flank facing.
+      </p>
+      <h3>Pintle Mounted</h3>
+      <p>
+        Pintle mounted weapons draws Line of Sight and determines cover from the
+        center of the model. A Pintle mounted weapon may only be fired if it is
+        the only weapon fired by the Vehicle.
+      </p>
+      <h3>Twin-linked weapons</h3>
+      <p>
+        2 or more weapons may be Twin-linked. Twin-linked weapons share the same
+        mounting and must target the same unit when shooting.
       </p>
     </>
   );

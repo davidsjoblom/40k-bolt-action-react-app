@@ -20,6 +20,7 @@ import Armoured from './components/Armoured';
 import InfantryUnits from './components/Unit List/InfantryUnits';
 import Tanks from './components/Unit List/Tanks';
 import SPGs from './components/Unit List/SPGs';
+import SupportUnits from './components/Unit List/SupportUnits';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -50,6 +51,7 @@ function App() {
           <Route path="/infantry-units" element={<InfantryUnits />} />
           <Route path="/tanks" element={<Tanks />} />
           <Route path="/SPGs" element={<SPGs />} />
+          <Route path="/support-units" element={<SupportUnits />} />
         </Routes>
       </main>
       <div className="bottom-spacer"></div>

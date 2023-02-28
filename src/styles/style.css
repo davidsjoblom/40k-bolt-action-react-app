@@ -34,7 +34,8 @@ nav ul {
 }
 
 nav ul li {
-  background-color: #222;
+  /* background-color: #222; */
+  background: linear-gradient(#333, #111);
   border-radius: 1rem;
   margin: 0.1rem;
   flex-grow: 1;

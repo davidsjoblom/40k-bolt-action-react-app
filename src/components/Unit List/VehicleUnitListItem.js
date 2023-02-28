@@ -14,7 +14,7 @@ function VehicleUnitListItem({ unit }) {
         </thead>
         <tbody>
           <tr>
-            <th>{unit.modelName}</th>
+            <th>{unit.shortName}</th>
             <td className="center-text">{unit.movement}"</td>
             <td className="center-text">{unit.toughness}+</td>
             <td className="center-text">{unit.discipline}</td>
@@ -27,23 +27,23 @@ function VehicleUnitListItem({ unit }) {
           </tr>
           <tr>
             <td colSpan={5}>
-              <i>Special:</i> {unit.special}
+              <i>Special rules:</i> {unit.special}
             </td>
           </tr>
         </tbody>
       </table>
-      <h3>Unit Selection</h3>
+      <p></p>
       <table>
         <tbody>
           <tr>
-            <td>
+            <td colSpan={5}>
               <i>Starting cost:</i> {unit.startingCost}pts
             </td>
           </tr>
           {unit.options.map(option => (
-            <tr key={option.mount.toString()}>
-              <td>
-                {option.mount}
+            <tr key={option.option.toString()}>
+              <td colSpan={5}>
+                {option.option}
                 <ul>
                   {option.selections.map(selection => (
                     <li key={selection.toString()}>{selection}</li>

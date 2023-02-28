@@ -32,7 +32,7 @@ function InfantryUnitListItem({ unit }) {
           </tr>
         </tbody>
       </table>
-      <h3>Unit Selection</h3>
+      <p></p>
       <table>
         <tbody>
           <tr>

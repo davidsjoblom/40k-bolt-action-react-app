@@ -1,7 +1,7 @@
 [
   {
     "name": "Accurate",
-    "description": "Accurate weapons ignore the penalty for shooting at Long range"
+    "description": "Models with Accurate or models shooting with Accurate weapons ignore the penalty for shooting at Long range"
   },
   {
     "name": "All-terrain(X)",
@@ -9,18 +9,74 @@
   },
   {
     "name": "Anti-tank",
-    "description": "Anti-tank weapons targeting non-vehicle units suffer an additional -1 Penalty to hit"
+    "description": "Models with Anti-tank or models shooting with Anti-tank weapons targeting non-Vehicle units suffer an additional -1 Penalty to hit"
   },
   {
     "name": "Commanding Presence(X)",
     "description": "Friendly units within 12\" gains +X to its Discipline"
   },
   {
+    "name": "Crushing Strength(X)",
+    "description": "Model gains +X to wound modifier when attacking in Melee combat"
+  },
+  {
+    "name": "Cumbersome",
+    "description": "Model considers all Rough terrain as Impassible terrain for movement purposes and during a Run move may only move up to (instead of double) its Move stat."
+  },
+  {
+    "name": "Fixed",
+    "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move."
+  },
+  {
+    "name": "Explosive Charge(X)",
+    "description": "Model may once per game gain +X to wound for one Melee attack against a Vehicle (this modifier is non-cumulative)"
+  },
+  {
+    "name": "Gun Shield",
+    "description": "Model gains Soft cover from enemy models shooting at it in its Front Arc"
+  },
+  {
+    "name": "Impact(X)",
+    "description": "Model gains +X to wound modifier when attacking in Melee combat the first time it attacks if it charged"
+  },
+  {
     "name": "Indirect(X)",
-    "description": "May shoot through friendly unit. May not target enemy units fully within X\""
+    "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\""
   },
   {
     "name": "Howitzer(X)",
     "description": "May choose to shoot as if it had Indirect(X)"
+  },
+  {
+    "name": "Melee Specialist",
+    "description": "Model causes 2 hits instead of 1 when attacking in Melee combat"
+  },
+  {
+    "name": "Move or Fire",
+    "description": "Models with or models shooting with Move or Fire weapons may only shoot during a Fire order"
+  },
+  {
+    "name": "Quick to Fire",
+    "description": "Models with Quick to Fire or models shooting with Quick to Fire weapons do not suffer the penalty for Moving and Shooting"
+  },
+  {
+    "name": "Reload",
+    "description": "Models with or models using Reload weapons may not shoot during Fire orders that are issued as a Reaction"
+  },
+  {
+    "name": "Scoring",
+    "description": "Scoring units can take and count towards Objectives"
+  },
+  {
+    "name": "Sniper",
+    "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and any casualties caused are removed by the attacking player instead of the owner of the unit"
+  },
+  {
+    "name": "Tall",
+    "description": "Models targeting Tall units with shooting may ignore intervening non-Tall enemy units for determining cover"
+  },
+  {
+    "name": "Unwieldy",
+    "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting"
   }
 ]

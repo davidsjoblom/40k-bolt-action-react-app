@@ -1,6 +1,6 @@
 [
   {
-    "name": "Infantry Regulars",
+    "name": "Army Regulars",
     "modelName": "Rifleman",
     "movement": 6,
     "toughness": 4,
@@ -51,7 +51,7 @@
       },
       {
         "replace": "One Militiaman may take",
-        "selections": ["Explosive Charge(6) for 10pts"]
+        "selections": ["Explosive Charge(5) for 10pts"]
       },
       {
         "replace": "May replace 2 Militiaman for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
@@ -133,7 +133,7 @@
       },
       {
         "replace": "One Jaeger may take",
-        "selections": ["Explosive Charge(6) for 10pts"]
+        "selections": ["Explosive Charge(5) for 10pts"]
       },
       {
         "replace": "May replace 2 Jaegers for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
@@ -149,9 +149,9 @@
     "discipline": 10,
     "base": 32,
     "equipment": "Assault Rifle",
-    "special": "Scoring, Fearless, Crushing Strength(1)",
-    "startingSize": "Squad Leader and 2 Supers for 60pts",
-    "additionalModels": "may add up to 3 Supers for 20pts each",
+    "special": "Scoring, Crushing Strength(1)",
+    "startingSize": "Squad Leader and 2 Supers for 75pts",
+    "additionalModels": "may add up to 3 Supers for 25pts each",
     "options": [
       {
         "replace": "Squad Leader may replace Assault Rifle with",
@@ -173,6 +173,24 @@
           "Flamethrower for 10pts",
           "Light DEW for 20pts"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Lancers",
+    "modelName": "Lancer",
+    "movement": 9,
+    "toughness": 5,
+    "discipline": 9,
+    "base": 40,
+    "equipment": "Pistol",
+    "special": "Scoring, Impact(1), Mounted, All-terrain(2)",
+    "startingSize": "Squad Leader and 3 Lancers for 60pts",
+    "additionalModels": "may add up to 4 Lancers for 15pts each",
+    "options": [
+      {
+        "replace": "One Lancer may take",
+        "selections": ["Explosive Charge(5) for 10pts"]
       }
     ]
   }

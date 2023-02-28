@@ -4,27 +4,27 @@
     "range": 48,
     "shots": 1,
     "penetration": "+4",
-    "specialRules": "Anti-tank or Blast(D3)"
+    "specialRules": "Anti-tank or Blast(D3), Reload"
   },
   {
     "name": "Medium AT Gun",
     "range": 60,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Anti-tank or Blast(D3)"
+    "specialRules": "Anti-tank or Blast(D3), Reload"
   },
   {
     "name": "Heavy AT Gun",
     "range": 72,
     "shots": 1,
     "penetration": "+6",
-    "specialRules": "Anti-tank or Blast(D3+1)"
+    "specialRules": "Anti-tank or Blast(D3+1), Reload"
   },
   {
     "name": "Super-heavy AT Gun",
     "range": 84,
     "shots": 1,
     "penetration": "+7",
-    "specialRules": "Anti-tank or Blast(2D3)"
+    "specialRules": "Anti-tank or Blast(2D3), Reload"
   }
 ]

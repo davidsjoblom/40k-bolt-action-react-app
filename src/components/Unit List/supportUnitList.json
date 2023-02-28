@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Medium Mortar Team",
+    "shortName": "Mortar Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "base": "60x60",
+    "equipment": "Medium Mortar",
+    "special": "Team(4), Fixed, Spotter, Reload",
+    "startingCost": 50,
+    "options": []
+  },
+  {
+    "name": "Machine Gun Team",
+    "shortName": "MG Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "base": "60x60",
+    "equipment": "Medium Machine Gun",
+    "special": "Team(4), Fixed",
+    "startingCost": 40,
+    "options": [
+      {
+        "option": "May replace Medium Machine Gun with",
+        "selections": ["Heavy Machine Gun for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Support Gun Team",
+    "shortName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "base": "60x60",
+    "equipment": "",
+    "special": "Team(4), Fixed, Move or Fire, Cumbersome, Gun Shield, Reload",
+    "startingCost": 50,
+    "options": [
+      {
+        "option": "Must take one",
+        "selections": [
+          "Light Autocannon for free",
+          "Light AT Gun for free",
+          "Light Howitzer and Spotter for free",
+          "Medium Directed Energy for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heavy Support Gun Team",
+    "shortName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "base": "75x75",
+    "equipment": "",
+    "special": "Team(5), Fixed, Move or Fire, Cumbersome, Gun Shield, Reload",
+    "startingCost": 75,
+    "options": [
+      {
+        "option": "Must take one",
+        "selections": [
+          "Medium Autocannon for free",
+          "Medium AT Gun for free",
+          "Medium Howitzer and Spotter for free",
+          "Heavy Mortar, Spotter and loose Gun Shield for free",
+          "Heavy Directed Energy for free"
+        ]
+      }
+    ]
+  }
+]

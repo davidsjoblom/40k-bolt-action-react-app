@@ -4,7 +4,7 @@
     "range": 36,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Sniper, Accurate"
+    "specialRules": "Sniper, Move or Fire, Reload"
   },
   {
     "name": "Multiple Grenade Launcher",
@@ -14,25 +14,18 @@
     "specialRules": "Blast(D3)"
   },
   {
-    "name": "Disposable AT Rocket",
-    "range": 24,
-    "shots": 1,
-    "penetration": "+5",
-    "specialRules": "Anti-tank, One Use Only"
-  },
-  {
     "name": "Rocket Launcher",
     "range": 30,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Anti-tank or Blast(D3+1)"
+    "specialRules": "Anti-tank or Blast(D3+1), Reload"
   },
   {
     "name": "Anti-tank Rifle",
     "range": 36,
     "shots": 1,
     "penetration": "+2",
-    "specialRules": ""
+    "specialRules": "Reload"
   },
   {
     "name": "Flamethrower",

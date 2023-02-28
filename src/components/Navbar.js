@@ -61,6 +61,9 @@ function Navbar() {
         <li>
           <NavLink to="/SPGs">SPGs</NavLink>
         </li>
+        <li>
+          <NavLink to="/support-units">Support Units</NavLink>
+        </li>
       </ul>
     </nav>
   );
