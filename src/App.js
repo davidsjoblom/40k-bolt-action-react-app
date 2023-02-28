@@ -21,6 +21,7 @@ import InfantryUnits from './components/Unit List/InfantryUnits';
 import Tanks from './components/Unit List/Tanks';
 import SPGs from './components/Unit List/SPGs';
 import SupportUnits from './components/Unit List/SupportUnits';
+import HQ from './components/HQ';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -48,6 +49,7 @@ function App() {
           <Route path="/special-rules" element={<SpecialRules />} />
           <Route path="/vehicles" element={<Vehicles />} />
           <Route path="/armoured" element={<Armoured />} />
+          <Route path="/HQ" element={<HQ />} />
           <Route path="/infantry-units" element={<InfantryUnits />} />
           <Route path="/tanks" element={<Tanks />} />
           <Route path="/SPGs" element={<SPGs />} />

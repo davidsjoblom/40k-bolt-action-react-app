@@ -53,6 +53,9 @@ function Navbar() {
           <NavLink to="/armoured">Armoured</NavLink>
         </li>
         <li>
+          <NavLink to="/HQ">HQ</NavLink>
+        </li>
+        <li>
           <NavLink to="/infantry-units">Infantry Units</NavLink>
         </li>
         <li>

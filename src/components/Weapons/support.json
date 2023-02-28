@@ -1,17 +1,17 @@
 [
   {
-    "name": "Sniper",
-    "range": 36,
-    "shots": 1,
-    "penetration": "-",
-    "specialRules": "Sniper, Move or Fire, Reload"
-  },
-  {
     "name": "Multiple Grenade Launcher",
     "range": 18,
     "shots": 2,
     "penetration": "-",
     "specialRules": "Blast(D3)"
+  },
+  {
+    "name": "Sniper",
+    "range": 36,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Sniper, Move or Fire, Reload"
   },
   {
     "name": "Rocket Launcher",
