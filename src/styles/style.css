@@ -64,7 +64,6 @@ nav ul li :hover {
 
 main {
   margin: 0 auto;
-  padding: 1rem;
   max-width: 45rem;
 }
 
@@ -147,4 +146,8 @@ th {
 .no-border-table-corner {
   border-top: 1px solid #222;
   border-left: 1px solid #222;
+}
+
+.outlet-padding {
+  padding: 1rem;
 }

@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <>
+    <div className="outlet-padding">
       <h1>40k Bolt Action</h1>
       <hr />
       <h2>Why and What</h2>
@@ -23,6 +23,7 @@ function Home() {
       <h2>Core rules</h2>
       <h3>To do</h3>
       <ul>
+        <li>Update Terrain summary table</li>
         <li>Objectives</li>
         <li>Army building</li>
         <li>Battlefield setup</li>
@@ -30,12 +31,13 @@ function Home() {
         <li>HQ abilities</li>
       </ul>
       <h2>Unit lists</h2>
+      <h3>To do</h3>
       <ul>
         <li>HQ units</li>
         <li>Transports</li>
         <li>Armoured Cars</li>
       </ul>
-    </>
+    </div>
   );
 }
 

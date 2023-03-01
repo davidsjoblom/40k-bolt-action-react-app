@@ -1,4 +1,4 @@
-import battlefield from '../graphics/battlefield.svg';
+import battlefield from '../../graphics/battlefield.svg';
 
 function Terrain() {
   return (

@@ -1,27 +1,33 @@
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
+import MasterNavbar from './components/MasterNavbar';
 import Home from './components/Home';
-import Fundamentals from './components/Fundamentals';
-import TheTurn from './components/TheTurn';
-import Orders from './components/Orders';
-import Movement from './components/Movement';
-import Characteristics from './components/Characteristics';
-import Psychology from './components/Psychology';
-import Shooting from './components/Shooting';
-import Weapons from './components/Weapons/Weapons';
-import Terrain from './components/Terrain';
-import SpecialRules from './components/Special Rules/SpecialRules';
-import Vehicles from './components/Vehicles';
-import MeleeCombat from './components/MeleeCombat';
-import Charging from './components/Charging';
-import SquareBases from './components/SquareBases';
-import Armoured from './components/Armoured';
-import InfantryUnits from './components/Unit List/InfantryUnits';
-import Tanks from './components/Unit List/Tanks';
-import SPGs from './components/Unit List/SPGs';
-import SupportUnits from './components/Unit List/SupportUnits';
-import HQ from './components/HQ';
+
+import BasicRules from './components/BasicRules/BasicRules';
+import Fundamentals from './components/BasicRules/Fundamentals';
+import TheTurn from './components/BasicRules/TheTurn';
+import Orders from './components/BasicRules/Orders';
+import Movement from './components/BasicRules/Movement';
+import Characteristics from './components/BasicRules/Characteristics';
+import Psychology from './components/BasicRules/Psychology';
+import Shooting from './components/BasicRules/Shooting';
+import MeleeCombat from './components/BasicRules/MeleeCombat';
+import Charging from './components/BasicRules/Charging';
+import SquareBases from './components/BasicRules/SquareBases';
+
+import AdvancedRules from './components/AdvancedRules/AdvancedRules';
+import Weapons from './components/AdvancedRules/Weapons/Weapons';
+import Terrain from './components/AdvancedRules/Terrain';
+import SpecialRules from './components/AdvancedRules/Special Rules/SpecialRules';
+import Vehicles from './components/AdvancedRules/Vehicles';
+import Armoured from './components/AdvancedRules/Armoured';
+import HQ from './components/AdvancedRules/HQ';
+
+import GenericUnits from './components/Generic Units/GenericUnits';
+import InfantryUnits from './components/Generic Units/InfantryUnits';
+import Tanks from './components/Generic Units/Tanks';
+import SPGs from './components/Generic Units/SPGs';
+import SupportUnits from './components/Generic Units/SupportUnits';
 
 import 'normalize.css';
 import './styles/style.css';
@@ -30,30 +36,36 @@ import './styles/numberHeadings.css';
 function App() {
   return (
     <>
-      <Navbar />
+      <MasterNavbar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/fundamentals" element={<Fundamentals />} />
-          <Route path="/theTurn" element={<TheTurn />} />
-          <Route path="/orders" element={<Orders />} />
-          <Route path="/psychology" element={<Psychology />} />
-          <Route path="/characteristics" element={<Characteristics />} />
-          <Route path="/square-bases" element={<SquareBases />} />
-          <Route path="/movement" element={<Movement />} />
-          <Route path="/shooting" element={<Shooting />} />
-          <Route path="/weapons" element={<Weapons />} />
-          <Route path="/charging" element={<Charging />} />
-          <Route path="/melee-combat" element={<MeleeCombat />} />
-          <Route path="/terrain" element={<Terrain />} />
-          <Route path="/special-rules" element={<SpecialRules />} />
-          <Route path="/vehicles" element={<Vehicles />} />
-          <Route path="/armoured" element={<Armoured />} />
-          <Route path="/HQ" element={<HQ />} />
-          <Route path="/infantry-units" element={<InfantryUnits />} />
-          <Route path="/tanks" element={<Tanks />} />
-          <Route path="/SPGs" element={<SPGs />} />
-          <Route path="/support-units" element={<SupportUnits />} />
+          <Route path="basic-rules" element={<BasicRules />}>
+            <Route path="fundamentals" element={<Fundamentals />} />
+            <Route path="theTurn" element={<TheTurn />} />
+            <Route path="orders" element={<Orders />} />
+            <Route path="psychology" element={<Psychology />} />
+            <Route path="characteristics" element={<Characteristics />} />
+            <Route path="square-bases" element={<SquareBases />} />
+            <Route path="movement" element={<Movement />} />
+            <Route path="shooting" element={<Shooting />} />
+            <Route path="charging" element={<Charging />} />
+            <Route path="melee-combat" element={<MeleeCombat />} />
+          </Route>
+          <Route path="advanced-rules" element={<AdvancedRules />}>
+            <Route path="weapons" element={<Weapons />} />
+            <Route path="terrain" element={<Terrain />} />
+            <Route path="special-rules" element={<SpecialRules />} />
+            <Route path="vehicles" element={<Vehicles />} />
+            <Route path="armoured" element={<Armoured />} />
+            <Route path="HQ" element={<HQ />} />
+          </Route>
+          <Route path="generic-units" element={<GenericUnits />}>
+            <Route path="infantry-units" element={<InfantryUnits />} />
+            <Route path="tanks" element={<Tanks />} />
+            <Route path="SPGs" element={<SPGs />} />
+            <Route path="support-units" element={<SupportUnits />} />
+          </Route>
         </Routes>
       </main>
       <div className="bottom-spacer"></div>

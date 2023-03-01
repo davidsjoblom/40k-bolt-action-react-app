@@ -1,4 +1,4 @@
-import squareBaseDiagram from '../graphics/square-base-diagram.svg';
+import squareBaseDiagram from '../../graphics/square-base-diagram.svg';
 
 function SquareBases() {
   return (
