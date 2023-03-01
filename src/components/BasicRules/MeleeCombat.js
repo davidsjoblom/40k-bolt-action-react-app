@@ -60,7 +60,10 @@ function MeleeCombat() {
         move up to D6".
       </p>
       <h2>Loser tests Discipline</h2>
-      <p>The losing unit has to take a Discipline tests.</p>
+      <p>
+        The losing unit has to take a Discipline tests with an additional
+        penalty equal to the difference in casualties caused that round.
+      </p>
       <h3>If Loser holds then fight again</h3>
       <p>
         If the loser passes the Discipline test it stays in the fight. Resolve

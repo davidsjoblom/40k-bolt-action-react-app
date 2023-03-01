@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
 import AdvancedRulesNavbar from './AdvancedRulesNavbar';
 
-function AdvancedRules() {
+function AdvancedRules({setRememberedAdvancedRulesSection}) {
   return (
     <>
-      <AdvancedRulesNavbar />
+      <AdvancedRulesNavbar setRememberedAdvancedRulesSection={setRememberedAdvancedRulesSection}/>
       <div className="outlet-padding">
         <Outlet />
       </div>

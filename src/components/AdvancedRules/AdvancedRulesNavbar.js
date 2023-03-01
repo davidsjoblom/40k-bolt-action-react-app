@@ -1,26 +1,64 @@
 import { NavLink } from 'react-router-dom';
 
-function AdvancedRulesNavbar() {
+function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink to="weapons">Weapons</NavLink>
+          <NavLink
+            to="weapons"
+            onClick={() => setRememberedAdvancedRulesSection('weapons')}
+          >
+            Weapons
+          </NavLink>
         </li>
         <li>
-          <NavLink to="terrain">Terrain</NavLink>
+          <NavLink
+            to="terrain"
+            onClick={() => setRememberedAdvancedRulesSection('terrain')}
+          >
+            Terrain
+          </NavLink>
         </li>
         <li>
-          <NavLink to="special-rules">Special Rules</NavLink>
+          <NavLink
+            to="special-rules"
+            onClick={() => setRememberedAdvancedRulesSection('special-rules')}
+          >
+            Special Rules
+          </NavLink>
         </li>
         <li>
-          <NavLink to="vehicles">Vehicles</NavLink>
+          <NavLink
+            to="vehicles"
+            onClick={() => setRememberedAdvancedRulesSection('vehicles')}
+          >
+            Vehicles
+          </NavLink>
         </li>
         <li>
-          <NavLink to="armoured">Armoured</NavLink>
+          <NavLink
+            to="armoured"
+            onClick={() => setRememberedAdvancedRulesSection('armoured')}
+          >
+            Armoured
+          </NavLink>
         </li>
         <li>
-          <NavLink to="HQ">HQ</NavLink>
+          <NavLink
+            to="transports"
+            onClick={() => setRememberedAdvancedRulesSection('transports')}
+          >
+            Transports
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="HQ"
+            onClick={() => setRememberedAdvancedRulesSection('HQ')}
+          >
+            HQ
+          </NavLink>
         </li>
       </ul>
     </nav>

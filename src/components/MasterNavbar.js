@@ -1,6 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
-function MasterNavbar() {
+function MasterNavbar({
+  rememberedBasicRulesSection,
+  rememberedAdvancedRulesSection,
+  rememberedGenericUnitsSection,
+}) {
   return (
     <nav>
       <ul>
@@ -8,13 +12,19 @@ function MasterNavbar() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="basic-rules">Basic Rules</NavLink>
+          <NavLink to={'basic-rules/' + rememberedBasicRulesSection}>
+            Basic Rules
+          </NavLink>
         </li>
         <li>
-          <NavLink to="advanced-rules">Advanced Rules</NavLink>
+          <NavLink to={'advanced-rules/' + rememberedAdvancedRulesSection}>
+            Advanced Rules
+          </NavLink>
         </li>
         <li>
-          <NavLink to="generic-units">Generic Units</NavLink>
+          <NavLink to={'generic-units/' + rememberedGenericUnitsSection}>
+            Generic Units
+          </NavLink>
         </li>
       </ul>
     </nav>

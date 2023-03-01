@@ -1,20 +1,40 @@
 import { NavLink } from 'react-router-dom';
 
-function GenericUnitsNavbar() {
+function GenericUnitsNavbar({ setRememberedGenericUnitsSection }) {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink to="infantry-units">Infantry Units</NavLink>
+          <NavLink
+            to="infantry-units"
+            onClick={() => setRememberedGenericUnitsSection('infantry-units')}
+          >
+            Infantry Units
+          </NavLink>
         </li>
         <li>
-          <NavLink to="tanks">Tanks</NavLink>
+          <NavLink
+            to="tanks"
+            onClick={() => setRememberedGenericUnitsSection('tanks')}
+          >
+            Tanks
+          </NavLink>
         </li>
         <li>
-          <NavLink to="SPGs">SPGs</NavLink>
+          <NavLink
+            to="SPGs"
+            onClick={() => setRememberedGenericUnitsSection('SPGs')}
+          >
+            SPGs
+          </NavLink>
         </li>
         <li>
-          <NavLink to="support-units">Support Units</NavLink>
+          <NavLink
+            to="support-units"
+            onClick={() => setRememberedGenericUnitsSection('support-units')}
+          >
+            Support Units
+          </NavLink>
         </li>
       </ul>
     </nav>

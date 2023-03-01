@@ -1,38 +1,88 @@
 import { NavLink } from 'react-router-dom';
 
-function BasicRulesNavbar() {
+function BasicRulesNavbar({ setRememberedBasicRulesSection }) {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink to="fundamentals">Fundamentals</NavLink>
+          <NavLink
+            to="fundamentals"
+            onClick={() => setRememberedBasicRulesSection('fundamentals')}
+          >
+            Fundamentals
+          </NavLink>
         </li>
         <li>
-          <NavLink to="theTurn">The Turn</NavLink>
+          <NavLink
+            to="theTurn"
+            onClick={() => setRememberedBasicRulesSection('theTurn')}
+          >
+            The Turn
+          </NavLink>
         </li>
         <li>
-          <NavLink to="orders">Orders</NavLink>
+          <NavLink
+            to="orders"
+            onClick={() => setRememberedBasicRulesSection('orders')}
+          >
+            Orders
+          </NavLink>
         </li>
         <li>
-          <NavLink to="characteristics">Characteristics</NavLink>
+          <NavLink
+            to="characteristics"
+            onClick={() => setRememberedBasicRulesSection('characteristics')}
+          >
+            Characteristics
+          </NavLink>
         </li>
         <li>
-          <NavLink to="square-bases">Square Bases</NavLink>
+          <NavLink
+            to="square-bases"
+            onClick={() => setRememberedBasicRulesSection('square-bases')}
+          >
+            Square Bases
+          </NavLink>
         </li>
         <li>
-          <NavLink to="psychology">Psychology</NavLink>
+          <NavLink
+            to="psychology"
+            onClick={() => setRememberedBasicRulesSection('psychology')}
+          >
+            Psychology
+          </NavLink>
         </li>
         <li>
-          <NavLink to="movement">Movement</NavLink>
+          <NavLink
+            to="movement"
+            onClick={() => setRememberedBasicRulesSection('movement')}
+          >
+            Movement
+          </NavLink>
         </li>
         <li>
-          <NavLink to="shooting">Shooting</NavLink>
+          <NavLink
+            to="shooting"
+            onClick={() => setRememberedBasicRulesSection('shooting')}
+          >
+            Shooting
+          </NavLink>
         </li>
         <li>
-          <NavLink to="charging">Charging</NavLink>
+          <NavLink
+            to="charging"
+            onClick={() => setRememberedBasicRulesSection('charging')}
+          >
+            Charging
+          </NavLink>
         </li>
         <li>
-          <NavLink to="melee-combat">Melee Combat</NavLink>
+          <NavLink
+            to="melee-combat"
+            onClick={() => setRememberedBasicRulesSection('melee-combat')}
+          >
+            Melee Combat
+          </NavLink>
         </li>
       </ul>
     </nav>

@@ -11,6 +11,8 @@ html {
 
 body {
   overflow-y: scroll;
+  max-width: 45rem;
+  margin: 0 auto;
 }
 
 #root {
@@ -58,13 +60,6 @@ nav ul li :hover {
 .active {
   background-color: #111;
   border-radius: 1rem;
-}
-
-/* Main content styling */
-
-main {
-  margin: 0 auto;
-  max-width: 45rem;
 }
 
 .bottom-spacer {

@@ -1,10 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import GenericUnitsNavbar from './GenericUnitsNavbar';
 
-function GenericUnits() {
+function GenericUnits({ setRememberedGenericUnitsSection }) {
   return (
     <>
-      <GenericUnitsNavbar />
+      <GenericUnitsNavbar
+        setRememberedGenericUnitsSection={setRememberedGenericUnitsSection}
+      />
       <div className="outlet-padding">
         <Outlet />
       </div>

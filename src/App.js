@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
 
 import MasterNavbar from './components/MasterNavbar';
 import Home from './components/Home';
@@ -22,6 +23,7 @@ import SpecialRules from './components/AdvancedRules/Special Rules/SpecialRules'
 import Vehicles from './components/AdvancedRules/Vehicles';
 import Armoured from './components/AdvancedRules/Armoured';
 import HQ from './components/AdvancedRules/HQ';
+import Transports from './components/AdvancedRules/Transports';
 
 import GenericUnits from './components/Generic Units/GenericUnits';
 import InfantryUnits from './components/Generic Units/InfantryUnits';
@@ -34,13 +36,30 @@ import './styles/style.css';
 import './styles/numberHeadings.css';
 
 function App() {
+  const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
+    useState('fundamentals');
+  const [rememberedAdvancedRulesSection, setRememberedAdvancedRulesSection] =
+    useState('weapons');
+  const [rememberedGenericUnitsSection, setRememberedGenericUnitsSection] =
+    useState('infantry-units');
   return (
     <>
-      <MasterNavbar />
+      <MasterNavbar
+        rememberedBasicRulesSection={rememberedBasicRulesSection}
+        rememberedAdvancedRulesSection={rememberedAdvancedRulesSection}
+        rememberedGenericUnitsSection={rememberedGenericUnitsSection}
+      />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="basic-rules" element={<BasicRules />}>
+          <Route
+            path="basic-rules"
+            element={
+              <BasicRules
+              setRememberedBasicRulesSection={setRememberedBasicRulesSection}
+              />
+            }
+          >
             <Route path="fundamentals" element={<Fundamentals />} />
             <Route path="theTurn" element={<TheTurn />} />
             <Route path="orders" element={<Orders />} />
@@ -52,15 +71,34 @@ function App() {
             <Route path="charging" element={<Charging />} />
             <Route path="melee-combat" element={<MeleeCombat />} />
           </Route>
-          <Route path="advanced-rules" element={<AdvancedRules />}>
+          <Route
+            path="advanced-rules"
+            element={
+              <AdvancedRules
+                setRememberedAdvancedRulesSection={
+                  setRememberedAdvancedRulesSection
+                }
+              />
+            }
+          >
             <Route path="weapons" element={<Weapons />} />
             <Route path="terrain" element={<Terrain />} />
             <Route path="special-rules" element={<SpecialRules />} />
             <Route path="vehicles" element={<Vehicles />} />
             <Route path="armoured" element={<Armoured />} />
+            <Route path="transports" element={<Transports />} />
             <Route path="HQ" element={<HQ />} />
           </Route>
-          <Route path="generic-units" element={<GenericUnits />}>
+          <Route
+            path="generic-units"
+            element={
+              <GenericUnits
+                setRememberedGenericUnitsSection={
+                  setRememberedGenericUnitsSection
+                }
+              />
+            }
+          >
             <Route path="infantry-units" element={<InfantryUnits />} />
             <Route path="tanks" element={<Tanks />} />
             <Route path="SPGs" element={<SPGs />} />

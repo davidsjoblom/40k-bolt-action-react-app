@@ -1,10 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import BasicRulesNavbar from './BasicRulesNavbar';
 
-function BasicRules() {
+function BasicRules({ setRememberedBasicRulesSection }) {
   return (
     <>
-      <BasicRulesNavbar />
+      <BasicRulesNavbar
+        setRememberedBasicRulesSection={setRememberedBasicRulesSection}
+      />
       <div className="outlet-padding">
         <Outlet />
       </div>
