@@ -21,11 +21,10 @@ function Characteristics() {
         model.
       </p>
       <h2>Base Size</h2>
-      <p>The dimensions of the base the model is mounted on. A single number means a round base while 2 numbers separated by 'x' means a rectangle base with the first number being the front.</p>
-      <h2>Points Cost</h2>
       <p>
-        How many points a model costs to include in an army. Higher Cost
-        generally means a more capable model.
+        The dimensions of the base the model is mounted on. A single number
+        means a round base while 2 numbers separated by 'x' means a rectangle
+        base with the first number being the front.
       </p>
       <h2>Example Profile</h2>
       <table>
@@ -36,7 +35,6 @@ function Characteristics() {
             <th>Toughness</th>
             <th>Discipline</th>
             <th>Base</th>
-            <th>Cost</th>
           </tr>
         </thead>
         <tbody>
@@ -46,10 +44,9 @@ function Characteristics() {
             <td className="center-text">4+</td>
             <td className="center-text">9</td>
             <td className="center-text">25mm</td>
-            <td>10pts</td>
           </tr>
           <tr>
-            <td colSpan={6} className="stat-line-special-rules-cell">
+            <td colSpan={5} className="stat-line-special-rules-cell">
               Rifle
             </td>
           </tr>

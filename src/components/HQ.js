@@ -12,6 +12,7 @@ function HQ() {
         <li>Smoke screen, line LOS blocker</li>
         <li>Cluster mines drop</li>
         <li>Incendiary, persistent anti-inf</li>
+        <li>War cry</li>
       </ul>
     </>
   );

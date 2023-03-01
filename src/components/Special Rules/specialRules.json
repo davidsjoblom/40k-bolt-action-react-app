@@ -24,28 +24,32 @@
     "description": "Model considers all Rough terrain as Impassible terrain for movement purposes and during a Run move may only move up to (instead of double) its Move stat."
   },
   {
-    "name": "Fixed",
-    "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move."
-  },
-  {
     "name": "Explosive Charge(X)",
     "description": "Model may once per game gain +X to wound for one Melee attack against a Vehicle (this modifier is non-cumulative)"
+  },
+  {
+    "name": "Fixed",
+    "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move."
   },
   {
     "name": "Gun Shield",
     "description": "Model gains Soft cover from enemy models shooting at it in its Front Arc"
   },
   {
+    "name": "Howitzer(X)",
+    "description": "May choose to shoot as if it had Indirect(X)"
+  },
+  {
     "name": "Impact(X)",
-    "description": "Model gains +X to wound modifier when attacking in Melee combat the first time it attacks if it charged"
+    "description": "Model gains +X to wound modifier the first round of Melee combat if it charged"
   },
   {
     "name": "Indirect(X)",
     "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\""
   },
   {
-    "name": "Howitzer(X)",
-    "description": "May choose to shoot as if it had Indirect(X)"
+    "name": "Limited(X)",
+    "description": "Only X number of this unit may be taken in an army"
   },
   {
     "name": "Melee Specialist",
