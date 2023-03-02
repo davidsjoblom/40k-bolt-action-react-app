@@ -167,8 +167,10 @@ function Vehicles() {
       </p>
       <h3>Coax Mounted</h3>
       <p>
-        Coaxial weapons draw Line of Sight and determines cover the same way to
-        weapon it is Coaxed to and has to target the same unit when shooting.
+        Coaxial weapons draw Line of Sight and determines cover the same way the
+        weapon it is Coaxed to does, has to target the same unit when shooting
+        and if the weapon it is Coaxed to is destroyed it is also considered
+        destroyed
       </p>
       <h3>Front Mounted</h3>
       <p>

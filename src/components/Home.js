@@ -29,6 +29,7 @@ function Home() {
         <li>Battlefield setup</li>
         <li>Deployment</li>
         <li>HQ abilities</li>
+        <li>Mechanics for smoke and mines</li>
       </ul>
       <h2>Unit lists</h2>
       <h3>To do</h3>

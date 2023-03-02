@@ -24,6 +24,7 @@ import Vehicles from './components/AdvancedRules/Vehicles';
 import Armoured from './components/AdvancedRules/Armoured';
 import HQ from './components/AdvancedRules/HQ';
 import Transports from './components/AdvancedRules/Transports';
+import Objectives from './components/AdvancedRules/Objectives';
 
 import GenericUnits from './components/Generic Units/GenericUnits';
 import InfantryUnits from './components/Generic Units/InfantryUnits';
@@ -88,6 +89,7 @@ function App() {
             <Route path="armoured" element={<Armoured />} />
             <Route path="transports" element={<Transports />} />
             <Route path="HQ" element={<HQ />} />
+            <Route path="objectives" element={<Objectives />} />
           </Route>
           <Route
             path="generic-units"

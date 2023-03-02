@@ -1,7 +1,7 @@
 [
   {
     "name": "Accurate",
-    "description": "Models with Accurate or models shooting with Accurate weapons ignore the penalty for shooting at Long range"
+    "description": "Models with Accurate or models shooting with Accurate weapons ignore the penalty for shooting at Long range."
   },
   {
     "name": "All-terrain(X)",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Anti-tank",
-    "description": "Models with Anti-tank or models shooting with Anti-tank weapons targeting non-Vehicle units suffer an additional -1 Penalty to hit"
+    "description": "Models with Anti-tank or models shooting with Anti-tank weapons targeting non-Vehicle units suffer an additional -1 Penalty to hit."
   },
   {
     "name": "Commanding Presence(X)",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Crushing Strength(X)",
-    "description": "Model gains +X to wound modifier when attacking in Melee combat"
+    "description": "Model gains +X to wound modifier when attacking in Melee combat."
   },
   {
     "name": "Cumbersome",
@@ -25,62 +25,78 @@
   },
   {
     "name": "Explosive Charge(X)",
-    "description": "Model may once per game gain +X to wound for one Melee attack against a Vehicle (this modifier is non-cumulative)"
+    "description": "Model may once per game gain +X to wound for one Melee attack against a Vehicle (this modifier is non-cumulative)."
+  },
+  {
+    "name": "Fall-off",
+    "description": "Weapons with Fall-off suffer a -1 Penetration penalty when shooting at Long Range"
   },
   {
     "name": "Fixed",
     "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move."
   },
   {
+    "name": "Flamethrower",
+    "description": "Flamethrower weapons always"
+  },
+  {
     "name": "Gun Shield",
-    "description": "Model gains Soft cover from enemy models shooting at it in its Front Arc"
+    "description": "Model gains Soft cover from enemy models shooting at it in its Front Arc."
   },
   {
     "name": "Howitzer(X)",
-    "description": "May choose to shoot as if it had Indirect(X)"
+    "description": "May choose to shoot as if it had Indirect(X)."
   },
   {
     "name": "Impact(X)",
-    "description": "Model gains +X to wound modifier the first round of Melee combat if it charged"
+    "description": "Model gains +X to wound modifier the first round of Melee combat if it charged."
   },
   {
     "name": "Indirect(X)",
-    "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\""
+    "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\"."
   },
   {
     "name": "Limited(X)",
-    "description": "Only X number of this unit may be taken in an army"
+    "description": "Only X number of this unit may be taken in an army."
   },
   {
     "name": "Melee Specialist",
-    "description": "Model causes 2 hits instead of 1 when attacking in Melee combat"
+    "description": "Model causes 2 hits instead of 1 when attacking in Melee combat."
   },
   {
     "name": "Move or Fire",
-    "description": "Models with or models shooting with Move or Fire weapons may only shoot during a Fire order"
+    "description": "Models with or models shooting with Move or Fire weapons may only shoot during a Fire order."
   },
   {
     "name": "Quick to Fire",
-    "description": "Models with Quick to Fire or models shooting with Quick to Fire weapons do not suffer the penalty for Moving and Shooting"
+    "description": "Models with Quick to Fire or models shooting with Quick to Fire weapons do not suffer the penalty for Moving and Shooting."
   },
   {
     "name": "Reload",
-    "description": "Models with or models using Reload weapons may not shoot during Fire orders that are issued as a Reaction"
+    "description": "Models with or models using Reload weapons may not shoot during Fire orders that are issued as a Reaction."
   },
   {
     "name": "Scoring",
-    "description": "Scoring units can take and count towards Objectives"
+    "description": "Scoring units can take and count towards Objectives."
   },
   {
     "name": "Sniper",
-    "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and any casualties caused are removed by the attacking player instead of the owner of the unit"
+    "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and Wounded (See Team(X) rule). Any casualties caused by Snipers are removed by the attacking player instead of the owner of the unit."
+  },
+  {
+    "name": "Spotter",
+    "description": "Units with Spotter gain an additional 25mm model with no weapons. This model does not need to maintain Unit Cohesion and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to its Move directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2)."
   },
   {
     "name": "Tall",
-    "description": "Models targeting Tall units with shooting may ignore intervening non-Tall enemy units for determining cover"
+    "description": "Models targeting Tall units with shooting may ignore intervening non-Tall enemy units for determining cover."
+  },
+  {
+    "name": "Team(X)",
+    "description": "When removing a Team model as casualty it is not removed but instead mark it with a Wound token. Place one Wound token per casualty taken. When the number of Wound tokens equals X the model is immediately removed. Team models with only one Wound away from being removed suffer a -1 Penalty to hit."
   },
   {
     "name": "Unwieldy",
-    "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting"
+    "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting."
   }
 ]
