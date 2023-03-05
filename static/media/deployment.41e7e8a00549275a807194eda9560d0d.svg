@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72mm" height="48mm" version="1.1" viewBox="0 0 72 48"
+   xmlns="http://www.w3.org/2000/svg">
+   <path d="m0 24h72" fill="#291212" stroke="#fff" stroke-dasharray="1.80000007, 1.80000007" stroke-dashoffset="2.7" stroke-linejoin="bevel" stroke-width=".3" style="paint-order:normal"/>
+   <rect y="-4.4409e-16" width="72" height="6" fill="#f00" fill-opacity=".5" style="paint-order:normal"/>
+   <rect y="42" width="72" height="6" fill="#0080ff" fill-opacity=".5" style="paint-order:normal"/>
+   <rect x=".14991" y=".14991" width="71.7" height="47.7" fill="none" stroke="#fff" stroke-width=".29982" style="paint-order:normal"/>
+   <path d="m0 5.85h72" fill="#291212" stroke="#fff" stroke-dasharray="1.8, 1.8" stroke-dashoffset="2.7" stroke-linejoin="bevel" stroke-width=".3" style="paint-order:normal"/>
+   <path d="m0 42.15h72" fill="#291212" stroke="#fff" stroke-dasharray="1.8, 1.8" stroke-dashoffset="2.7" stroke-linejoin="bevel" stroke-width=".3" style="paint-order:normal"/>
+   <text x="0.54180199" y="4.3802862" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal" xml:space="preserve">
+      <tspan x="0.54180199" y="4.3802862" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">6"</tspan>
+   </text>
+   <text x="0.54180199" y="15.880286" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal" xml:space="preserve">
+      <tspan x="0.54180199" y="15.880286" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">18"</tspan>
+   </text>
+   <text x="0.54180199" y="34.480286" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal" xml:space="preserve">
+      <tspan x="0.54180199" y="34.480286" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">18"</tspan>
+   </text>
+   <text x="0.54180199" y="46.080284" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal" xml:space="preserve">
+      <tspan x="0.54180199" y="46.080284" fill="#ffffff" font-family="sans-serif" font-size="3.5278px" font-weight="bold" stroke-dasharray="2.4, 2.4" stroke-dashoffset="3.6" stroke-width=".4" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">6"</tspan>
+   </text>
+   <text transform="matrix(.26458 0 0 .26458 -12.462 -2.1078)" fill="#ffffff" font-family="sans-serif" font-size="13.333px" font-weight="bold" stroke-dashoffset="13.606" stroke-width="1.1339" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal;shape-inside:url(#rect16761);white-space:pre" xml:space="preserve">
+      <tspan x="89.400391" y="23.939764">Player 1  Deployment Zone</tspan>
+   </text>
+   <text transform="matrix(.26458 0 0 .26458 1.9387 16.946)" fill="#ffffff" font-family="sans-serif" font-size="13.333px" font-weight="bold" stroke-dashoffset="13.606" stroke-width="1.1339" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal;shape-inside:url(#rect16769);white-space:pre" xml:space="preserve">
+      <tspan x="89.400391" y="23.939764">Center-line</tspan>
+   </text>
+   <text transform="matrix(.26458 0 0 .26458 -12.462 39.746)" fill="#ffffff" font-family="sans-serif" font-size="13.333px" font-weight="bold" stroke-dashoffset="13.606" stroke-width="1.1339" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;paint-order:normal;shape-inside:url(#rect16775);white-space:pre" xml:space="preserve">
+      <tspan x="89.400391" y="23.939764">Player 2  Deployment Zone</tspan>
+   </text>
+</svg>
