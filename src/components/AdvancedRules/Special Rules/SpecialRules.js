@@ -15,8 +15,9 @@ function SpecialRules() {
       </p>
       <h3>Special Rule application</h3>
       <p>
-        Special rules that a model has are always applied. Special rules that a
-        weapon has are always applied when shooting with that weapon.
+        Special rules that a model has are always 'active', a model may not
+        choose to ignore a Special Rule it has. Special rules that a weapon has
+        are applied to the shots fired with that specific weapon.
       </p>
       <table>
         <thead>

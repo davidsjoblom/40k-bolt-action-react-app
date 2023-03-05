@@ -24,12 +24,13 @@ function Home() {
       <h3>To do</h3>
       <ul>
         <li>Update Terrain summary table</li>
-        <li>Objectives</li>
         <li>Army building</li>
         <li>Battlefield setup</li>
-        <li>Deployment</li>
         <li>HQ abilities</li>
         <li>Mechanics for smoke and mines</li>
+        <li>Game/board setup</li>
+        <li>Playing the game</li>
+        <li>Determining winner</li>
       </ul>
       <h2>Unit lists</h2>
       <h3>To do</h3>

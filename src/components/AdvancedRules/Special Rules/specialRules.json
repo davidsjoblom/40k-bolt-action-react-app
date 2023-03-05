@@ -33,7 +33,7 @@
   },
   {
     "name": "Fixed",
-    "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move."
+    "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move. Units with Fixed models may never declare Charges."
   },
   {
     "name": "Flamethrower",
@@ -68,6 +68,10 @@
     "description": "Models with or models shooting with Move or Fire weapons may only shoot during a Fire order."
   },
   {
+    "name": "Mounted",
+    "description": "Mounted models treat terrain as if they were Vehicle models. See Vehicles and Terrain in the Vehicle section. Mounted models may never voluntarily be issued a Down order and enemy units targeting a Mounted unit never suffers the penalty for target being Down."
+  },
+  {
     "name": "Quick to Fire",
     "description": "Models with Quick to Fire or models shooting with Quick to Fire weapons do not suffer the penalty for Moving and Shooting."
   },
@@ -80,12 +84,20 @@
     "description": "Scoring units can take and count towards Objectives."
   },
   {
+    "name": "Scout",
+    "description": "Scout units can be deployed anywhere fully within the owners table half and 12\" away from any enemy unit. Scout units that deploy outside of the deployment zone may not declare charges during the turn they deployed."
+  },
+  {
     "name": "Sniper",
     "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and Wounded (See Team(X) rule). Any casualties caused by Snipers are removed by the attacking player instead of the owner of the unit."
   },
   {
     "name": "Spotter",
-    "description": "Units with Spotter gain an additional 25mm model with no weapons. This model does not need to maintain Unit Cohesion and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to its Move directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2)."
+    "description": "Units with Spotter gain an additional 25mm model with no weapons. This model does not need to maintain Unit Cohesion and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to its Move directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2). Spotter models are  deployed at the same time as its 'parent' but may be placed anywhere fully within the owners table half and 12\" away from any enemy unit."
+  },
+  {
+    "name": "Swiftstride",
+    "description": "Units with Swiftstride roll one additional die and discards the lowest when rolling for charge distance."
   },
   {
     "name": "Tall",

@@ -68,6 +68,14 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
             Objectives
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="deployment"
+            onClick={() => setRememberedAdvancedRulesSection('deployment')}
+          >
+            Deployment
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

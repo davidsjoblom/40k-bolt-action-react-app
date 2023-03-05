@@ -4,17 +4,18 @@ function Objectives() {
       <h1>Objectives</h1>
       <hr />
       <ol>
-        <li>Flags</li>
+        <li>Elimination</li>
         <li>Hold Center</li>
         <li>King of the Hill</li>
         <li>Breakthrough</li>
         <li>Pillage</li>
+        <li>Control Points</li>
       </ol>
-      <h2>Flags</h2>
+      <h2>Elimination</h2>
       <p>
         The player that killed the most enemy units with Scoring wins the
-        Objective. If the players kill the same amount or if neither kill any
-        enemy units with Scoring then the Objective is a tie.
+        Objective. If neither players kill more enemy units with Scoring than
+        the other player then the Objective is a tie.
       </p>
       <h2>Hold Center</h2>
       <p>
@@ -81,6 +82,31 @@ function Objectives() {
         The player with the most units carrying Loot tokens at the end of the
         game wins the Objective. If both players has the same number or if
         neither has any then the Objective is a tie
+      </p>
+      <h2>Control Points</h2>
+      <p>
+        The player that didn't choose deployment zone chooses a board diagonal.
+        One Control Point marker is placed in the middle of the board and 2
+        additional markers are placed along the diagonal to either side 24" from
+        the center. If any marker is placed within 1" of an Impasse terrain then
+        move them the minimum distance until they are 1" away from any Impasse
+        terrain.
+      </p>
+      <p>
+        The Control Points are considered 'neutral' at the start of the game.
+        Control Points can be 'captured' at the beginning of each turn after the
+        first by a player with a Scoring unit within 3" of it. A Control Point
+        cannot be 'captured' if both players have Scoring units within 3" of it.
+      </p>
+      <p>
+        When a Control Point is 'captured' by a player it is marked as
+        'controlled' by him. A Control Point remains 'controlled' until it is
+        'captured' by the opposing player.
+      </p>
+      <p>
+        The player with the most 'controlled' Control Points at the end of the
+        game wins the Objective. If no player has more Control Points than the
+        other the Objective is tied.
       </p>
     </>
   );
