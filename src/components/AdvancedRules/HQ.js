@@ -14,6 +14,19 @@ function HQ() {
         <li>Incendiary, persistent anti-inf</li>
         <li>War cry</li>
       </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Call-in</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Artillery Bombardment</td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 }

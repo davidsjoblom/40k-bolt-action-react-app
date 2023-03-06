@@ -39,6 +39,13 @@ function Home() {
         <li>Transports</li>
         <li>Armoured Cars</li>
       </ul>
+      <h3>Planned Factions</h3>
+      <ul>
+        <li>Empire</li>
+        <li>Federation</li>
+        <li>Clans</li>
+        <li>Cults</li>
+      </ul>
     </div>
   );
 }

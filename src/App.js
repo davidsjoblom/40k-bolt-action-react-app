@@ -26,6 +26,7 @@ import HQ from './components/AdvancedRules/HQ';
 import Transports from './components/AdvancedRules/Transports';
 import Objectives from './components/AdvancedRules/Objectives';
 import Deployment from './components/AdvancedRules/Deployment';
+import CallIns from './components/AdvancedRules/Call-ins/CallIns';
 
 import GenericUnits from './components/Generic Units/GenericUnits';
 import InfantryUnits from './components/Generic Units/InfantryUnits';
@@ -41,7 +42,7 @@ function App() {
   const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
     useState('fundamentals');
   const [rememberedAdvancedRulesSection, setRememberedAdvancedRulesSection] =
-    useState('weapons');
+    useState('special-rules');
   const [rememberedGenericUnitsSection, setRememberedGenericUnitsSection] =
     useState('infantry-units');
   return (
@@ -92,6 +93,7 @@ function App() {
             <Route path="HQ" element={<HQ />} />
             <Route path="objectives" element={<Objectives />} />
             <Route path="deployment" element={<Deployment />} />
+            <Route path="call-ins" element={<CallIns />} />
           </Route>
           <Route
             path="generic-units"

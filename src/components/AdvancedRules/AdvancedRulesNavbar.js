@@ -6,6 +6,14 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
       <ul>
         <li>
           <NavLink
+            to="special-rules"
+            onClick={() => setRememberedAdvancedRulesSection('special-rules')}
+          >
+            Special Rules
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="weapons"
             onClick={() => setRememberedAdvancedRulesSection('weapons')}
           >
@@ -18,14 +26,6 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
             onClick={() => setRememberedAdvancedRulesSection('terrain')}
           >
             Terrain
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="special-rules"
-            onClick={() => setRememberedAdvancedRulesSection('special-rules')}
-          >
-            Special Rules
           </NavLink>
         </li>
         <li>
@@ -58,6 +58,14 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
             onClick={() => setRememberedAdvancedRulesSection('HQ')}
           >
             HQ
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="call-ins"
+            onClick={() => setRememberedAdvancedRulesSection('call-ins')}
+          >
+            Call-ins
           </NavLink>
         </li>
         <li>

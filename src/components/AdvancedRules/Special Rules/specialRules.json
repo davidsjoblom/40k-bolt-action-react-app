@@ -13,7 +13,7 @@
   },
   {
     "name": "Commanding Presence(X)",
-    "description": "Friendly units within 12\" gains +X to its Discipline"
+    "description": "The unit and friendly units within 12\" gains +X Discipline."
   },
   {
     "name": "Crushing Strength(X)",
@@ -69,7 +69,7 @@
   },
   {
     "name": "Mounted",
-    "description": "Mounted models treat terrain as if they were Vehicle models. See Vehicles and Terrain in the Vehicle section. Mounted models may never voluntarily be issued a Down order and enemy units targeting a Mounted unit never suffers the penalty for target being Down."
+    "description": "Mounted models treat terrain as if they were Vehicle models except that for each failed Dangerous terrain test the unit suffers a casualty instead of moving and being Immobilized (see Vehicles and Terrain in the Vehicle section). Mounted models may never voluntarily be issued a Down order and enemy units targeting a Mounted unit never suffers the penalty for target being Down."
   },
   {
     "name": "Quick to Fire",
@@ -86,6 +86,10 @@
   {
     "name": "Scout",
     "description": "Scout units can be deployed anywhere fully within the owners table half and 12\" away from any enemy unit. Scout units that deploy outside of the deployment zone may not declare charges during the turn they deployed."
+  },
+  {
+    "name": "Smoke Launchers",
+    "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(2) until the end of the turn."
   },
   {
     "name": "Sniper",

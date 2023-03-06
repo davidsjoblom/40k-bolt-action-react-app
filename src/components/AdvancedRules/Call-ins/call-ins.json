@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Artillery Barrage",
+    "description": "Place one Call-in marker. At the end of the turn roll a die and on 4+ the Call-in materializes. If it does not land then the marker may be moved up to 12\" to a new spot within Line of Sight at the beginning of next turn and roll again to see if it lands at the end of that turn instead. When it lands roll a die for each unit within D6+6\" and on a roll of 6 the unit takes a Blast(2D3+1) hit. Reroll misses for partial Blast hits as normal. Armoured units count as being hit in the Rear facing. All units affected take an additional Pin regardless of if they were hit or not. Remove the marker after the artillery has landed."
+  },
+  {
+    "name": "Rocket Barrage",
+    "description": ""
+  },
+  {
+    "name": "Incendiary Barrage",
+    "description": ""
+  },
+  {
+    "name": "Anti-infantry Strafe",
+    "description": ""
+  },
+  {
+    "name": "Anti-tank Strafe",
+    "description": ""
+  },
+  {
+    "name": "Precision Strike",
+    "description": ""
+  },
+  {
+    "name": "Smoke Screen",
+    "description": ""
+  },
+  {
+    "name": "Cluster Munitions",
+    "description": ""
+  },
+  {
+    "name": "Smart Mines",
+    "description": ""
+  },
+  {
+    "name": "War Cry",
+    "description": ""
+  }
+]
