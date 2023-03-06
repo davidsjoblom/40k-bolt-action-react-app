@@ -22,7 +22,6 @@ import Terrain from './components/AdvancedRules/Terrain';
 import SpecialRules from './components/AdvancedRules/Special Rules/SpecialRules';
 import Vehicles from './components/AdvancedRules/Vehicles';
 import Armoured from './components/AdvancedRules/Armoured';
-import HQ from './components/AdvancedRules/HQ';
 import Transports from './components/AdvancedRules/Transports';
 import Objectives from './components/AdvancedRules/Objectives';
 import Deployment from './components/AdvancedRules/Deployment';
@@ -90,7 +89,6 @@ function App() {
             <Route path="vehicles" element={<Vehicles />} />
             <Route path="armoured" element={<Armoured />} />
             <Route path="transports" element={<Transports />} />
-            <Route path="HQ" element={<HQ />} />
             <Route path="objectives" element={<Objectives />} />
             <Route path="deployment" element={<Deployment />} />
             <Route path="call-ins" element={<CallIns />} />

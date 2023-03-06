@@ -5,6 +5,7 @@ const TheTurn = function () {
       <hr />
       <ol>
         <li>Beginning of Turn</li>
+        <li>Call-ins</li>
         <li>Randomize Order die</li>
         <li>Owner issues Order</li>
         <li>Discipline test Pinned unit</li>

@@ -54,14 +54,6 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         </li>
         <li>
           <NavLink
-            to="HQ"
-            onClick={() => setRememberedAdvancedRulesSection('HQ')}
-          >
-            HQ
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="call-ins"
             onClick={() => setRememberedAdvancedRulesSection('call-ins')}
           >

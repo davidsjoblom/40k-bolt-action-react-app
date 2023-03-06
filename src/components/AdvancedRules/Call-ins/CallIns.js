@@ -14,6 +14,13 @@ function CallIns() {
         on the board they may be moved up 12" to a new spot within Line of Sight
         of the model with the Call-in.
       </p>
+      <h2>Materializing Call-ins</h2>
+      <p>
+        Most Call-ins need to succeed a roll to actually materialize. Rolls to
+        see if a Call-in materializes are done at the end of each turn while the
+        Call-in markers are still on the board. When it does materialize it is
+        resolved and then all of its Call-in markers are removed.
+      </p>
       <table>
         <thead>
           <tr>
