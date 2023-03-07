@@ -11,7 +11,7 @@
     "range": 36,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Sniper, Move or Fire, Reload"
+    "specialRules": "Move or Fire, Sniper, Reload"
   },
   {
     "name": "Rocket Launcher",
@@ -25,7 +25,7 @@
     "range": 36,
     "shots": 1,
     "penetration": "+2",
-    "specialRules": "Reload"
+    "specialRules": "Accurate, Anti-tank, Reload"
   },
   {
     "name": "Flamethrower",

@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Field Commander",
+    "modelName": "Aide",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Field Commander has Commanding Presence(+1), Scoring",
+    "startingCost": "Field Commander Squad Leader and 4 Aides for 50pts",
+    "options": [
+      {
+        "choice": "Field Commander may replace Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Aide may replace Rifle with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Flamethrower for 10pts",
+          "Light Direct Energy for 10pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Guards Infantry",
+    "modelName": "Guardsman",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "startingCost": "Squad Leader and 4 Guardsmen for 50pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Guardsman for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "May replace 2 Guardsmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Anti-materiel Rifle for 5pts",
+          "Light Machine Gun for 10pts",
+          "Light Mortar for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Conscript Infantry",
+    "modelName": "Conscript",
+    "movement": 6,
+    "toughness": 3,
+    "discipline": 8,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "startingCost": "Squad Leader and 4 Conscripts for 35pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Conscript for 7pts"]
+      }
+    ]
+  },
+  {
+    "name": "Jaeger Infantry",
+    "modelName": "Jaeger",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Scout",
+    "startingCost": "Squad Leader and 4 Jaegers for 65pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Jaeger for 13pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Jaeger may take",
+        "alternatives": ["Explosive Charge(5) for 10pts"]
+      },
+      {
+        "choice": "May replace 2 Jaegers for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Anti-tank Rifle for 5pts",
+          "Sniper for 10pts",
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Storm Troopers",
+    "modelName": "Trooper",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "SMGs",
+    "specialRules": "Impact(1), Scoring",
+    "startingCost": "Squad Leader and 4 Troopers for 75pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Troopers for 15pts"]
+      },
+      {
+        "choice": "Squad Leader may replace SMG with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Trooper may replace SMG with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Flamethrower for 10pts",
+          "Light Direct Energy for 10pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lancer Cavalry",
+    "modelName": "Lancer",
+    "movement": 9,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Pistol",
+    "specialRules": "Impact(2), Mounted",
+    "startingCost": "Squad Leader and 4 Lancers for 75pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Lancers for 15pts"]
+      },
+      {
+        "choice": "One Lancer may take",
+        "alternatives": ["Explosive Charge(5) for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(4)",
+    "startingCost": "40pts",
+    "options": [
+      {
+        "choice": "May replace Medium Machine Gun with",
+        "alternatives": ["Heavy Machine Gun for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Medium Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Spotter, Team(4)",
+    "startingCost": "50pts",
+    "options": []
+  }
+]

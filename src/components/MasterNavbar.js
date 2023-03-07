@@ -4,6 +4,7 @@ function MasterNavbar({
   rememberedBasicRulesSection,
   rememberedAdvancedRulesSection,
   rememberedGenericUnitsSection,
+  rememberedArmyListsSection,
 }) {
   return (
     <nav>
@@ -24,6 +25,11 @@ function MasterNavbar({
         <li>
           <NavLink to={'generic-units/' + rememberedGenericUnitsSection}>
             Generic Units
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={'army-lists/' + rememberedArmyListsSection}>
+            Army Lists
           </NavLink>
         </li>
       </ul>

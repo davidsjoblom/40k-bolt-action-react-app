@@ -72,6 +72,10 @@
     "description": "Mounted models treat terrain as if they were Vehicle models except that for each failed Dangerous terrain test the unit suffers a casualty instead of moving and being Immobilized (see Vehicles and Terrain in the Vehicle section). Mounted models may never voluntarily be issued a Down order and enemy units targeting a Mounted unit never suffers the penalty for target being Down."
   },
   {
+    "name": "Open-topped",
+    "description": "Open-topped units hit by weapons that cannot wound it can still take Pins by them."
+  },
+  {
     "name": "Quick to Fire",
     "description": "Models with Quick to Fire or models shooting with Quick to Fire weapons do not suffer the penalty for Moving and Shooting."
   },
@@ -93,7 +97,7 @@
   },
   {
     "name": "Sniper",
-    "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and Wounded (See Team(X) rule). Any casualties caused by Snipers are removed by the attacking player instead of the owner of the unit."
+    "description": "Models with or models shooting with Sniper weapons ignore all to hit penalties except for Pins on Shooter and Wounded (See Team(X) rule). Any casualties caused by Snipers are removed by the attacking player instead of the owner of the unit but only models in Line of Sight of the Sniper may be removed."
   },
   {
     "name": "Spotter",

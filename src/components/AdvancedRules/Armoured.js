@@ -19,13 +19,15 @@ function Armoured() {
         Weapons with '-' Penetration do not benefit from additional Pen for
         being in the Flank or Rear Arcs.
       </p>
+      <h2>Attacking Armoured in Close Combat</h2>
+      <p>Attacks against Armoured model in Close Combat gain an additional +1 to wound.</p>
       <h2>Glancing hits</h2>
       <p>
         To wound rolls against Armoured that equal the target number needed to
         penetrate counts as a Glancing hit instead of a normal penetration.
         These wounds suffer a -3 when rolling on the Vehicle Penetration Table.
       </p>
-      <h2>Armoured Assault</h2>
+      <h2>Tank Shock</h2>
       <p>
         Armoured units issued a Run order may 'run over' enemy units in the way
         as long as it has enough move and space to fully clear all enemy models

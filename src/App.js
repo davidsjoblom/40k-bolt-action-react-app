@@ -33,6 +33,10 @@ import Tanks from './components/Generic Units/Tanks';
 import SPGs from './components/Generic Units/SPGs';
 import SupportUnits from './components/Generic Units/SupportUnits';
 
+import ArmyLists from './components/Army Lists/ArmyLists';
+import UnitList from './components/Army Lists/UnitList';
+import EmpireUnits from './unit-lists/empireUnits.json';
+
 import 'normalize.css';
 import './styles/style.css';
 import './styles/numberHeadings.css';
@@ -44,12 +48,16 @@ function App() {
     useState('special-rules');
   const [rememberedGenericUnitsSection, setRememberedGenericUnitsSection] =
     useState('infantry-units');
+  const [rememberedArmyListsSection, setRememberedArmyListsSection] =
+    useState('empire-army-list');
+  const [activeEmpireItem, setActiveEmpireItem] = useState('');
   return (
     <>
       <MasterNavbar
         rememberedBasicRulesSection={rememberedBasicRulesSection}
         rememberedAdvancedRulesSection={rememberedAdvancedRulesSection}
         rememberedGenericUnitsSection={rememberedGenericUnitsSection}
+        rememberedArmyListsSection={rememberedArmyListsSection}
       />
       <main>
         <Routes>
@@ -107,6 +115,26 @@ function App() {
             <Route path="tanks" element={<Tanks />} />
             <Route path="SPGs" element={<SPGs />} />
             <Route path="support-units" element={<SupportUnits />} />
+          </Route>
+          <Route
+            path="army-lists"
+            element={
+              <ArmyLists
+                rememberedArmyListsSection={setRememberedArmyListsSection}
+              />
+            }
+          >
+            <Route
+              path="empire-army-list"
+              element={
+                <UnitList
+                  army="Empire"
+                  units={EmpireUnits}
+                  activeItem={activeEmpireItem}
+                  setActiveItem={setActiveEmpireItem}
+                />
+              }
+            />
           </Route>
         </Routes>
       </main>

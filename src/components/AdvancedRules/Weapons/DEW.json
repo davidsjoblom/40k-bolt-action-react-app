@@ -4,20 +4,20 @@
     "range": 12,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Accurate, Fall-off, Quick to Fire"
+    "specialRules": "Accurate, Fall-off, Quick to Fire, Reload"
   },
   {
     "name": "Medium Directed Energy",
     "range": 18,
     "shots": 1,
     "penetration": "+6",
-    "specialRules": "Accurate, Fall-off"
+    "specialRules": "Accurate, Fall-off, Reload"
   },
   {
     "name": "Heavy Directed Energy",
     "range": 24,
     "shots": 1,
     "penetration": "+7",
-    "specialRules": "Accurate, Fall-off"
+    "specialRules": "Accurate, Fall-off, Reload"
   }
 ]

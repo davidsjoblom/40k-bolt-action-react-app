@@ -17,9 +17,8 @@ function Vehicles() {
         center until it directly faces the closest enemy model. This pivot may
         not exceed 90 degrees and if that is not enough then it pivots as close
         as possible to towards the closest enemy model. The Vehicle must then
-        move as far as possible directly backwards up to half its Movement
-        Speed. Note that if the Vehicle is Immobilized then it is neither
-        pivoted or moved.
+        move as far as possible directly backwards up to D6". Note that if the
+        Vehicle is Immobilized then it is neither pivoted or moved.
       </p>
       <h2>Vehicles and Down orders</h2>
       <p>
@@ -62,9 +61,13 @@ function Vehicles() {
       </p>
       <h2>Charging Vehicles</h2>
       <p>
-        Vehicles are charged by other units as normal but may never attack in
-        Melee combat. When a Vehicle unit is wounded it is not immediately
-        removed but instead roll on the Penetration table once per wound caused.
+        Vehicles may be charged by other units as normal but they may never
+        attack back in Melee combat.
+      </p>
+      <h2>Attacking Vehicles in Close Combat</h2>
+      <p>
+        Attacks against Vehicles in Close Combat gain +1 to wound. Roll once on
+        the Penetration table for each wound caused.
       </p>
       <h2>Vehicle Penetration table</h2>
       <table>
@@ -90,7 +93,8 @@ function Vehicles() {
             <td>Disabled weapon</td>
             <td>
               One of the Vehicles weapons chosen by the shooter is disabled and
-              may not be used for the remainder of the game.
+              may not be used for the remainder of the game. If all weapons are
+              Disabled apply an Immobilized result instead.
             </td>
           </tr>
           <tr>
@@ -98,7 +102,8 @@ function Vehicles() {
             <td>Immobilized</td>
             <td>
               The Vehicle is Immobilized and may not move for the remainder of
-              the game.
+              the game. If already Immobilized then apply a Disabled weapon
+              result instead.
             </td>
           </tr>
           <tr>
@@ -116,6 +121,11 @@ function Vehicles() {
         If the roll to wound that preceded the roll on the Penetration table
         exceeded the target number by 3 or more then roll an additional time on
         the Penetration table and apply its result as well.
+      </p>
+      <h3>Immobilized and all weapons Disabled</h3>
+      <p>
+        If a Vehicle is Immobilized and all of its weapons are Disabled then
+        immediately apply a Destroyed Penetration result.
       </p>
       <h2>Vehicles and Routing</h2>
       <p>

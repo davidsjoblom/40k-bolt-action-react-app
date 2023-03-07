@@ -65,7 +65,7 @@ nav ul li :hover {
 }
 
 .bottom-spacer {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 table {
@@ -147,4 +147,13 @@ th {
 
 .outlet-padding {
   padding: 1rem;
+}
+
+.accordion-item {
+  border: 1px solid white;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.left-padding {
+  padding-left: 1rem;
 }

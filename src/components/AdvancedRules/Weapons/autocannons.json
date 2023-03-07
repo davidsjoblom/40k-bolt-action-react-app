@@ -18,6 +18,6 @@
     "range": 60,
     "shots": 2,
     "penetration": "+4",
-    "specialRules": "Anti-tank or Blast(D3+1)"
+    "specialRules": "Anti-tank or Blast(D3+1), Reload"
   }
 ]
