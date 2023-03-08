@@ -24,6 +24,11 @@ function Deployment() {
         Deployment Zone (i.e. at least 18" away from the Center-line). The
         Deployment Zone extends 6" from the players chosen long board edge.
       </p>
+      <h3>Not enough space</h3>
+      <p>
+        If a unit cannot be deployed into a legal position then it cannot
+        deploy.
+      </p>
       <h2>Reserves</h2>
       <p>
         Any unit not deployed during Deploying Units are kept in 'reserve'.

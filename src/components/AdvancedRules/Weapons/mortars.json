@@ -11,7 +11,7 @@
     "range": 48,
     "shots": 1,
     "penetration": "+1",
-    "specialRules": "Indirect(24\"), Blast(D3+1), Reload"
+    "specialRules": "Indirect(18\"), Blast(D3+1), Reload"
   },
   {
     "name": "Heavy Mortar",

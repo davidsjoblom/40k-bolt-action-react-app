@@ -139,7 +139,7 @@
     "modelName": "Lancer",
     "movement": 9,
     "toughness": 5,
-    "discipline": 10,
+    "discipline": 9,
     "baseSize": 25,
     "equipment": "Pistol",
     "specialRules": "Impact(2), Mounted",
@@ -148,6 +148,10 @@
       {
         "choice": "May add up to 5",
         "alternatives": ["Lancers for 15pts"]
+      },
+      {
+        "choice": "Any Lancer may replace Pistol and Impact(2) with",
+        "alternatives": ["Carbine and Impact(1) for free"]
       },
       {
         "choice": "One Lancer may take",
@@ -173,7 +177,7 @@
     ]
   },
   {
-    "name": "Medium Mortar Team",
+    "name": "Mortar Team",
     "modelName": "Crew",
     "movement": 6,
     "toughness": 4,
@@ -183,5 +187,190 @@
     "specialRules": "Fixed, Spotter, Team(4)",
     "startingCost": "50pts",
     "options": []
+  },
+  {
+    "name": "Support Gun",
+    "modelName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
+    "startingCost": 50,
+    "options": [
+      {
+        "choice": "Must take one",
+        "alternatives": [
+          "Light Autocannon for free",
+          "Light AT Gun for free",
+          "Light Howitzer and Spotter for free",
+          "Medium Directed Energy for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heavy Support Gun",
+    "modelName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "75x75",
+    "equipment": "",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(6)",
+    "startingCost": 75,
+    "options": [
+      {
+        "choice": "Must take one",
+        "alternatives": [
+          "Medium Autocannon for free",
+          "Medium AT Gun for free",
+          "Medium Howitzer and Spotter for free",
+          "Heavy Directed Energy for free",
+          "Heavy Mortar, Spotter and lose Gun Shield for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Antlion Light Self Propelled Gun",
+    "modelName": "Light SPG",
+    "movement": 8,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle Mounted Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 100,
+    "options": [
+      {
+        "choice": "Must take one Forward facing weapon with Unwieldy",
+        "alternatives": [
+          "Medium AT Gun for free",
+          "Medium Autocannon for free",
+          "Medium Howitzer for free",
+          "Heavy Directed Energy for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bloodhound Heavy Armoured Car",
+    "modelName": "Heavy Car",
+    "movement": 10,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "",
+    "specialRules": "Vehicle, Armoured, All-Terrain(1)",
+    "startingCost": 100,
+    "options": [
+      {
+        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
+        "alternatives": [
+          "Light AT Gun for free",
+          "Light Autocannon for free",
+          "Medium Directed Energy for free",
+          "Heavy Flamethrower for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Racoon Light Tank",
+    "modelName": "Light Tank",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 100,
+    "options": [
+      {
+        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
+        "alternatives": [
+          "Light AT Gun for free",
+          "Light Autocannon for free",
+          "Light Howitzer for free",
+          "Medium Directed Energy for free",
+          "Heavy Flamethrower for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Greywolf Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 8,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Front facing Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 175,
+    "options": [
+      {
+        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
+        "alternatives": [
+          "Medium AT Gun for free",
+          "Medium Autocannon for free",
+          "Medium Howitzer for free",
+          "Heavy Directed Energy for free",
+          "Heavy Flamethrower for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aardwark Medium Self Propelled Gun",
+    "modelName": "Medium Tank",
+    "movement": 8,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Front facing Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 175,
+    "options": [
+      {
+        "choice": "Must take one Forward facing weapon with Unwieldy",
+        "alternatives": [
+          "Heavy AT Gun for free",
+          "Heavy Autocannon for free",
+          "Heavy Howitzer for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grizzly Heavy Tank",
+    "modelName": "Heavy Tank",
+    "movement": 7,
+    "toughness": 10,
+    "discipline": 9,
+    "baseSize": "75x125",
+    "equipment": "Front facing Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 250,
+    "options": [
+      {
+        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
+        "alternatives": ["Heavy AT Gun for free", "Heavy Autocannon for free"]
+      },
+      {
+        "choice": "Or take one Turret mounted",
+        "alternatives": [
+          "Heavy Howitzer for free",
+          "Twin-linked Heavy Directed Energy for free",
+          "Twin-linked Heavy Flamethrower for free"
+        ]
+      },
+      {
+        "choice": "May take Sponson mounted",
+        "alternatives": ["2 Medium Machine Guns for 30pts"]
+      }
+    ]
   }
 ]

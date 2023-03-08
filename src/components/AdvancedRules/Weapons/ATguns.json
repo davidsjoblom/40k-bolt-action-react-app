@@ -21,10 +21,10 @@
     "specialRules": "Anti-tank or Blast(D3+1), Reload"
   },
   {
-    "name": "Super-heavy AT Gun",
+    "name": "Mass Driver",
     "range": 84,
     "shots": 1,
     "penetration": "+7",
-    "specialRules": "Anti-tank or Blast(2D3), Reload"
+    "specialRules": "Accurate, Anti-tank, Reload"
   }
 ]

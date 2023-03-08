@@ -4,7 +4,7 @@ import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 export default function UnitItem({ unit, isActive, onShow, onClose }) {
   return isActive ? (
     <>
-      <h2 onClick={onClose}>
+      <h2 onClick={onClose} className="cursor-pointer">
         {unit.name} <FontAwesomeIcon icon={faCaretDown} />
       </h2>
       <table>
@@ -59,9 +59,10 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
           ))}
         </tbody>
       </table>
+      <p></p>
     </>
   ) : (
-    <h2 onClick={onShow}>
+    <h2 onClick={onShow} className="cursor-pointer">
       {unit.name} <FontAwesomeIcon icon={faCaretRight} />
     </h2>
   );

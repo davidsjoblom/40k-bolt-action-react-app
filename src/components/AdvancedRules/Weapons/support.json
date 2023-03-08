@@ -32,13 +32,13 @@
     "range": 6,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Flamethrower"
+    "specialRules": "Flamethrower(D6)"
   },
   {
     "name": "Heavy Flamethrower",
     "range": 12,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Flamethrower"
+    "specialRules": "Flamethrower(D6+1)"
   }
 ]

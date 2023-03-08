@@ -21,7 +21,7 @@
   },
   {
     "name": "Cumbersome",
-    "description": "Model considers all Rough terrain as Impassible terrain for movement purposes and during a Run move may only move up to (instead of double) its Move stat."
+    "description": "Model considers all Rough terrain as Impassible terrain for movement and deployment purposes. During a Run move a may only move up to (instead of double) its Move stat."
   },
   {
     "name": "Explosive Charge(X)",
@@ -36,16 +36,16 @@
     "description": "Model may only target units at least partially in the models Front Arc and draw Line of Sight from the center of its Front facing when shooting. Model with Fixed may only pivot during an Advance move. Units with Fixed models may never declare Charges."
   },
   {
-    "name": "Flamethrower",
-    "description": "Flamethrower weapons always"
+    "name": "Flamethrower(X)",
+    "description": "Flamethrower weapons ignore all penalties to hit except Pins of Shooter (may still benefit from positive modifiers as normal). Hits from Flamethrowers are multiplied by X but may not cause more hits that there are models in the target unit."
   },
   {
     "name": "Gun Shield",
     "description": "Model gains Soft cover from enemy models shooting at it in its Front Arc."
   },
   {
-    "name": "Howitzer(X)",
-    "description": "May choose to shoot as if it had Indirect(X)."
+    "name": "Howitzer(X-Y\")",
+    "description": "May choose to shoot as if it had Indirect(X) and Range Y\"."
   },
   {
     "name": "Impact(X)",

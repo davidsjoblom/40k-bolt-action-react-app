@@ -152,9 +152,13 @@ th {
 
 .accordion-item {
   border: 1px solid white;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .left-padding {
   padding-left: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
