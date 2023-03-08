@@ -17,7 +17,7 @@ function BasicRulesNavbar({ setRememberedBasicRulesSection }) {
             to="theTurn"
             onClick={() => setRememberedBasicRulesSection('theTurn')}
           >
-            The Turn
+            Turn
           </NavLink>
         </li>
         <li>
@@ -41,7 +41,7 @@ function BasicRulesNavbar({ setRememberedBasicRulesSection }) {
             to="square-bases"
             onClick={() => setRememberedBasicRulesSection('square-bases')}
           >
-            Square Bases
+            Bases
           </NavLink>
         </li>
         <li>

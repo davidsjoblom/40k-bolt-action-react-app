@@ -1,7 +1,12 @@
-export default function UnitItem({ unit, isActive, onShow }) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+
+export default function UnitItem({ unit, isActive, onShow, onClose }) {
   return isActive ? (
     <>
-      <h2>{unit.name}</h2>
+      <h2 onClick={onClose}>
+        {unit.name} <FontAwesomeIcon icon={faCaretDown} />
+      </h2>
       <table>
         <thead>
           <tr>
@@ -56,6 +61,8 @@ export default function UnitItem({ unit, isActive, onShow }) {
       </table>
     </>
   ) : (
-    <h2 onClick={onShow}>{unit.name}</h2>
+    <h2 onClick={onShow}>
+      {unit.name} <FontAwesomeIcon icon={faCaretRight} />
+    </h2>
   );
 }

@@ -10,6 +10,7 @@ export default function UnitList({ army, units, activeItem, setActiveItem }) {
             unit={unit}
             isActive={activeItem === unit.name}
             onShow={() => setActiveItem(unit.name)}
+            onClose={() => setActiveItem('')}
           />
         </div>
       ))}

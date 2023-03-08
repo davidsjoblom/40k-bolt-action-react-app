@@ -1,4 +1,12 @@
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHouse,
+  faBook,
+  faBookSkull,
+  faPersonRifle,
+  faPersonMilitaryRifle,
+} from '@fortawesome/free-solid-svg-icons';
 
 function MasterNavbar({
   rememberedBasicRulesSection,
@@ -10,26 +18,33 @@ function MasterNavbar({
     <nav>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">
+            <FontAwesomeIcon icon={faHouse} />
+            &nbsp; Home
+          </NavLink>
         </li>
         <li>
           <NavLink to={'basic-rules/' + rememberedBasicRulesSection}>
-            Basic Rules
+            <FontAwesomeIcon icon={faBook} />
+            &nbsp; Basic Rules
           </NavLink>
         </li>
         <li>
           <NavLink to={'advanced-rules/' + rememberedAdvancedRulesSection}>
-            Advanced Rules
+            <FontAwesomeIcon icon={faBookSkull} />
+            &nbsp; Advanced Rules
           </NavLink>
         </li>
         <li>
           <NavLink to={'generic-units/' + rememberedGenericUnitsSection}>
-            Generic Units
+            <FontAwesomeIcon icon={faPersonRifle} />
+            &nbsp; Generic Units
           </NavLink>
         </li>
         <li>
           <NavLink to={'army-lists/' + rememberedArmyListsSection}>
-            Army Lists
+            <FontAwesomeIcon icon={faPersonMilitaryRifle} />
+            &nbsp; Army Lists
           </NavLink>
         </li>
       </ul>

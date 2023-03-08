@@ -36,10 +36,9 @@ import SupportUnits from './components/Generic Units/SupportUnits';
 import ArmyLists from './components/Army Lists/ArmyLists';
 import UnitList from './components/Army Lists/UnitList';
 import EmpireUnits from './unit-lists/empireUnits.json';
-
-import 'normalize.css';
-import './styles/style.css';
-import './styles/numberHeadings.css';
+import FederationUnits from './unit-lists/federationUnits.json';
+import ClansUnits from './unit-lists/clansUnits.json';
+import CultsUnits from './unit-lists/cultsUnits.json';
 
 function App() {
   const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
@@ -51,6 +50,9 @@ function App() {
   const [rememberedArmyListsSection, setRememberedArmyListsSection] =
     useState('empire-army-list');
   const [activeEmpireItem, setActiveEmpireItem] = useState('');
+  const [activeFederationItem, setActiveFederationItem] = useState('');
+  const [activeClansItem, setActiveClansItem] = useState('');
+  const [activeCultsItem, setActiveCultsItem] = useState('');
   return (
     <>
       <MasterNavbar
@@ -120,7 +122,7 @@ function App() {
             path="army-lists"
             element={
               <ArmyLists
-                rememberedArmyListsSection={setRememberedArmyListsSection}
+                setRememberedArmyListsSection={setRememberedArmyListsSection}
               />
             }
           >
@@ -132,6 +134,39 @@ function App() {
                   units={EmpireUnits}
                   activeItem={activeEmpireItem}
                   setActiveItem={setActiveEmpireItem}
+                />
+              }
+            />
+            <Route
+              path="federation-army-list"
+              element={
+                <UnitList
+                  army="Federation"
+                  units={FederationUnits}
+                  activeItem={activeFederationItem}
+                  setActiveItem={setActiveFederationItem}
+                />
+              }
+            />
+            <Route
+              path="clans-army-list"
+              element={
+                <UnitList
+                  army="Clans"
+                  units={ClansUnits}
+                  activeItem={activeClansItem}
+                  setActiveItem={setActiveClansItem}
+                />
+              }
+            />
+            <Route
+              path="cults-army-list"
+              element={
+                <UnitList
+                  army="Cults"
+                  units={CultsUnits}
+                  activeItem={activeCultsItem}
+                  setActiveItem={setActiveCultsItem}
                 />
               }
             />
