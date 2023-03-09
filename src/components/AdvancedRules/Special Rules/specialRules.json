@@ -37,7 +37,7 @@
   },
   {
     "name": "Flamethrower(X)",
-    "description": "Flamethrower weapons ignore all penalties to hit except Pins of Shooter (may still benefit from positive modifiers as normal). Hits from Flamethrowers are multiplied by X but may not cause more hits that there are models in the target unit."
+    "description": "Flamethrowers hit on 2+ and ignore all to hit modifiers except Pins of Shooter. A hit from a Flamethrower is multiplied by X but may not cause more hits that there are models in the target unit."
   },
   {
     "name": "Gun Shield",

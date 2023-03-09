@@ -234,28 +234,6 @@
     ]
   },
   {
-    "name": "Antlion Light Self Propelled Gun",
-    "modelName": "Light SPG",
-    "movement": 8,
-    "toughness": 8,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle Mounted Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 100,
-    "options": [
-      {
-        "choice": "Must take one Forward facing weapon with Unwieldy",
-        "alternatives": [
-          "Medium AT Gun for free",
-          "Medium Autocannon for free",
-          "Medium Howitzer for free",
-          "Heavy Directed Energy for free"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Bloodhound Heavy Armoured Car",
     "modelName": "Heavy Car",
     "movement": 10,
@@ -324,27 +302,6 @@
     ]
   },
   {
-    "name": "Aardwark Medium Self Propelled Gun",
-    "modelName": "Medium Tank",
-    "movement": 8,
-    "toughness": 9,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Front facing Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 175,
-    "options": [
-      {
-        "choice": "Must take one Forward facing weapon with Unwieldy",
-        "alternatives": [
-          "Heavy AT Gun for free",
-          "Heavy Autocannon for free",
-          "Heavy Howitzer for free"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Grizzly Heavy Tank",
     "modelName": "Heavy Tank",
     "movement": 7,
@@ -372,5 +329,101 @@
         "alternatives": ["2 Medium Machine Guns for 30pts"]
       }
     ]
+  },
+  {
+    "name": "Antlion Light Self Propelled Gun",
+    "modelName": "Light SPG",
+    "movement": 8,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle Mounted Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 100,
+    "options": [
+      {
+        "choice": "Must take one Forward facing weapon with Unwieldy",
+        "alternatives": [
+          "Medium AT Gun for free",
+          "Medium Autocannon for free",
+          "Medium Howitzer for free",
+          "Heavy Directed Energy for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aardwark Medium Self Propelled Gun",
+    "modelName": "Medium Tank",
+    "movement": 8,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Front facing Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 175,
+    "options": [
+      {
+        "choice": "Must take one Forward facing weapon with Unwieldy",
+        "alternatives": [
+          "Heavy AT Gun for free",
+          "Heavy Autocannon for free",
+          "Heavy Howitzer for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mammoth Heavy Self Propelled Gun",
+    "modelName": "Heavy SPG",
+    "movement": 6,
+    "toughness": 10,
+    "discipline": 9,
+    "baseSize": "75x125",
+    "equipment": "Front facing Mass Driver, Pintle Mounted Medium Machine Gun",
+    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "startingCost": 250,
+    "options": [
+      {
+        "choice": "May take Front facing",
+        "alternatives": ["Medium Machine Gun for 15ts"]
+      }
+    ]
+  },
+  {
+    "name": "Tarsier Light APC",
+    "modelName": "Light APC",
+    "movement": 12,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle Mounted Heavy Machine Gun",
+    "specialRules": "Vehicle, Transport(5)",
+    "startingCost": 70,
+    "options": []
+  },
+  {
+    "name": "Pangolin Medium APC",
+    "modelName": "Medium APC",
+    "movement": 10,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x125",
+    "equipment": "Turret Mounted Light Autocannon",
+    "specialRules": "Vehicle, Transport(10), All-terrain(1)",
+    "startingCost": 85,
+    "options": []
+  },
+  {
+    "name": "Bullfrog Heavy APC",
+    "modelName": "Heavy APC",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x125",
+    "equipment": "Turret Mounted Medium Autocannon",
+    "specialRules": "Armoured, Vehicle, Transport(10), All-terrain(2)",
+    "startingCost": 120,
+    "options": []
   }
 ]
