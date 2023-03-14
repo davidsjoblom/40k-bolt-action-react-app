@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function UnitItem({ unit, isActive, onShow, onClose }) {
   return isActive ? (
@@ -37,7 +37,9 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
           </tr>
         </tbody>
       </table>
-      <p></p>
+      <p>
+        <i>{unit.description}</i>
+      </p>
       <table>
         <tbody>
           <tr>
@@ -45,12 +47,12 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
               <i>Starting Cost:</i> {unit.startingCost}
             </td>
           </tr>
-          {unit.options.map(option => (
+          {unit.options.map((option) => (
             <tr key={option.choice}>
               <td>
                 {option.choice}
                 <ul>
-                  {option.alternatives.map(alternative => (
+                  {option.alternatives.map((alternative) => (
                     <li key={alternative}>{alternative}</li>
                   ))}
                 </ul>

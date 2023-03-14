@@ -8,7 +8,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Field Commander has Commanding Presence(1), Scoring",
-    "description": "The Imperial Officer Corps is one of the Empires most esteemed institutions and competition for admission is fierce and foul play common.",
+    "description": "The Imperial Officer Corps is one of the Empires most esteemed institutions and competition for admission is fierce and foul play common. Detractors often deride the Corps for being bloated and corrupt but, while some of the criticism is warranted, in times of strife the Corps time and again produces great personalities that lead the Empire to victory.",
     "startingCost": "Field Commander Squad Leader and 4 Aides for 50pts",
     "options": [
       {
@@ -34,7 +34,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
-    "description": "The Guards Regiments make up the bulk of the Imperial Army and it is upon their shoulders the stability of the Empire rests. The life of a Guardsman is tough ",
+    "description": "The Guards Regiments make up the bulk of the Imperial Army and it is they who do most of the fighting, and dying, when the Empire wages war. The life of a Guardsman is tough but 'hardship breeds strength', or so the recruiting slogans go.",
     "startingCost": "Squad Leader and 4 Guardsmen for 50pts",
     "options": [
       {
@@ -65,6 +65,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
+    "description": "All able men of the Empire preform mandatory military service so that in times of great need they can be called upon to defend their homes. Hastily equipped and thrust into combat these troops help plug holes and hold ground.",
     "startingCost": "Squad Leader and 4 Conscripts for 35pts",
     "options": [
       {
@@ -82,6 +83,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring, Scout",
+    "description": "The Jaegers are the Empires elite special forces capable of operating independently deep in hostile territory. During war they specialize in reconnaissance, sabotage and ambush tactics, during peace they preform anti-insurgency and espionage operations.",
     "startingCost": "Squad Leader and 4 Jaegers for 65pts",
     "options": [
       {
@@ -116,6 +118,7 @@
     "baseSize": 25,
     "equipment": "SMGs",
     "specialRules": "Impact(1), Scoring",
+    "description": "The Imperial Storm Troopers are the handpicked personal soldiers of the Emperor. They serve as shock troops specialized in close quarters combat and have a reputation for brutality. Feared both by the enemies of the Empire and Imperial politicians, they are personally deployed by the Emperor wherever he sees fit.",
     "startingCost": "Squad Leader and 4 Troopers for 75pts",
     "options": [
       {
@@ -145,6 +148,7 @@
     "baseSize": 25,
     "equipment": "Pistol",
     "specialRules": "Impact(2), Mounted",
+    "description": "Though mostly ceremonial, and the occasional riot suppression, the Lancers themselves certainly wouldn't agree with that characterization and are always keen to prove their usefulness in times of war. They serve as scouts and quick response forces and are known for incessant optimism and glory seeking.",
     "startingCost": "Squad Leader and 4 Lancers for 75pts",
     "options": [
       {

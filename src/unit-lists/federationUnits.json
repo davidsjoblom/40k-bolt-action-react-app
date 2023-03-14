@@ -72,7 +72,7 @@
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "Up to 2 Marines may replace Assault Rifle with",
+        "choice": "One Marine may replace Assault Rifle with",
         "alternatives": [
           "Multiple Grenade Launcher for 5pts",
           "Flamethrower for 10pts",
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "choice": "May replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "Or may replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Sniper for 10pts",
           "Light Machine Gun for 10pts",

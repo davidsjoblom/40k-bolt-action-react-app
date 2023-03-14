@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "name": "Clan Elder",
+    "modelName": "Clansman",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Carbine",
+    "specialRules": "Elder has Commanding Presence(1), Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Elder Squad Leader and 4 Clansmen for 50pts",
+    "options": [
+      {
+        "choice": "Elder may replace Carbine with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "May replace 2 Clansmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Anti-materiel Rifle for 10pts",
+          "Sniper for 10pts",
+          "Light Mortar for 10pts",
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clansmen Infantry",
+    "modelName": "Clansman",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 8,
+    "baseSize": 25,
+    "equipment": "Carbine",
+    "specialRules": "Scoring, Stubborn(2)",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Clansmen for 40pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Clansman for 8pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Carbine with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Clansman may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      },
+      {
+        "choice": "May replace 2 Clansmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Anti-materiel Rifle for 10pts",
+          "Sniper for 10pts",
+          "Light Mortar for 10pts",
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Guerillas Infantry",
+    "modelName": "Guerilla",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Booby Trap, Scoring, Scout, Stubborn(1)",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Guerillas for 60pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Guerilla for 12pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Guerilla may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      },
+      {
+        "choice": "May replace 2 Guerillas for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Anti-materiel Rifle for 10pts",
+          "Sniper for 10pts",
+          "Light Mortar for 10pts",
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  }
+]
