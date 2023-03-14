@@ -8,6 +8,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Field Commander has Commanding Presence(1), Scoring",
+    "description": "The Imperial Officer Corps is one of the Empires most esteemed institutions and competition for admission is fierce and foul play common.",
     "startingCost": "Field Commander Squad Leader and 4 Aides for 50pts",
     "options": [
       {
@@ -33,6 +34,7 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
+    "description": "The Guards Regiments make up the bulk of the Imperial Army and it is upon their shoulders the stability of the Empire rests. The life of a Guardsman is tough ",
     "startingCost": "Squad Leader and 4 Guardsmen for 50pts",
     "options": [
       {

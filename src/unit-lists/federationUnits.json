@@ -59,7 +59,7 @@
     "toughness": 5,
     "discipline": 10,
     "baseSize": 25,
-    "equipment": "Assualt Rifle",
+    "equipment": "Assault Rifle",
     "specialRules": "Scoring",
     "startingCost": "Squad Leader and 4 Marines for 75pts",
     "options": [
@@ -68,11 +68,11 @@
         "alternatives": ["Marine for 15pts"]
       },
       {
-        "choice": "Squad Leader may replace Assualt Rifle with",
+        "choice": "Squad Leader may replace Assault Rifle with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "Up to 2 Marines may replace Assualt Rifle with",
+        "choice": "Up to 2 Marines may replace Assault Rifle with",
         "alternatives": [
           "Multiple Grenade Launcher for 5pts",
           "Flamethrower for 10pts",
@@ -97,11 +97,11 @@
         "alternatives": ["Operator for 13pts"]
       },
       {
-        "choice": "Squad Leader may replace Assualt Rifle with",
+        "choice": "Squad Leader may replace Assault Rifle with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "One Operator may replace Assualt Rifle with",
+        "choice": "One Operator may replace Assault Rifle with",
         "alternatives": [
           "Multiple Grenade Launcher for 5pts",
           "Light Direct Energy for 10pts"
@@ -124,9 +124,9 @@
     "toughness": 6,
     "discipline": 10,
     "baseSize": 25,
-    "equipment": "Assualt Rifle",
+    "equipment": "Assault Rifle",
     "specialRules": "Crushing Strength(1), Fear",
-    "description": "The worst kept secret of the Federation is its Super Soldier program. Never offically acknowledged the public came to refer to them as Supers and their reputation is that of legend. Clad in fully enclosed exo-skeletons ",
+    "description": "The worst kept secret of the Federation is its Super Soldier program. Never officially acknowledged the public came to refer to them as Supers and their reputation is that of legend. Clad in fully enclosed exo-skeletons ",
     "startingCost": "Squad Leader and 2 Operators for 75pts",
     "options": [
       {
@@ -134,17 +134,18 @@
         "alternatives": ["Super for 25pts"]
       },
       {
-        "choice": "Squad Leader may replace Assualt Rifle with",
+        "choice": "Squad Leader may replace Assault Rifle with",
         "alternatives": [
           "Shotgun and Melee Specialist for free",
           "Shotgun and Crushing Strength(5) for 10pts"
         ]
       },
       {
-        "choice": "One Super may replace Assualt Rifle with",
+        "choice": "One Super may replace Assault Rifle with",
         "alternatives": [
           "Light Machine Gun for 10pts",
-          "Rocket Launcher for 20pts"
+          "Rocket Launcher for 20pts",
+          "Medium Directed Energy for 20pts"
         ]
       }
     ]
