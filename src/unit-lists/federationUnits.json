@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "name": "Chief Coordinator",
+    "modelName": "Assistants",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Chief Coordinator has Commanding Presence(1), Scoring",
+    "startingCost": "Chief Coordinator Squad Leader and 4 Assistants for 50pts",
+    "options": [
+      {
+        "choice": "Chief Coordinator may replace SMG with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      }
+    ]
+  },
+  {
+    "name": "PMC Infantry",
+    "modelName": "Contractor",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "startingCost": "Squad Leader and 4 Contractors for 50pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Contractor for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Contractor may replace Rifle with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Flamethrower for 10pts",
+          "Light Direct Energy for 10pts"
+        ]
+      },
+      {
+        "choice": "Or may replace 2 Contractors for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marines Infantry",
+    "modelName": "Marine",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Assualt Rifle",
+    "specialRules": "Scoring",
+    "startingCost": "Squad Leader and 4 Marines for 75pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Marine for 15pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Assualt Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "Up to 2 Marines may replace Assualt Rifle with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Flamethrower for 10pts",
+          "Light Direct Energy for 10pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Operators Infantry",
+    "modelName": "Operator",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Scout",
+    "startingCost": "Squad Leader and 4 Operators for 65pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Operator for 13pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Assualt Rifle with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Operator may replace Assualt Rifle with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Light Direct Energy for 10pts"
+        ]
+      },
+      {
+        "choice": "May replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "alternatives": [
+          "Sniper for 10pts",
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Super Soldiers",
+    "modelName": "Super",
+    "movement": 6,
+    "toughness": 6,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Assualt Rifle",
+    "specialRules": "Crushing Strength(1), Fear",
+    "description": "The worst kept secret of the Federation is its Super Soldier program. Never offically acknowledged the public came to refer to them as Supers and their reputation is that of legend. Clad in fully enclosed exo-skeletons ",
+    "startingCost": "Squad Leader and 2 Operators for 75pts",
+    "options": [
+      {
+        "choice": "May add up to 3",
+        "alternatives": ["Super for 25pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Assualt Rifle with",
+        "alternatives": [
+          "Shotgun and Melee Specialist for free",
+          "Shotgun and Crushing Strength(5) for 10pts"
+        ]
+      },
+      {
+        "choice": "One Super may replace Assualt Rifle with",
+        "alternatives": [
+          "Light Machine Gun for 10pts",
+          "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  }
+]

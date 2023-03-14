@@ -4,10 +4,10 @@
     "modelName": "Aide",
     "movement": 6,
     "toughness": 4,
-    "discipline": 10,
+    "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Field Commander has Commanding Presence(+1), Scoring",
+    "specialRules": "Field Commander has Commanding Presence(1), Scoring",
     "startingCost": "Field Commander Squad Leader and 4 Aides for 50pts",
     "options": [
       {

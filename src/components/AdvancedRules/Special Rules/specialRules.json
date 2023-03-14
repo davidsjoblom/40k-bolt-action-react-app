@@ -101,7 +101,7 @@
   },
   {
     "name": "Spotter",
-    "description": "Units with Spotter gain an additional 25mm model with no weapons. This model does not need to maintain Unit Cohesion and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to its Move directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2). Spotter models are  deployed at the same time as its 'parent' but may be placed anywhere fully within the owners table half and 12\" away from any enemy unit."
+    "description": "Units with Spotter gain an additional 25mm model with Thoughness 4+ and no weapons. This model does not need to maintain Unit Cohesion, does not share any Special Rules the 'parent' unit has and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to 6\" directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2). Spotter models are  deployed at the same time as its 'parent' but may be placed anywhere fully within the owners table half and 12\" away from any enemy unit."
   },
   {
     "name": "Swiftstride",

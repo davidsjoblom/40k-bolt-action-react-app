@@ -1,0 +1,71 @@
+"filename", "language", "JSON", "CSS", "JavaScript", "XML", "Markdown", "HTML", "comment", "blank", "total"
+"c:\Users\David\source\repos\40k-bolt-action-react-app\README.md", "Markdown", 0, 0, 0, 0, 2, 0, 0, 2, 4
+"c:\Users\David\source\repos\40k-bolt-action-react-app\package-lock.json", "JSON", 29667, 0, 0, 0, 0, 0, 0, 1, 29668
+"c:\Users\David\source\repos\40k-bolt-action-react-app\package.json", "JSON", 50, 0, 0, 0, 0, 0, 0, 1, 51
+"c:\Users\David\source\repos\40k-bolt-action-react-app\public\index.html", "HTML", 0, 0, 0, 0, 0, 11, 0, 1, 12
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\App.js", "JavaScript", 0, 0, 174, 0, 0, 0, 0, 8, 182
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\AdvancedRules.js", "JavaScript", 0, 0, 13, 0, 0, 0, 0, 2, 15
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\AdvancedRulesNavbar.js", "JavaScript", 0, 0, 82, 0, 0, 0, 0, 2, 84
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Armoured.js", "JavaScript", 0, 0, 46, 0, 0, 0, 0, 1, 47
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Call-ins\CallInItem.js", "JavaScript", 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Call-ins\CallIns.js", "JavaScript", 0, 0, 39, 0, 0, 0, 0, 2, 41
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Call-ins\call-ins.json", "JSON", 50, 0, 0, 0, 0, 0, 0, 1, 51
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Deployment.js", "JavaScript", 0, 0, 48, 0, 0, 0, 0, 2, 50
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Objectives.js", "JavaScript", 0, 0, 114, 0, 0, 0, 0, 1, 115
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Special Rules\SpecialRuleItem.js", "JavaScript", 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Special Rules\SpecialRules.js", "JavaScript", 0, 0, 40, 0, 0, 0, 0, 2, 42
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Special Rules\specialRules.json", "JSON", 122, 0, 0, 0, 0, 0, 0, 1, 123
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Terrain.js", "JavaScript", 0, 0, 177, 0, 0, 0, 0, 2, 179
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Transports.js", "JavaScript", 0, 0, 70, 0, 0, 0, 0, 1, 71
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Vehicles.js", "JavaScript", 0, 0, 212, 0, 0, 0, 0, 1, 213
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\ATguns.json", "JSON", 30, 0, 0, 0, 0, 0, 0, 1, 31
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\DEW.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\WeaponItem.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 1, 15
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\Weapons.js", "JavaScript", 0, 0, 182, 0, 0, 0, 0, 2, 184
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\autocannons.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\howitzers.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\machineGuns.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\mortars.json", "JSON", 23, 0, 0, 0, 0, 0, 0, 1, 24
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\smallArms.json", "JSON", 44, 0, 0, 0, 0, 0, 0, 1, 45
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\AdvancedRules\Weapons\support.json", "JSON", 44, 0, 0, 0, 0, 0, 0, 1, 45
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Army Lists\ArmyLists.js", "JavaScript", 0, 0, 13, 0, 0, 0, 0, 2, 15
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Army Lists\ArmyListsNavbar.js", "JavaScript", 0, 0, 55, 0, 0, 0, 0, 2, 57
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Army Lists\UnitItem.js", "JavaScript", 0, 0, 68, 0, 0, 0, 0, 2, 70
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Army Lists\UnitList.js", "JavaScript", 0, 0, 18, 0, 0, 0, 0, 2, 20
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\BasicRules.js", "JavaScript", 0, 0, 15, 0, 0, 0, 0, 2, 17
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\BasicRulesNavbar.js", "JavaScript", 0, 0, 90, 0, 0, 0, 0, 2, 92
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Characteristics.js", "JavaScript", 0, 0, 58, 0, 0, 0, 0, 1, 59
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Charging.js", "JavaScript", 0, 0, 97, 0, 0, 0, 0, 1, 98
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Fundamentals.js", "JavaScript", 0, 0, 71, 0, 0, 0, 0, 2, 73
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\MeleeCombat.js", "JavaScript", 0, 0, 81, 0, 0, 0, 0, 1, 82
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Movement.js", "JavaScript", 0, 0, 41, 0, 0, 0, 0, 1, 42
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Orders.js", "JavaScript", 0, 0, 40, 0, 0, 0, 0, 2, 42
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Psychology.js", "JavaScript", 0, 0, 42, 0, 0, 0, 0, 1, 43
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\Shooting.js", "JavaScript", 0, 0, 179, 0, 0, 0, 0, 1, 180
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\SquareBases.js", "JavaScript", 0, 0, 52, 0, 0, 0, 0, 2, 54
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\BasicRules\TheTurn.js", "JavaScript", 0, 0, 58, 0, 0, 0, 0, 2, 60
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\GenericUnits.js", "JavaScript", 0, 0, 15, 0, 0, 0, 0, 2, 17
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\GenericUnitsNavbar.js", "JavaScript", 0, 0, 42, 0, 0, 0, 0, 2, 44
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\InfantryUnitListItem.js", "JavaScript", 0, 0, 65, 0, 0, 0, 0, 1, 66
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\InfantryUnits.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 2, 16
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\SPGs.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 2, 16
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\SupportUnits.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 3, 17
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\Tanks.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 3, 17
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\VehicleUnitListItem.js", "JavaScript", 0, 0, 60, 0, 0, 0, 0, 1, 61
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\infantryUnitList.json", "JSON", 197, 0, 0, 0, 0, 0, 0, 1, 198
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\spgUnitList.json", "JSON", 59, 0, 0, 0, 0, 0, 0, 1, 60
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\supportUnitList.json", "JSON", 76, 0, 0, 0, 0, 0, 0, 1, 77
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Generic Units\tankUnitList.json", "JSON", 83, 0, 0, 0, 0, 0, 0, 1, 84
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\Home.js", "JavaScript", 0, 0, 52, 0, 0, 0, 0, 2, 54
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\components\MasterNavbar.js", "JavaScript", 0, 0, 53, 0, 0, 0, 0, 2, 55
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\graphics\battlefield.svg", "XML", 0, 0, 0, 12, 0, 0, 0, 0, 12
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\graphics\deployment.svg", "XML", 0, 0, 0, 31, 0, 0, 0, 1, 32
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\graphics\square-base-diagram.svg", "XML", 0, 0, 0, 40, 0, 0, 0, 0, 40
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\index.js", "JavaScript", 0, 0, 15, 0, 0, 0, 0, 3, 18
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\styles\numberHeadings.css", "CSS", 0, 44, 0, 0, 0, 0, 0, 1, 45
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\styles\style.css", "CSS", 0, 128, 0, 0, 0, 0, 4, 33, 165
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\unit-lists\clansUnits.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\unit-lists\cultsUnits.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 1, 2
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\unit-lists\empireUnits.json", "JSON", 429, 0, 0, 0, 0, 0, 0, 1, 430
+"c:\Users\David\source\repos\40k-bolt-action-react-app\src\unit-lists\federationUnits.json", "JSON", 1, 0, 0, 0, 0, 0, 0, 0, 1
+"Total", "-", 30969, 172, 2569, 83, 2, 11, 4, 134, 33944
