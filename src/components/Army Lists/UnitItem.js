@@ -47,6 +47,11 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
               <i>Starting Cost:</i> {unit.startingCost}
             </td>
           </tr>
+          <tr>
+            <td>
+              <i>Availability:</i> {unit.availability}
+            </td>
+          </tr>
           {unit.options.map((option) => (
             <tr key={option.choice}>
               <td>

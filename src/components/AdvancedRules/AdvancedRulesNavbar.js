@@ -62,18 +62,12 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         </li>
         <li>
           <NavLink
-            to="objectives"
-            onClick={() => setRememberedAdvancedRulesSection("objectives")}
+            to="playing-the-game"
+            onClick={() =>
+              setRememberedAdvancedRulesSection("playing-the-game")
+            }
           >
-            Objectives
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="deployment"
-            onClick={() => setRememberedAdvancedRulesSection("deployment")}
-          >
-            Deployment
+            Playing The Game
           </NavLink>
         </li>
         <li>
@@ -86,12 +80,28 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         </li>
         <li>
           <NavLink
-            to="playing-the-game"
+            to="battlefield-setup"
             onClick={() =>
-              setRememberedAdvancedRulesSection("playing-the-game")
+              setRememberedAdvancedRulesSection("battlefield-setup")
             }
           >
-            Playing The Game
+            Battlefield Setup
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="objectives"
+            onClick={() => setRememberedAdvancedRulesSection("objectives")}
+          >
+            Objectives
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="deployment"
+            onClick={() => setRememberedAdvancedRulesSection("deployment")}
+          >
+            Deployment
           </NavLink>
         </li>
       </ul>
