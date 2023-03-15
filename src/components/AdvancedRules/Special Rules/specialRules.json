@@ -109,7 +109,7 @@
   },
   {
     "name": "Stubborn(X)",
-    "description": "Units with Stubborn gain +X Discipline when taking Discipline tests caused by shooting and losing close combats."
+    "description": "Units with Stubborn gain +X Discipline when taking Discipline tests caused by shooting, losing close combats and Rally orders."
   },
   {
     "name": "Swiftstride",

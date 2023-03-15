@@ -10,6 +10,7 @@
     "specialRules": "Elder has Commanding Presence(1), Scoring, Stubborn(1)",
     "description": "",
     "startingCost": "Elder Squad Leader and 4 Clansmen for 50pts",
+    "availability": "Must include one and one only Clan Elder unit",
     "options": [
       {
         "choice": "Elder may replace Carbine with",
@@ -95,6 +96,39 @@
           "Light Mortar for 10pts",
           "Light Machine Gun for 10pts",
           "Rocket Launcher for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "War Bikers",
+    "modelName": "Biker",
+    "movement": 9,
+    "toughness": 5,
+    "discipline": 8,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Impact(1), Mounted, Stubborn(2), Swiftstride",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Bikers for 75pts",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Guerilla for 12pts"]
+      },
+      {
+        "choice": "Squad Leader may replace SMG with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Biker may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      },
+      {
+        "choice": "One Biker may replace SMG with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 10pts",
+          "Flamethrower for 10pts"
         ]
       }
     ]

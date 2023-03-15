@@ -150,7 +150,7 @@
     "movement": 9,
     "toughness": 5,
     "discipline": 9,
-    "baseSize": 25,
+    "baseSize": 40,
     "equipment": "Pistol",
     "specialRules": "Impact(2), Mounted",
     "description": "Though mostly ceremonial, and the occasional riot suppression, the Lancers themselves certainly wouldn't agree with that characterization and are always keen to prove their usefulness in times of war. They serve as scouts and quick response forces and are known for incessant optimism and glory seeking.",

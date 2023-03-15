@@ -8,7 +8,9 @@
     "baseSize": 25,
     "equipment": "SMG",
     "specialRules": "Chief Coordinator has Commanding Presence(1), Scoring",
+    "description": "All senior Federation military staff has to do field-time. This is often looked down upon as a lot of field-work involve covering up PMC atrocities, coddling local warlords and shepherding witless war-correspondents.",
     "startingCost": "Chief Coordinator Squad Leader and 4 Assistants for 50pts",
+    "availability": "Must include one and one only Chief Coordinator unit",
     "options": [
       {
         "choice": "Chief Coordinator may replace SMG with",
@@ -25,7 +27,9 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
+    "description": "Having long abolished conscription and persistent recruitment difficulties has led the Federation to rely heavily on Private Military Companies for its manpower needs. These contractors come from all over and most have less than spotless pasts, PMCs have in fact been known to recruit right out of Imperial prisons. But this suits the Federation just fine and PMC casualties are never officially listed anyways.",
     "startingCost": "Squad Leader and 4 Contractors for 50pts",
+    "availability": "Unrestricted",
     "options": [
       {
         "choice": "May add up to 5",
@@ -61,7 +65,9 @@
     "baseSize": 25,
     "equipment": "Assault Rifle",
     "specialRules": "Scoring",
+    "description": "Professional, motivated and armed to the teeth, the Marines are at the tip of any Federation operation. ",
     "startingCost": "Squad Leader and 4 Marines for 75pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 5",
@@ -90,7 +96,9 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring, Scout",
+    "description": "The reach of the Federation Special Operations Command, FSOC, is long and it is commonly jested that FSOC has eyes on every world. This is something a FSOC operative would be quick to neither confirm nor deny, if you could find one that is.",
     "startingCost": "Squad Leader and 4 Operators for 65pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 5",
@@ -128,6 +136,7 @@
     "specialRules": "Crushing Strength(1), Fear",
     "description": "The worst kept secret of the Federation is its Super Soldier program. Never officially acknowledged the public came to refer to them as Supers and their reputation is that of legend. Clad in fully enclosed exo-skeletons ",
     "startingCost": "Squad Leader and 2 Operators for 75pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 3",

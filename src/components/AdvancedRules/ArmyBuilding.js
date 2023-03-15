@@ -29,8 +29,13 @@ export default function ArmyBuilding() {
         An Army must also include at least 3 units with Scoring. This may
         include the Army Generals unit.
       </p>
-      <h2>Unit Restrictions</h2>
-      <p>Units may not be duplicated, i.e. selected twice, in an army</p>
+      <h2>Unit Availability</h2>
+      <p>
+        There are restrictions to many units regarding including multiples of
+        it. Common army infantry might be abundantly available while specially
+        trained elites are few in number. These potential restrictions are
+        specified in the Availability section of each unit entry.
+      </p>
     </>
   );
 }
