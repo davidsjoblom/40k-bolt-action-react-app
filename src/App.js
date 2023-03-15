@@ -26,6 +26,8 @@ import Transports from './components/AdvancedRules/Transports';
 import Objectives from './components/AdvancedRules/Objectives';
 import Deployment from './components/AdvancedRules/Deployment';
 import CallIns from './components/AdvancedRules/Call-ins/CallIns';
+import ArmyBuilding from './components/AdvancedRules/ArmyBuilding';
+import PlayingTheGame from './components/PlayingTheGame';
 
 import GenericUnits from './components/Generic Units/GenericUnits';
 import InfantryUnits from './components/Generic Units/InfantryUnits';
@@ -102,6 +104,8 @@ function App() {
             <Route path="objectives" element={<Objectives />} />
             <Route path="deployment" element={<Deployment />} />
             <Route path="call-ins" element={<CallIns />} />
+            <Route path="army-building" element={<ArmyBuilding />} />
+            <Route path="playing-the-game" element={<PlayingTheGame />} />
           </Route>
           <Route
             path="generic-units"

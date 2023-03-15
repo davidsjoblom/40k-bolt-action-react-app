@@ -12,39 +12,35 @@
     "description": "Place one Call-in marker. Materializes on a 4+. When it materializes each unit within 6\" takes a number of Pen '-' hits equal to the number of models it has within 6\" (Team(X) models within 6\" takes hits equal to its remaining Wound capacity instead of just one) and a Pin marker. After it materializes the first time the Call-in marker is not removed but may no longer be moved. At the end of the turn after it materialized roll a die, on 4+ any unit within 6\" takes hits in the same way again and on less than 4 the marker is removed."
   },
   {
+    "name": "Cluster Bombs Barrage",
+    "description": "Place one Call-in marker. Materializes on 4+. Each unit within D6+6\" is targeted by 3 Blast(D3) shots that always scores a direct hit on 6+ regardless of modifiers. Don't roll for partial hits. All units take D3 Pins instead of the normal single pin regardless of if they were hit directly or not. One terrain feature within the distance rolled may be Booby Trapped (see Booby Trap)."
+  },
+  {
     "name": "Anti-infantry Strafe",
     "description": "Place 2 Call-in markers at most 18\" away from each other. Materializes on 4+. When it materializes any unit within 3\" of the line drawn between the markers are targeted by 3 Blast(D3) shot that always scores a direct hit on 6+ regardless of modifiers. Don't roll for partial hits. All units take D3 Pins instead of the normal single pin regardless of if they were hit directly or not. Armoured units count as being hit in the Rear facing. Non-Open-Topped Armoured Vehicles that cannot be damaged by Blast(D3) does not take any Pins."
   },
   {
     "name": "Anti-tank Strafe",
-    "description": ""
-  },
-  {
-    "name": "Precision Strike",
-    "description": ""
-  },
-  {
-    "name": "Smoke Screen",
-    "description": ""
-  },
-  {
-    "name": "Cluster Munitions",
-    "description": ""
-  },
-  {
-    "name": "Smart Mines",
-    "description": ""
+    "description": "Place 2 Call-in markers at most 18\" away from each other. Materializes on 4+. When it materializes any Vehicle unit within 3\" of the line drawn between the markers are targeted by 1 Penetration 5 shot that always scores a hit on 4+ regardless of modifiers. All Vehicle units take D3 Pins instead of the normal single pin regardless of if they were hit directly or not. Armoured units count as being hit in the Rear facing."
   },
   {
     "name": "War Cry",
-    "description": ""
+    "description": "All friendly units gain Swiftstride until the end of turn. If they already have Swiftstride they gain +1 Movement instead."
   },
   {
     "name": "Fix Bayonets!",
-    "description": ""
+    "description": "All friendly units gain Impact(1) until the end of turn. If they already have Impact(X) they gain Impact(X+1) instead."
   },
   {
     "name": "To the Last Man",
-    "description": ""
+    "description": "All friendly units gain Stubborn(2) until the end of turn. If they already have Stubborn(X) then they gain Stubborn(X+2) instead."
+  },
+  {
+    "name": "Miasma",
+    "description": "All Enemy units suffer -1 Discipline until the end of turn."
+  },
+  {
+    "name": "Frenzy",
+    "description": "All friendly units automatically passes any Order test if they are issued a Run order until the end of turn."
   }
 ]
