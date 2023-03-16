@@ -27,7 +27,7 @@ import Objectives from "./components/AdvancedRules/Objectives";
 import Deployment from "./components/AdvancedRules/Deployment";
 import CallIns from "./components/AdvancedRules/Call-ins/CallIns";
 import ArmyBuilding from "./components/AdvancedRules/ArmyBuilding";
-import PlayingTheGame from "./components/PlayingTheGame";
+import PlayingTheGame from "./components/AdvancedRules/PlayingTheGame";
 import BattlefieldSetup from "./components/AdvancedRules/BattlefieldSetup";
 
 import ArmyLists from "./components/Army Lists/ArmyLists";

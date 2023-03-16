@@ -17,6 +17,14 @@
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
+        "choice": "Elder may take one Call-in",
+        "alternatives": [
+          "War Cry for 50pts",
+          "Fix Bayonets! for 50pts",
+          "To the Last Man for 50pts"
+        ]
+      },
+      {
         "choice": "May replace 2 Clansmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Anti-materiel Rifle for 10pts",

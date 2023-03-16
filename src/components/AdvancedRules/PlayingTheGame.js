@@ -3,25 +3,35 @@ export default function PlayingTheGame() {
     <>
       <h1>Playing the Game</h1>
       <hr />
-      <ul>
+      <ol>
         <li>Assemble Army</li>
         <li>Set up Battlefield</li>
-        <li>Assign Table edge</li>
+        <li>Pick Table edge</li>
         <li>Select Objective</li>
+        <li>Determine Order dice</li>
         <li>Deploy Units</li>
         <li>Play 6 Turns</li>
         <li>Determine Winner</li>
-      </ul>
+      </ol>
       <h2>Assemble Army</h2>
       <p>See Army Building section.</p>
       <h2>Set up Battlefield</h2>
       <p>See Battlefield Setup section.</p>
-      <h2>Assign Table Edge</h2>
-      <p>Randomly assign a long table edge to each player.</p>
+      <h2>Pick Table Edge</h2>
+      <p>
+        Each player rolls a die and the winner picks which long table edge to
+        deploy along. The other player deploys along the other long table edge.
+      </p>
       <h2>Select Objective</h2>
       <p>
         Either the players agree on an objective, play a predetermined one or
         randomize from the Objectives list (see Objectives section).
+      </p>
+      <h2>Determine Order dice</h2>
+      <p>
+        Each player gets a number of Order dice equal to each hundred points
+        played rounded up plus 2. So for a standard 1000pts game each player
+        will get 12 Order dice each.
       </p>
       <h2>Deploy Units</h2>
       <p>See Deployment section.</p>

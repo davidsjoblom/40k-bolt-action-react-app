@@ -23,6 +23,14 @@
           "Flamethrower for 10pts",
           "Light Direct Energy for 10pts"
         ]
+      },
+      {
+        "choice": "Field Commander may take one Call-in",
+        "alternatives": [
+          "Artillery Barrage for 50pts",
+          "Rocket Barrage for 50pts",
+          "Incendiary Barrage for 50pts"
+        ]
       }
     ]
   },
@@ -121,7 +129,7 @@
     "discipline": 10,
     "baseSize": 25,
     "equipment": "SMGs",
-    "specialRules": "Impact(1), Scoring",
+    "specialRules": "Impact(1), Scoring, Smoke Screen",
     "description": "The Imperial Storm Troopers are the handpicked personal soldiers of the Emperor. They serve as shock troops specialized in close quarters combat and have a reputation for brutality. Feared both by the enemies of the Empire and Imperial politicians, they are personally deployed by the Emperor wherever he sees fit.",
     "startingCost": "Squad Leader and 4 Troopers for 75pts",
     "availability": "0-1 per army",

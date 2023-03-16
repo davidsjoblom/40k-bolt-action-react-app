@@ -15,6 +15,14 @@
       {
         "choice": "Chief Coordinator may replace SMG with",
         "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "Chief Coordinator may take one Call-in",
+        "alternatives": [
+          "Cluster Bombs for 50pts",
+          "Anti-infantry Strafe for 50pts",
+          "Anti-tank Strafe for 50pts"
+        ]
       }
     ]
   },

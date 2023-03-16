@@ -92,8 +92,8 @@
     "description": "Scout units can be deployed anywhere fully within the owners table half and 12\" away from any enemy unit. Scout units that deploy outside of the deployment zone may not declare charges during the turn they deployed."
   },
   {
-    "name": "Smoke Launchers",
-    "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(2) until the end of the turn."
+    "name": "Smoke Screen",
+    "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(1) until the end of the turn."
   },
   {
     "name": "Sniper",
