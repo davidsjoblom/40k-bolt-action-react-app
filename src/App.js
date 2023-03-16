@@ -36,7 +36,13 @@ import EmpireUnits from "./unit-lists/empireUnits.json";
 import FederationUnits from "./unit-lists/federationUnits.json";
 import ClansUnits from "./unit-lists/clansUnits.json";
 import CultsUnits from "./unit-lists/cultsUnits.json";
+
+import Ww2ArmyLists from "./components/Army Lists/Ww2ArmyLists";
 import UsUnits from "./ww2-unit-lists/usUnits.json";
+import GermanyUnits from "./ww2-unit-lists/germanyUnits.json";
+import BritainUnits from "./ww2-unit-lists/britainUnits.json";
+import SovietUnits from "./ww2-unit-lists/sovietUnits.json";
+import JapanUnits from "./ww2-unit-lists/japanUnits.json";
 
 function App() {
   const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
@@ -49,13 +55,20 @@ function App() {
   const [activeFederationItem, setActiveFederationItem] = useState("");
   const [activeClansItem, setActiveClansItem] = useState("");
   const [activeCultsItem, setActiveCultsItem] = useState("");
+  const [rememberedWw2ArmyListsSection, setRememberedWw2ArmyListsSection] =
+    useState("us-army-list");
   const [activeUsItem, setActiveUsItem] = useState("");
+  const [activeGermanyItem, setActiveGermanyItem] = useState("");
+  const [activeBritainItem, setActiveBritainItem] = useState("");
+  const [activeSovietItem, setActiveSovietItem] = useState("");
+  const [activeJapanItem, setActiveJapanItem] = useState("");
   return (
     <>
       <MasterNavbar
         rememberedBasicRulesSection={rememberedBasicRulesSection}
         rememberedAdvancedRulesSection={rememberedAdvancedRulesSection}
         rememberedArmyListsSection={rememberedArmyListsSection}
+        rememberedWw2ArmyListsSection={rememberedWw2ArmyListsSection}
       />
       <main>
         <Routes>
@@ -154,6 +167,17 @@ function App() {
                 />
               }
             />
+          </Route>
+          <Route
+            path="ww2-army-lists"
+            element={
+              <Ww2ArmyLists
+                setRememberedWw2ArmyListsSection={
+                  setRememberedWw2ArmyListsSection
+                }
+              />
+            }
+          >
             <Route
               path="us-army-list"
               element={
@@ -162,6 +186,50 @@ function App() {
                   units={UsUnits}
                   activeItem={activeUsItem}
                   setActiveItem={setActiveUsItem}
+                />
+              }
+            />
+            <Route
+              path="germany-army-list"
+              element={
+                <UnitList
+                  army="Germany"
+                  units={GermanyUnits}
+                  activeItem={activeGermanyItem}
+                  setActiveItem={setActiveGermanyItem}
+                />
+              }
+            />
+            <Route
+              path="soviet-army-list"
+              element={
+                <UnitList
+                  army="Soviet"
+                  units={SovietUnits}
+                  activeItem={activeSovietItem}
+                  setActiveItem={setActiveSovietItem}
+                />
+              }
+            />
+            <Route
+              path="japan-army-list"
+              element={
+                <UnitList
+                  army="Japan"
+                  units={JapanUnits}
+                  activeItem={activeJapanItem}
+                  setActiveItem={setActiveJapanItem}
+                />
+              }
+            />
+            <Route
+              path="britain-army-list"
+              element={
+                <UnitList
+                  army="Britain"
+                  units={BritainUnits}
+                  activeItem={activeBritainItem}
+                  setActiveItem={setActiveBritainItem}
                 />
               }
             />

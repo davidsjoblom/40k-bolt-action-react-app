@@ -11,6 +11,7 @@ function MasterNavbar({
   rememberedBasicRulesSection,
   rememberedAdvancedRulesSection,
   rememberedArmyListsSection,
+  rememberedWw2ArmyListsSection,
 }) {
   return (
     <nav>
@@ -37,6 +38,11 @@ function MasterNavbar({
           <NavLink to={"army-lists/" + rememberedArmyListsSection}>
             <FontAwesomeIcon icon={faPersonMilitaryRifle} />
             &nbsp; Army Lists
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to={"ww2-army-lists/" + rememberedWw2ArmyListsSection}>
+            WW2 Army Lists
           </NavLink>
         </li>
       </ul>

@@ -1,13 +1,13 @@
 [
   {
-    "name": "US Officer",
+    "name": "Wehrmacht Officer",
     "modelName": "Officer",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Officer has Commanding Presence(1), Scoring, Quick to Fire",
+    "specialRules": "Officer has Commanding Presence(1), Scoring",
     "description": "",
     "startingCost": "Officer and Aide for 60pts",
     "availability": "1 per per army",
@@ -23,14 +23,14 @@
     ]
   },
   {
-    "name": "US Forward Observer",
+    "name": "Wehrmacht Forward Observer",
     "modelName": "Observer",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring, Quick to Fire",
+    "specialRules": "Scoring",
     "description": "",
     "startingCost": "Observer and Aide for 100pts",
     "availability": "0-1 per per army",
@@ -43,76 +43,95 @@
         "choice": "Observer may take one Call-in",
         "alternatives": [
           "Artillery Barrage for free",
-          "Incendiary Barrage for free",
-          "Anti-infantry Strafe for free",
-          "Anti-tank Strafe for free"
+          "Rocket Barrage for Free",
+          "Incendiary Barrage for free"
         ]
       }
     ]
   },
   {
-    "name": "US Regular Infantry",
-    "modelName": "Regular",
+    "name": "Grenadiers Regular Infantry",
+    "modelName": "Grenadier",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring, Quick to Fire",
+    "specialRules": "Scoring",
     "description": "",
-    "startingCost": "Squad Leader and 5 Regular for 60pts",
+    "startingCost": "Squad Leader and 4 Grenadiers for 50pts",
     "availability": "2-5 Infantry units per army",
     "options": [
       {
-        "choice": "May add up to 6",
-        "alternatives": ["Rifleman for 10pts"]
+        "choice": "May add up to 5",
+        "alternatives": ["Grenadier for 10pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
-        "alternatives": ["SMG for 3pts"]
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
       },
       {
-        "choice": "Up to 2 Regulars may replace Rifle with",
-        "alternatives": ["BAR for 5pts"]
+        "choice": "Up to 2 Grenadiers may replace rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
+      },
+      {
+        "choice": "2 Grenadiers may",
+        "alternatives": [
+          "Lose Rifle, one gain LMG with +1 Shots and one become loader for 20pts"
+        ]
+      },
+      {
+        "choice": "Up to 4 Grenadiers may take",
+        "alternatives": ["Panzerfaust for 5pts"]
       },
       {
         "choice": "Faction unique weapon",
-        "alternatives": ["BAR: Range 30\", Shots 2, Pen '-'"]
+        "alternatives": [
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank"
+        ]
       }
     ]
   },
   {
-    "name": "US Veteran Infantry",
+    "name": "Wehrmacht Veteran Infantry",
     "modelName": "Veteran",
     "movement": 6,
     "toughness": 5,
     "discipline": 10,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring, Quick to Fire",
+    "specialRules": "Scoring",
     "description": "",
     "startingCost": "Squad Leader and 5 Veterans for 78pts",
     "availability": "2-5 Infantry units per army",
     "options": [
       {
-        "choice": "May add up to 6",
-        "alternatives": ["Veterans for 13pts"]
+        "choice": "May add up to 5",
+        "alternatives": ["Veterans for 10pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
-        "alternatives": ["SMG for 3pts"]
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
       },
       {
-        "choice": "Up to 2 Veterans may replace Rifle with",
-        "alternatives": ["SMG for 3pts"]
+        "choice": "Up to 4 Veterans may replace rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
       },
       {
-        "choice": "Up to 3 Veterans may replace Rifle with",
-        "alternatives": ["BAR for 5pts"]
+        "choice": "2 or 4 Veterans may",
+        "alternatives": [
+          "Lose Rifle, one gain LMG with +1 Shots and one become loader for 20pts"
+        ]
+      },
+      {
+        "choice": "Up to 4 Veterans may take",
+        "alternatives": ["Panzerfaust for 5pts"]
       },
       {
         "choice": "Faction unique weapon",
-        "alternatives": ["BAR: Range 30\", Shots 2, Pen '-'"]
+        "alternatives": [
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank"
+        ]
       }
     ]
   },
@@ -123,38 +142,29 @@
     "toughness": 4,
     "discipline": 9,
     "baseSize": 60,
-    "equipment": "Medium Machine Gun",
+    "equipment": "Medium Machine Gun with +1 Shots",
     "specialRules": "Fixed, Team(3)",
     "description": "",
     "startingCost": "50pts",
-    "availability": "0-2 MG teams per army",
-    "options": [
-      {
-        "choice": "May add up to 6",
-        "alternatives": ["Veterans for 13pts"]
-      },
-      {
-        "choice": "May replace Medium Machine Gun for",
-        "alternatives": ["Heavy Machine Gun for 20pts"]
-      }
-    ]
+    "availability": "0-1 per army",
+    "options": []
   },
   {
-    "name": "Bazooka Team",
+    "name": "Panzerschreck Team",
     "modelName": "Team Member",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
-    "equipment": "Bazooka",
+    "equipment": "Panzerschreck",
     "specialRules": "Gunner takes -1 to hit if loader is dead",
     "description": "",
-    "startingCost": "Bazooka gunner and loader for 60pts",
-    "availability": "0-1 Bazooka team per army",
+    "startingCost": "Panzerschreck gunner and loader for 80pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "Faction unique weapon",
-        "alternatives": ["Bazooka: Range 24\", Shots 1, Pen 5, Anti-tank"]
+        "alternatives": ["Panzerschreck: Range 24\", Shots 1, Pen 6, Anti-tank"]
       }
     ]
   },

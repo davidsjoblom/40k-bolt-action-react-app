@@ -49,14 +49,6 @@ function ArmyListsNavbar({ setRememberedArmyListsSection }) {
             &nbsp; Cults
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="us-army-list"
-            onClick={() => setRememberedArmyListsSection("us-army-list")}
-          >
-            US (WW2)
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
