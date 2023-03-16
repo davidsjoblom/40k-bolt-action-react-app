@@ -60,10 +60,6 @@
     "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\"."
   },
   {
-    "name": "Limited(X)",
-    "description": "Only X number of this unit may be taken in an army."
-  },
-  {
     "name": "Melee Specialist",
     "description": "Model causes 2 hits instead of 1 when attacking in Melee combat."
   },

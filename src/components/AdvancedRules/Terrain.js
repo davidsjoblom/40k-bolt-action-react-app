@@ -101,38 +101,34 @@ function Terrain() {
           <tr>
             <th>Feature</th>
             <th>Movement</th>
-            <th>Cover</th>
-            <th>Line of Sight</th>
+            <th>Vehicles</th>
+            <th>Cover inside</th>
+            <th>Cover behind</th>
+            <th>LoS through</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td>Buildings</td>
+            <td>Halved</td>
+            <td>Blocked</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Blocked</td>
+          </tr>
+          <tr>
             <td>Forest</td>
-            <td>Half</td>
+            <td>Halved</td>
+            <td>Dangerous(4+)</td>
             <td>Soft</td>
-            <td></td>
+            <td>Hard</td>
+            <td>Blocked</td>
           </tr>
           <tr>
             <td>Fields</td>
             <td></td>
+            <td></td>
             <td>Soft</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Ruins</td>
-            <td>Half</td>
-            <td>Hard</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Mud</td>
-            <td>Half</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Water</td>
-            <td>None</td>
             <td></td>
             <td></td>
           </tr>
@@ -141,30 +137,64 @@ function Terrain() {
             <td></td>
             <td></td>
             <td>Not through</td>
+            <td>Hard</td>
+            <td>Blocked</td>
           </tr>
           <tr>
             <td>Hedges</td>
             <td></td>
+            <td></td>
+            <td></td>
             <td>Soft</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Impasse</td>
+            <td>Blocked</td>
+            <td>Blocked</td>
+            <td></td>
+            <td></td>
+            <td>Blocked</td>
+          </tr>
+          <tr>
+            <td>Mud</td>
+            <td>Halved</td>
+            <td>Dangerous(4+)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ruins</td>
+            <td>Halved</td>
+            <td>Dangerous(5+)</td>
+            <td>Hard</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Trench</td>
+            <td></td>
+            <td>Dangerous(4+)</td>
+            <td>Hard</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
             <td>Walls</td>
             <td></td>
+            <td>Dangerous(4+)</td>
+            <td></td>
             <td>Hard</td>
             <td></td>
           </tr>
           <tr>
-            <td>Impasse</td>
-            <td>None</td>
+            <td>Water</td>
+            <td>Blocked</td>
+            <td>Blocked</td>
             <td></td>
-            <td>None</td>
-          </tr>
-          <tr>
-            <td>Smoke</td>
             <td></td>
-            <td>Soft</td>
-            <td>Not through</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
