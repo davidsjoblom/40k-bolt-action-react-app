@@ -36,6 +36,7 @@ import EmpireUnits from "./unit-lists/empireUnits.json";
 import FederationUnits from "./unit-lists/federationUnits.json";
 import ClansUnits from "./unit-lists/clansUnits.json";
 import CultsUnits from "./unit-lists/cultsUnits.json";
+import UsUnits from "./ww2-unit-lists/usUnits.json";
 
 function App() {
   const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
@@ -48,6 +49,7 @@ function App() {
   const [activeFederationItem, setActiveFederationItem] = useState("");
   const [activeClansItem, setActiveClansItem] = useState("");
   const [activeCultsItem, setActiveCultsItem] = useState("");
+  const [activeUsItem, setActiveUsItem] = useState("");
   return (
     <>
       <MasterNavbar
@@ -149,6 +151,17 @@ function App() {
                   units={CultsUnits}
                   activeItem={activeCultsItem}
                   setActiveItem={setActiveCultsItem}
+                />
+              }
+            />
+            <Route
+              path="us-army-list"
+              element={
+                <UnitList
+                  army="Us"
+                  units={UsUnits}
+                  activeItem={activeUsItem}
+                  setActiveItem={setActiveUsItem}
                 />
               }
             />
