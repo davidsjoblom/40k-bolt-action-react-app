@@ -201,7 +201,7 @@
       },
       {
         "choice": "May replace Medium Mortar and Team(3) with",
-        "alternatives": ["Heavy Mortar and Team(4) for 15pts"]
+        "alternatives": ["Heavy Mortar, Cumbersome and Team(4) for 15pts"]
       }
     ]
   },
@@ -213,18 +213,14 @@
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Light Howitzer",
-    "specialRules": "Fixed, Cumbersome, Team(3)",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Team(3)",
     "description": "",
-    "startingCost": "Light Howitzer for 45pts",
+    "startingCost": "Light Howitzer for 50pts",
     "availability": "0-1 Artillery pieces per army",
     "options": [
       {
         "choice": "May take",
         "alternatives": ["Spotter for 10pts"]
-      },
-      {
-        "choice": "May take",
-        "alternatives": ["Gun Shield for 5pts"]
       }
     ]
   },
@@ -248,93 +244,126 @@
     ]
   },
   {
-    "name": "Stuart Light Tank",
+    "name": "Panzer II Light Tank",
     "modelName": "Light Tank",
     "movement": 9,
     "toughness": 8,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "Turret mounted Light AT-gun with Coax Medium MG and Forward facing Medium MG",
+    "equipment": "Turret mounted Light Autocannon with Coax Medium MG with +1 Shots",
     "specialRules": "All-Terrain(2), Armored, Vehicle",
     "description": "",
-    "startingCost": "150pts",
-    "availability": "0-1 Tank/AA-vehicle per army",
+    "startingCost": "110pts",
+    "availability": "0-1 Tank/SPG per army",
     "options": []
   },
   {
-    "name": "Sherman Medium Tank",
+    "name": "Panzer IV Medium Tank",
     "modelName": "Medium Tank",
     "movement": 9,
     "toughness": 9,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Turret mounted Medium AT-gun with Coax Medium MG and Forward facing Medium MG",
+    "equipment": "Turret mounted Heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
     "specialRules": "All-Terrain(2), Armored, Vehicle",
     "description": "",
-    "startingCost": "200pts",
-    "availability": "0-1 Tank/AA-vehicle per army",
+    "startingCost": "235pts",
+    "availability": "0-1 Tank/SPG per army",
     "options": []
   },
   {
-    "name": "M16 AA-halftrack",
+    "name": "Panther Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x125",
+    "equipment": "Turret mounted Super-heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored(+1 Toughness vs Front shots)",
+    "description": "",
+    "startingCost": "300pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "Tiger I Heavy Tank",
+    "modelName": "Heavy Tank",
+    "movement": 9,
+    "toughness": 10,
+    "discipline": 9,
+    "baseSize": "75x125",
+    "equipment": "Turret mounted Super-heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored(+1 Toughness vs Front shots)",
+    "description": "",
+    "startingCost": "350pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "StuG Medium Self Propelled Gun",
+    "modelName": "Medium SPG",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Heavy AT-gun with Unwieldy and Pintle mounted Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "175pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": [
+      {
+        "choice": "May replace Heavy AT-gun with",
+        "alternatives": ["Heavy Howitzer for free"]
+      }
+    ]
+  },
+  {
+    "name": "Flak-halftrack",
     "modelName": "Halftrack",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "4 Twin-linked Turret mounted Heavy Machine Guns",
+    "equipment": "Turret mounted Medium Autocannon",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "125",
-    "availability": "0-1 Tank/AA-vehicle per army",
+    "startingCost": "100",
+    "availability": "0-1 Tank/SPG per army",
     "options": []
   },
   {
-    "name": "M8 Greyhound Armored Car",
-    "modelName": "Halftrack",
-    "movement": 9,
+    "name": "222 Armored Car",
+    "modelName": "222",
+    "movement": 12,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
+    "specialRules": "Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "110",
+    "startingCost": "90",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },
   {
-    "name": "M20 Scout Car",
-    "modelName": "Scout Car",
-    "movement": 9,
+    "name": "8-Rad Armored Car",
+    "modelName": "8-Rad",
+    "movement": 12,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(1), Armored, Vehicle",
     "description": "",
-    "startingCost": "80",
+    "startingCost": "100",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },
   {
-    "name": "M20 Utility Car",
-    "modelName": "Utility Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "80",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "Jeep",
-    "modelName": "Jeep",
-    "movement": 9,
+    "name": "Kubelwagen",
+    "modelName": "Kubelwagen",
+    "movement": 12,
     "toughness": 6,
     "discipline": 9,
     "baseSize": "50x75",
@@ -346,39 +375,41 @@
     "options": [
       {
         "choice": "May loose Transport and take",
-        "alternatives": [
-          "Pintle mounted Medium MG for 15pts",
-          "Pintle mounted Heavy MG for 25pts"
-        ]
+        "alternatives": ["Pintle mounted Medium MG with +1 Shots for 15pts"]
       }
     ]
   },
   {
-    "name": "White Scout Car",
-    "modelName": "Scout Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Forward facing Heavy Machine Gun",
-    "specialRules": "Armored, Open-topped, Transport(8), Vehicle",
-    "description": "",
-    "startingCost": "86pts",
-    "availability": "One Transport per infantry unit",
-    "options": []
-  },
-  {
-    "name": "M3 Halftrack",
+    "name": "Hanomag Half-track",
     "modelName": "Halftrack",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
+    "equipment": "Forward mounted Medium MG with +1 Shots",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Transport(12), Vehicle",
     "description": "",
-    "startingCost": "99pts",
+    "startingCost": "89pts",
     "availability": "One Transport per infantry unit",
     "options": []
+  },
+  {
+    "name": "Wehrmacht Army Truck",
+    "modelName": "Truck",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward facing Heavy Machine Gun",
+    "specialRules": "Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": "39pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Forward mounted Medium MG with +1 Shots for 15pts"]
+      }
+    ]
   }
 ]

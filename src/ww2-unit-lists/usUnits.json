@@ -127,7 +127,7 @@
     "specialRules": "Fixed, Team(3)",
     "description": "",
     "startingCost": "50pts",
-    "availability": "0-2 MG teams per army",
+    "availability": "0-3 MG teams per army",
     "options": [
       {
         "choice": "May add up to 6",
@@ -247,7 +247,7 @@
     "equipment": "Turret mounted Light AT-gun with Coax Medium MG and Forward facing Medium MG",
     "specialRules": "All-Terrain(2), Armored, Vehicle",
     "description": "",
-    "startingCost": "150pts",
+    "startingCost": "135pts",
     "availability": "0-1 Tank/AA-vehicle per army",
     "options": []
   },
@@ -258,7 +258,7 @@
     "toughness": 9,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Turret mounted Medium AT-gun with Coax Medium MG and Forward facing Medium MG",
+    "equipment": "Turret mounted Medium AT-gun with upgraded Blast(D3+1) and Coax Medium MG, Forward facing Medium MG",
     "specialRules": "All-Terrain(2), Armored, Vehicle",
     "description": "",
     "startingCost": "200pts",

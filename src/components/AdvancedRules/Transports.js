@@ -63,7 +63,7 @@ function Transports() {
         the same number of Pins.
       </p>
       <h2>What models may be Transported</h2>
-      <p>Mounted and/or Tall models may not be Transported.</p>
+      <p>Mounted, Cumbersome and/or Tall models may not be Transported.</p>
     </>
   );
 }
