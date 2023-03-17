@@ -50,7 +50,7 @@
     ]
   },
   {
-    "name": "Grenadiers Regular Infantry",
+    "name": "Grenadiers Infantry",
     "modelName": "Grenadier",
     "movement": 6,
     "toughness": 4,
@@ -85,9 +85,10 @@
         "alternatives": ["Panzerfaust for 5pts"]
       },
       {
-        "choice": "Faction unique weapon",
+        "choice": "Faction unique",
         "alternatives": [
-          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank"
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank",
+          "Initiative training: Does not suffer -1 Discipline if Squad Leader is lost"
         ]
       }
     ]
@@ -130,7 +131,8 @@
       {
         "choice": "Faction unique weapon",
         "alternatives": [
-          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank"
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank",
+          "Initiative training: Does not suffer -1 Discipline if Squad Leader is lost"
         ]
       }
     ]

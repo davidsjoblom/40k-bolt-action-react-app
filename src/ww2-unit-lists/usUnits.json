@@ -51,8 +51,8 @@
     ]
   },
   {
-    "name": "US Regular Infantry",
-    "modelName": "Regular",
+    "name": "US Riflemen Infantry",
+    "modelName": "Rifleman",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
@@ -60,7 +60,7 @@
     "equipment": "Rifle",
     "specialRules": "Scoring, Quick to Fire",
     "description": "",
-    "startingCost": "Squad Leader and 5 Regular for 60pts",
+    "startingCost": "Squad Leader and 5 Riflemen for 60pts",
     "availability": "2-5 Infantry units per army",
     "options": [
       {
@@ -72,7 +72,7 @@
         "alternatives": ["SMG for 3pts"]
       },
       {
-        "choice": "Up to 2 Regulars may replace Rifle with",
+        "choice": "Up to 2 Riflemans may replace Rifle with",
         "alternatives": ["BAR for 5pts"]
       },
       {

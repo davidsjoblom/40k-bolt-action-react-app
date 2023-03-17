@@ -73,7 +73,7 @@
   },
   {
     "name": "Open-topped",
-    "description": "Open-topped units hit by weapons that cannot wound it can still take Pins by them."
+    "description": "Open-topped units hit by weapons that cannot wound it still take Pins by them. Open-topped Transports may have up to half(rounding up) its transport capacity of models shoot out of it per turn, measuring range and LoS from the transport."
   },
   {
     "name": "Quick to Fire",

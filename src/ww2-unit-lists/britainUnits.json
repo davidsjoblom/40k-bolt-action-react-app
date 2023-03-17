@@ -1,1 +1,361 @@
-[]
+[
+  {
+    "name": "UK Officer",
+    "modelName": "Officer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Officer has Commanding Presence(1), Scoring",
+    "description": "",
+    "startingCost": "Officer and Aide for 60pts",
+    "availability": "1 per per army",
+    "options": [
+      {
+        "choice": "Officer may replace Commanding Presence(1) with",
+        "alternatives": ["Commanding Presence(2) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "UK Forward Observer",
+    "modelName": "Observer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Observer and Aide for free",
+    "availability": "1 per per army",
+    "options": [
+      {
+        "choice": "Any model may replace Rifle with",
+        "alternatives": ["SMG for free"]
+      },
+      {
+        "choice": "Observer may take one Call-in",
+        "alternatives": [
+          "Artillery Barrage for free",
+          "Incendiary Barrage for free",
+          "Anti-infantry Strafe for free",
+          "Anti-tank Strafe for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tommies Infantry",
+    "modelName": "Tommy",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Regular for 50pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Rifleman for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "2 Tommies may lose their Rifles and",
+        "alternatives": [
+          "One gain Light Mortar, one become loader for 10pts",
+          "One gain LMG, one become loader for 20pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "UK Veteran Infantry",
+    "modelName": "Veteran",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Veterans for 78pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 6",
+        "alternatives": ["Veterans for 13pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "Up to 2 Veterans may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      }
+    ]
+  },
+  {
+    "name": "Medium Machine Gun Team",
+    "modelName": "Veteran",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(3)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-3 MG teams per army",
+    "options": [
+      {
+        "choice": "May add up to 6",
+        "alternatives": ["Veterans for 13pts"]
+      },
+      {
+        "choice": "May replace Medium Machine Gun for",
+        "alternatives": ["Heavy Machine Gun for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Bazooka Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Bazooka",
+    "specialRules": "Gunner takes -1 to hit if loader is dead",
+    "description": "",
+    "startingCost": "Bazooka gunner and loader for 60pts",
+    "availability": "0-1 Bazooka team per army",
+    "options": [
+      {
+        "choice": "Faction unique weapon",
+        "alternatives": ["Bazooka: Range 24\", Shots 1, Pen 5, Anti-tank"]
+      }
+    ]
+  },
+  {
+    "name": "Sniper Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Sniper, Pistols",
+    "specialRules": "Gunner takes -1 to hit if loader is dead",
+    "description": "",
+    "startingCost": "Sniper gunner and assistant for 65pts",
+    "availability": "0-1 Sniper team per army",
+    "options": []
+  },
+  {
+    "name": "Medium Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Team(3)",
+    "description": "",
+    "startingCost": "Medium Mortar Team for 50pts",
+    "availability": "0-1 Mortar team per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      },
+      {
+        "choice": "May replace Medium Mortar and Team(3) with",
+        "alternatives": ["Heavy Mortar and Team(4) for 15pts"]
+      }
+    ]
+  },
+  {
+    "name": "Light Howitzer",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light Howitzer",
+    "specialRules": "Fixed, Cumbersome, Team(3)",
+    "description": "",
+    "startingCost": "Light Howitzer for 45pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      },
+      {
+        "choice": "May take",
+        "alternatives": ["Gun Shield for 5pts"]
+      }
+    ]
+  },
+  {
+    "name": "Anti-tank Gun",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light AT-gun",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3)",
+    "description": "",
+    "startingCost": "Light AT-gun for 50pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May replace Light AT-gun and Team(3) for",
+        "alternatives": ["Medium AT-gun and Team(4) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "Stuart Light Tank",
+    "modelName": "Light Tank",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Turret mounted Light AT-gun with Coax Medium MG and Forward facing Medium MG",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "135pts",
+    "availability": "0-1 Tank/AA-vehicle per army",
+    "options": []
+  },
+  {
+    "name": "Sherman Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Medium AT-gun with upgraded Blast(D3+1) and Coax Medium MG, Forward facing Medium MG",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "200pts",
+    "availability": "0-1 Tank/AA-vehicle per army",
+    "options": []
+  },
+  {
+    "name": "M16 AA-halftrack",
+    "modelName": "Halftrack",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "4 Twin-linked Turret mounted Heavy Machine Guns",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "125",
+    "availability": "0-1 Tank/AA-vehicle per army",
+    "options": []
+  },
+  {
+    "name": "M8 Greyhound Armored Car",
+    "modelName": "Halftrack",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "110",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "M20 Scout Car",
+    "modelName": "Scout Car",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "80",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "M20 Utility Car",
+    "modelName": "Utility Car",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "80",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "Jeep",
+    "modelName": "Jeep",
+    "movement": 9,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "",
+    "specialRules": "Open-topped, Transport(3), Vehicle",
+    "description": "",
+    "startingCost": "21pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May loose Transport and take",
+        "alternatives": [
+          "Pintle mounted Medium MG for 15pts",
+          "Pintle mounted Heavy MG for 25pts"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "White Scout Car",
+    "modelName": "Scout Car",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward facing Heavy Machine Gun",
+    "specialRules": "Armored, Open-topped, Transport(8), Vehicle",
+    "description": "",
+    "startingCost": "86pts",
+    "availability": "One Transport per infantry unit",
+    "options": []
+  },
+  {
+    "name": "M3 Halftrack",
+    "modelName": "Halftrack",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": "99pts",
+    "availability": "One Transport per infantry unit",
+    "options": []
+  }
+]
