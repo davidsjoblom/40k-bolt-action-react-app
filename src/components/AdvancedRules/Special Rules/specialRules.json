@@ -122,5 +122,9 @@
   {
     "name": "Unwieldy",
     "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting."
+  },
+  {
+    "name": "Up-armored Front",
+    "description": "+1 Toughness vs front shots."
   }
 ]

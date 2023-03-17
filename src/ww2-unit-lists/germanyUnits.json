@@ -139,7 +139,7 @@
   },
   {
     "name": "Medium Machine Gun Team",
-    "modelName": "Veteran",
+    "modelName": "Crew",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
@@ -281,7 +281,7 @@
     "discipline": 9,
     "baseSize": "50x125",
     "equipment": "Turret mounted Super-heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
-    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored(+1 Toughness vs Front shots)",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored Front",
     "description": "",
     "startingCost": "300pts",
     "availability": "0-1 Tank/SPG per army",
@@ -330,7 +330,7 @@
     "equipment": "Turret mounted Medium Autocannon",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "100",
+    "startingCost": "100pts",
     "availability": "0-1 Tank/SPG per army",
     "options": []
   },
@@ -344,7 +344,7 @@
     "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
     "specialRules": "Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "90",
+    "startingCost": "90pts",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },
@@ -358,7 +358,7 @@
     "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
     "specialRules": "All-Terrain(1), Armored, Vehicle",
     "description": "",
-    "startingCost": "100",
+    "startingCost": "100pts",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },

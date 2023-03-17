@@ -72,7 +72,7 @@
         "alternatives": ["SMG for 3pts"]
       },
       {
-        "choice": "Up to 2 Riflemans may replace Rifle with",
+        "choice": "Up to 2 Riflemen may replace Rifle with",
         "alternatives": ["BAR for 5pts"]
       },
       {
@@ -118,7 +118,7 @@
   },
   {
     "name": "Medium Machine Gun Team",
-    "modelName": "Veteran",
+    "modelName": "Crew",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
@@ -129,10 +129,6 @@
     "startingCost": "50pts",
     "availability": "0-3 MG teams per army",
     "options": [
-      {
-        "choice": "May add up to 6",
-        "alternatives": ["Veterans for 13pts"]
-      },
       {
         "choice": "May replace Medium Machine Gun for",
         "alternatives": ["Heavy Machine Gun for 20pts"]
@@ -228,7 +224,7 @@
     "equipment": "Light AT-gun",
     "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3)",
     "description": "",
-    "startingCost": "Light AT-gun for 50pts",
+    "startingCost": "50pts",
     "availability": "0-1 Artillery pieces per army",
     "options": [
       {
@@ -275,7 +271,7 @@
     "equipment": "4 Twin-linked Turret mounted Heavy Machine Guns",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "125",
+    "startingCost": "125pts",
     "availability": "0-1 Tank/AA-vehicle per army",
     "options": []
   },
@@ -289,21 +285,7 @@
     "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "110",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "M20 Scout Car",
-    "modelName": "Scout Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "80",
+    "startingCost": "110pts",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },
@@ -317,7 +299,7 @@
     "equipment": "Pintle mounted Heavy Machine Gun",
     "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
     "description": "",
-    "startingCost": "80",
+    "startingCost": "80pts",
     "availability": "0-1 Armoured Car per army",
     "options": []
   },

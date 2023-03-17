@@ -61,23 +61,24 @@
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Rifleman for 10pts"]
+        "alternatives": ["Tommies for 10pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
         "alternatives": ["SMG for 3pts"]
       },
       {
+        "choice": "1 Tommy may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
         "choice": "2 Tommies may lose their Rifles and",
-        "alternatives": [
-          "One gain Light Mortar, one become loader for 10pts",
-          "One gain LMG, one become loader for 20pts"
-        ]
+        "alternatives": ["One gain LMG, one become loader for 20pts"]
       }
     ]
   },
   {
-    "name": "UK Veteran Infantry",
+    "name": "UK Veterans Infantry",
     "modelName": "Veteran",
     "movement": 6,
     "toughness": 5,
@@ -86,12 +87,12 @@
     "equipment": "Rifle",
     "specialRules": "Scoring",
     "description": "",
-    "startingCost": "Squad Leader and 4 Veterans for 78pts",
+    "startingCost": "Squad Leader and 4 Veterans for 65pts",
     "availability": "2-5 Infantry units per army",
     "options": [
       {
-        "choice": "May add up to 6",
-        "alternatives": ["Veterans for 13pts"]
+        "choice": "May add up to 5",
+        "alternatives": ["Veteran for 13pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
@@ -100,12 +101,16 @@
       {
         "choice": "Up to 2 Veterans may replace Rifle with",
         "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "2 Veterans may lose their Rifles and",
+        "alternatives": ["One gain LMG, one become loader for 20pts"]
       }
     ]
   },
   {
     "name": "Medium Machine Gun Team",
-    "modelName": "Veteran",
+    "modelName": "Crew",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
@@ -114,34 +119,39 @@
     "specialRules": "Fixed, Team(3)",
     "description": "",
     "startingCost": "50pts",
-    "availability": "0-3 MG teams per army",
-    "options": [
-      {
-        "choice": "May add up to 6",
-        "alternatives": ["Veterans for 13pts"]
-      },
-      {
-        "choice": "May replace Medium Machine Gun for",
-        "alternatives": ["Heavy Machine Gun for 20pts"]
-      }
-    ]
+    "availability": "0-1 MG teams per army",
+    "options": []
   },
   {
-    "name": "Bazooka Team",
+    "name": "AT-rifle Team",
     "modelName": "Team Member",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
-    "equipment": "Bazooka",
-    "specialRules": "Gunner takes -1 to hit if loader is dead",
+    "equipment": "AT-rifle",
+    "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1), Unwieldy",
     "description": "",
-    "startingCost": "Bazooka gunner and loader for 60pts",
-    "availability": "0-1 Bazooka team per army",
+    "startingCost": "AT-rifle gunner and loader for 30pts",
+    "availability": "0-1 AT-team per army",
+    "options": []
+  },
+  {
+    "name": "Piat Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Piat",
+    "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1)",
+    "description": "",
+    "startingCost": "Piat gunner and loader for 40pts",
+    "availability": "0-1 AT-team per army",
     "options": [
       {
         "choice": "Faction unique weapon",
-        "alternatives": ["Bazooka: Range 24\", Shots 1, Pen 5, Anti-tank"]
+        "alternatives": ["Piat: Range 12\", Shots 1, Pen 6, Anti-tank"]
       }
     ]
   },
@@ -192,16 +202,12 @@
     "equipment": "Light Howitzer",
     "specialRules": "Fixed, Cumbersome, Team(3)",
     "description": "",
-    "startingCost": "Light Howitzer for 45pts",
+    "startingCost": "Light Howitzer for 50pts",
     "availability": "0-1 Artillery pieces per army",
     "options": [
       {
         "choice": "May take",
         "alternatives": ["Spotter for 10pts"]
-      },
-      {
-        "choice": "May take",
-        "alternatives": ["Gun Shield for 5pts"]
       }
     ]
   },
@@ -225,7 +231,7 @@
     ]
   },
   {
-    "name": "Stuart Light Tank",
+    "name": "Crusader Light Tank",
     "modelName": "Light Tank",
     "movement": 9,
     "toughness": 8,
@@ -239,7 +245,7 @@
     "options": []
   },
   {
-    "name": "Sherman Medium Tank",
+    "name": "Cromwell Medium Tank",
     "modelName": "Medium Tank",
     "movement": 9,
     "toughness": 9,

@@ -12,3 +12,5 @@ Map pack/generator
 //TODO
 Select Vehicle stables
 Finish Army lists
+Make WW2 army lists
+Compile Bolt Action comparison summary
