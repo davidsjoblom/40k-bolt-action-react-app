@@ -5,12 +5,9 @@ function Deployment() {
     <>
       <h1>Deployment</h1>
       <hr />
-      <h2>Choosing Deployment Zones</h2>
+      <h2>Deployment Zones</h2>
       <p>
-        Both player roll a D6. The player with the higher roll chooses which
-        long table edge he will deploy along. The other player deploys along the
-        opposite long table edge. If the players roll the same result then roll
-        again.
+        A player's deployment zone stretches along their long table edge and 6" straight out.
       </p>
       <h2>Deploying Units</h2>
       <p>

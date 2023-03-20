@@ -7,13 +7,6 @@
     "specialRules": "Blast(D3)"
   },
   {
-    "name": "Sniper",
-    "range": 36,
-    "shots": 1,
-    "penetration": "-",
-    "specialRules": "Move or Fire, Sniper, Reload"
-  },
-  {
     "name": "Rocket Launcher",
     "range": 30,
     "shots": 1,
@@ -21,10 +14,17 @@
     "specialRules": "Anti-tank or Blast(D3+1), Reload"
   },
   {
+    "name": "Sniper",
+    "range": 36,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Move or Fire, Sniper, Reload"
+  },
+  {
     "name": "Anti-tank Rifle",
     "range": 36,
     "shots": 1,
-    "penetration": "+2",
+    "penetration": "+3",
     "specialRules": "Accurate, Anti-tank, Reload"
   },
   {

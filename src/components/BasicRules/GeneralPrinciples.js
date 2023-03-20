@@ -1,7 +1,7 @@
-function Fundamentals() {
+export default function GeneralPrinciples() {
   return (
     <>
-      <h1>Fundamentals</h1>
+      <h1>General Principles</h1>
       <hr />
       <h2>How to play</h2>
       <p>
@@ -61,12 +61,10 @@ function Fundamentals() {
       <h3>Dice Bag</h3>
       <p>
         Some kind of container to place the Order dice in is needed from which a
-        random Order die can be drawn.{' '}
+        random Order die can be drawn.{" "}
       </p>
       <h2>Tokens</h2>
       <p>Some way to represent Pins on units and mark objectives is needed.</p>
     </>
   );
 }
-
-export default Fundamentals;

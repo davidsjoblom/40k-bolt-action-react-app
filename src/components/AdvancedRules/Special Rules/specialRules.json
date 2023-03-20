@@ -12,6 +12,10 @@
     "description": "Models with Anti-tank or models shooting with Anti-tank weapons targeting non-Vehicle units suffer an additional -1 Penalty to hit."
   },
   {
+    "name": "Booby Trap",
+    "description": "When a unit with Booby Trap deploys it may mark one terrain feature it is in contact with as Booby Trapped. When another unit contacts the Booby Trapped terrain feature during a move roll a die and on 4+ the unit is hit by one Medium Blast hit, takes a Pin and then remove the Booby Trapped marker. If it is not triggered the marker is left in place."
+  },
+  {
     "name": "Commanding Presence(X)",
     "description": "The unit and friendly units within 12\" gains +X Discipline."
   },
@@ -56,10 +60,6 @@
     "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\"."
   },
   {
-    "name": "Limited(X)",
-    "description": "Only X number of this unit may be taken in an army."
-  },
-  {
     "name": "Melee Specialist",
     "description": "Model causes 2 hits instead of 1 when attacking in Melee combat."
   },
@@ -73,7 +73,7 @@
   },
   {
     "name": "Open-topped",
-    "description": "Open-topped units hit by weapons that cannot wound it can still take Pins by them."
+    "description": "Open-topped units hit by weapons that cannot wound it still take Pins by them. Open-topped Transports may have up to half(rounding up) its transport capacity of models shoot out of it per turn, measuring range and LoS from the transport."
   },
   {
     "name": "Quick to Fire",
@@ -92,8 +92,8 @@
     "description": "Scout units can be deployed anywhere fully within the owners table half and 12\" away from any enemy unit. Scout units that deploy outside of the deployment zone may not declare charges during the turn they deployed."
   },
   {
-    "name": "Smoke Launchers",
-    "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(2) until the end of the turn."
+    "name": "Smoke Screen",
+    "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(1) until the end of the turn."
   },
   {
     "name": "Sniper",
@@ -101,7 +101,11 @@
   },
   {
     "name": "Spotter",
-    "description": "Units with Spotter gain an additional 25mm model with no weapons. This model does not need to maintain Unit Cohesion and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to its Move directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2). Spotter models are  deployed at the same time as its 'parent' but may be placed anywhere fully within the owners table half and 12\" away from any enemy unit."
+    "description": "Units with Spotter gain an additional 25mm model with Toughness 4+ and no weapons. This model does not need to maintain Unit Cohesion, does not share any Special Rules the 'parent' unit has and is treated as a separate unit for enemy targeting and taking casualties. Spotters are never directly issued Orders, does not resolve or benefit from Orders issued to its 'parent' and may not react if it is targeted. Spotters may move up to 6\" directly after its 'parent' unit has finished resolving a direct (i.e. not reactionary) Order. The Spotter is immediately removed if the 'parent' unit is destroyed. Spotters have Hard Target(2). Spotter models are  deployed at the same time as its 'parent' but may be placed anywhere fully within the owners table half and 12\" away from any enemy unit."
+  },
+  {
+    "name": "Stubborn(X)",
+    "description": "Units with Stubborn gain +X Discipline when taking Discipline tests caused by shooting, losing close combats and Rally orders."
   },
   {
     "name": "Swiftstride",
@@ -118,5 +122,9 @@
   {
     "name": "Unwieldy",
     "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting."
+  },
+  {
+    "name": "Up-armored Front",
+    "description": "+1 Toughness vs front shots."
   }
 ]

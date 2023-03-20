@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Wehrmacht Officer",
+    "modelName": "Officer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Officer has Commanding Presence(1), Scoring",
+    "description": "",
+    "startingCost": "Officer and Aide for 60pts",
+    "availability": "1 per per army",
+    "options": [
+      {
+        "choice": "Any model may replace Rifle with",
+        "alternatives": ["SMG for free"]
+      },
+      {
+        "choice": "Officer may replace Commanding Presence(1) with",
+        "alternatives": ["Commanding Presence(2) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "Wehrmacht Forward Observer",
+    "modelName": "Observer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Observer and Aide for 100pts",
+    "availability": "0-1 per per army",
+    "options": [
+      {
+        "choice": "Any model may replace Rifle with",
+        "alternatives": ["SMG for free"]
+      },
+      {
+        "choice": "Observer may take one Call-in",
+        "alternatives": [
+          "Artillery Barrage for free",
+          "Rocket Barrage for Free",
+          "Incendiary Barrage for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grenadiers Infantry",
+    "modelName": "Grenadier",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Grenadiers for 50pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Grenadier for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
+      },
+      {
+        "choice": "Up to 2 Grenadiers may replace rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
+      },
+      {
+        "choice": "2 Grenadiers may",
+        "alternatives": [
+          "Lose Rifle, one gain LMG with +1 Shots and one become loader for 20pts"
+        ]
+      },
+      {
+        "choice": "Up to 4 Grenadiers may take",
+        "alternatives": ["Panzerfaust for 5pts"]
+      },
+      {
+        "choice": "Faction unique",
+        "alternatives": [
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank",
+          "Initiative training: Does not suffer -1 Discipline if Squad Leader is lost"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wehrmacht Veteran Infantry",
+    "modelName": "Veteran",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 5 Veterans for 78pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Veterans for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
+      },
+      {
+        "choice": "Up to 4 Veterans may replace rifle with",
+        "alternatives": ["SMG for 3pts", "Assault Rifle for 3pts"]
+      },
+      {
+        "choice": "2 or 4 Veterans may",
+        "alternatives": [
+          "Lose Rifle, one gain LMG with +1 Shots and one become loader for 20pts"
+        ]
+      },
+      {
+        "choice": "Up to 4 Veterans may take",
+        "alternatives": ["Panzerfaust for 5pts"]
+      },
+      {
+        "choice": "Faction unique weapon",
+        "alternatives": [
+          "Panzerfaust: Range 12\", Shots 1, Pen '5', One Use, Anti-tank",
+          "Initiative training: Does not suffer -1 Discipline if Squad Leader is lost"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Medium Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Machine Gun with +1 Shots",
+    "specialRules": "Fixed, Team(3)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Panzerschreck Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Panzerschreck",
+    "specialRules": "Gunner takes -1 to hit if loader is dead",
+    "description": "",
+    "startingCost": "Panzerschreck gunner and loader for 80pts",
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "Faction unique weapon",
+        "alternatives": ["Panzerschreck: Range 24\", Shots 1, Pen 6, Anti-tank"]
+      }
+    ]
+  },
+  {
+    "name": "Sniper Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Sniper, Pistols",
+    "specialRules": "Gunner takes -1 to hit if loader is dead",
+    "description": "",
+    "startingCost": "Sniper gunner and assistant for 65pts",
+    "availability": "0-1 Sniper team per army",
+    "options": []
+  },
+  {
+    "name": "Medium Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Team(3)",
+    "description": "",
+    "startingCost": "Medium Mortar Team for 50pts",
+    "availability": "0-1 Mortar team per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      },
+      {
+        "choice": "May replace Medium Mortar and Team(3) with",
+        "alternatives": ["Heavy Mortar, Cumbersome and Team(4) for 15pts"]
+      }
+    ]
+  },
+  {
+    "name": "Light Howitzer",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light Howitzer",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Team(3)",
+    "description": "",
+    "startingCost": "Light Howitzer for 50pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Anti-tank Gun",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light AT-gun",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3)",
+    "description": "",
+    "startingCost": "Light AT-gun for 50pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May replace Light AT-gun and Team(3) for",
+        "alternatives": ["Medium AT-gun and Team(4) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "Panzer II Light Tank",
+    "modelName": "Light Tank",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Turret mounted Light Autocannon with Coax Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "110pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "Panzer IV Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "235pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "Panther Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x125",
+    "equipment": "Turret mounted Super-heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored Front",
+    "description": "",
+    "startingCost": "300pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "Tiger I Heavy Tank",
+    "modelName": "Heavy Tank",
+    "movement": 9,
+    "toughness": 10,
+    "discipline": 9,
+    "baseSize": "75x125",
+    "equipment": "Turret mounted Super-heavy AT-gun with Coax and Forward facing Medium MGs with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Up-armored(+1 Toughness vs Front shots)",
+    "description": "",
+    "startingCost": "350pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "StuG Medium Self Propelled Gun",
+    "modelName": "Medium SPG",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Heavy AT-gun with Unwieldy and Pintle mounted Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "175pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": [
+      {
+        "choice": "May replace Heavy AT-gun with",
+        "alternatives": ["Heavy Howitzer for free"]
+      }
+    ]
+  },
+  {
+    "name": "Flak-halftrack",
+    "modelName": "Halftrack",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Medium Autocannon",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 Tank/SPG per army",
+    "options": []
+  },
+  {
+    "name": "222 Armored Car",
+    "modelName": "222",
+    "movement": 12,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
+    "specialRules": "Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "90pts",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "8-Rad Armored Car",
+    "modelName": "8-Rad",
+    "movement": 12,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret Mounted Light Autocannon with Coax Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(1), Armored, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "Kubelwagen",
+    "modelName": "Kubelwagen",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "",
+    "specialRules": "Open-topped, Transport(3), Vehicle",
+    "description": "",
+    "startingCost": "21pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May loose Transport and take",
+        "alternatives": ["Pintle mounted Medium MG with +1 Shots for 15pts"]
+      }
+    ]
+  },
+  {
+    "name": "Hanomag Half-track",
+    "modelName": "Halftrack",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Medium MG with +1 Shots",
+    "specialRules": "All-Terrain(1), Armored, Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": "89pts",
+    "availability": "One Transport per infantry unit",
+    "options": []
+  },
+  {
+    "name": "Wehrmacht Army Truck",
+    "modelName": "Truck",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward facing Heavy Machine Gun",
+    "specialRules": "Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": "39pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Forward mounted Medium MG with +1 Shots for 15pts"]
+      }
+    ]
+  }
+]

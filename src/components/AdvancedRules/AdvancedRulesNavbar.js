@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
   return (
@@ -7,7 +7,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="special-rules"
-            onClick={() => setRememberedAdvancedRulesSection('special-rules')}
+            onClick={() => setRememberedAdvancedRulesSection("special-rules")}
           >
             Special Rules
           </NavLink>
@@ -15,7 +15,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="weapons"
-            onClick={() => setRememberedAdvancedRulesSection('weapons')}
+            onClick={() => setRememberedAdvancedRulesSection("weapons")}
           >
             Weapons
           </NavLink>
@@ -23,7 +23,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="terrain"
-            onClick={() => setRememberedAdvancedRulesSection('terrain')}
+            onClick={() => setRememberedAdvancedRulesSection("terrain")}
           >
             Terrain
           </NavLink>
@@ -31,7 +31,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="vehicles"
-            onClick={() => setRememberedAdvancedRulesSection('vehicles')}
+            onClick={() => setRememberedAdvancedRulesSection("vehicles")}
           >
             Vehicles
           </NavLink>
@@ -39,7 +39,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="armoured"
-            onClick={() => setRememberedAdvancedRulesSection('armoured')}
+            onClick={() => setRememberedAdvancedRulesSection("armoured")}
           >
             Armoured
           </NavLink>
@@ -47,7 +47,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="transports"
-            onClick={() => setRememberedAdvancedRulesSection('transports')}
+            onClick={() => setRememberedAdvancedRulesSection("transports")}
           >
             Transports
           </NavLink>
@@ -55,15 +55,43 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="call-ins"
-            onClick={() => setRememberedAdvancedRulesSection('call-ins')}
+            onClick={() => setRememberedAdvancedRulesSection("call-ins")}
           >
             Call-ins
           </NavLink>
         </li>
         <li>
           <NavLink
+            to="playing-the-game"
+            onClick={() =>
+              setRememberedAdvancedRulesSection("playing-the-game")
+            }
+          >
+            Playing The Game
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="army-building"
+            onClick={() => setRememberedAdvancedRulesSection("army-building")}
+          >
+            Army Building
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="battlefield-setup"
+            onClick={() =>
+              setRememberedAdvancedRulesSection("battlefield-setup")
+            }
+          >
+            Battlefield Setup
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="objectives"
-            onClick={() => setRememberedAdvancedRulesSection('objectives')}
+            onClick={() => setRememberedAdvancedRulesSection("objectives")}
           >
             Objectives
           </NavLink>
@@ -71,7 +99,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
         <li>
           <NavLink
             to="deployment"
-            onClick={() => setRememberedAdvancedRulesSection('deployment')}
+            onClick={() => setRememberedAdvancedRulesSection("deployment")}
           >
             Deployment
           </NavLink>

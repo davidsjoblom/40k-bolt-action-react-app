@@ -1,51 +1,15 @@
 function Home() {
   return (
     <div className="outlet-padding">
-      <h1>40k Bolt Action</h1>
+      <h1>Bolt Action 40k</h1>
       <hr />
-      <h2>Why and What</h2>
+      <h2>What</h2>
       <p>
-        I wanna play 40k but good and where everybody plays Imp Guard. Based on
-        Bolt Action but I changed basically everything so you have to re-learn
-        it all anyways.
+        This is a miniatures wargame loosely based on Bolt Action with aspects
+        of 9th age imported.
       </p>
-      <h2>Planned Feature List</h2>
-      <ul>
-        <li>Core rules</li>
-        <li>Army lists</li>
-        <li>
-          Army builder tool(locally saved in some way and 'exportable' as text)
-        </li>
-        <li>Login with server saved army lists</li>
-        <li>Tournament management tool</li>
-        <li>Map pack/generator</li>
-      </ul>
-      <h2>Core rules</h2>
-      <h3>To do</h3>
-      <ul>
-        <li>Update Terrain summary table</li>
-        <li>Army building</li>
-        <li>Battlefield setup</li>
-        <li>HQ abilities</li>
-        <li>Mechanics for smoke and mines</li>
-        <li>Game/board setup</li>
-        <li>Playing the game</li>
-        <li>Determining winner</li>
-      </ul>
-      <h2>Unit lists</h2>
-      <h3>To do</h3>
-      <ul>
-        <li>HQ units</li>
-        <li>Transports</li>
-        <li>Armoured Cars</li>
-      </ul>
-      <h3>Planned Factions</h3>
-      <ul>
-        <li>Empire</li>
-        <li>Federation</li>
-        <li>Clans</li>
-        <li>Cults</li>
-      </ul>
+      <h2>Why</h2>
+      <p>I wrote this because I want to play 40k but with good rules.</p>
     </div>
   );
 }

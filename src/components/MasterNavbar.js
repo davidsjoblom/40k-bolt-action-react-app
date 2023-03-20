@@ -1,18 +1,17 @@
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faBook,
   faBookSkull,
-  faPersonRifle,
   faPersonMilitaryRifle,
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 
 function MasterNavbar({
   rememberedBasicRulesSection,
   rememberedAdvancedRulesSection,
-  rememberedGenericUnitsSection,
   rememberedArmyListsSection,
+  rememberedWw2ArmyListsSection,
 }) {
   return (
     <nav>
@@ -24,27 +23,26 @@ function MasterNavbar({
           </NavLink>
         </li>
         <li>
-          <NavLink to={'basic-rules/' + rememberedBasicRulesSection}>
+          <NavLink to={"basic-rules/" + rememberedBasicRulesSection}>
             <FontAwesomeIcon icon={faBook} />
             &nbsp; Basic Rules
           </NavLink>
         </li>
         <li>
-          <NavLink to={'advanced-rules/' + rememberedAdvancedRulesSection}>
+          <NavLink to={"advanced-rules/" + rememberedAdvancedRulesSection}>
             <FontAwesomeIcon icon={faBookSkull} />
             &nbsp; Advanced Rules
           </NavLink>
         </li>
         <li>
-          <NavLink to={'generic-units/' + rememberedGenericUnitsSection}>
-            <FontAwesomeIcon icon={faPersonRifle} />
-            &nbsp; Generic Units
+          <NavLink to={"army-lists/" + rememberedArmyListsSection}>
+            <FontAwesomeIcon icon={faPersonMilitaryRifle} />
+            &nbsp; Army Lists
           </NavLink>
         </li>
         <li>
-          <NavLink to={'army-lists/' + rememberedArmyListsSection}>
-            <FontAwesomeIcon icon={faPersonMilitaryRifle} />
-            &nbsp; Army Lists
+          <NavLink to={"ww2-army-lists/" + rememberedWw2ArmyListsSection}>
+            WW2 Army Lists
           </NavLink>
         </li>
       </ul>

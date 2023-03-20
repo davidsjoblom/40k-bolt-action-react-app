@@ -1,10 +1,27 @@
-import battlefield from '../../graphics/battlefield.svg';
-
-function Terrain() {
+export default function Terrain() {
   return (
     <>
       <h1>Terrain</h1>
       <hr />
+      <h2>Terrain</h2>
+      <p>
+        Very few battles take place on completely flat and firm terrain.
+        Battlefields tend to be littered with things that obstruct view or
+        hinder movement. These are referred to as Terrain Features.
+      </p>
+      <p>
+        A Terrain feature is a clearly demarcated area of the board that usually
+        have some sort of decorative pieces on it to make it evident that type
+        of Terrain it is meant to represent. A forest for example would consist
+        of a 'base' to show where it begins and ends as well as a few trees to
+        demonstrate that it is a Forest terrain feature.
+      </p>
+      <p>
+        For rules purposes only the demarcated area of the Terrain features are
+        actually relevant to interpreting the rules. Any decorative piece is
+        simply ignored for rules purposes and may be moved out of the way
+        whenever necessary. Note that this also applies to Hedges and Walls.
+      </p>
       <h2>Terrain and Model Interpretation</h2>
       <h3>Inside Terrain</h3>
       <p>
@@ -53,8 +70,8 @@ function Terrain() {
       </p>
       <h3>Forests</h3>
       <p>
-        Forests are Rough terrain and Covering terrain(Soft cover) for models
-        inside and behind it.
+        Forests are Opaque terrain, Rough terrain and Covering terrain(Soft
+        cover) for models inside them.
       </p>
       <h3>Fields</h3>
       <p>Fields are Covering terrain(Soft cover) for models inside it.</p>
@@ -101,78 +118,103 @@ function Terrain() {
           <tr>
             <th>Feature</th>
             <th>Movement</th>
-            <th>Cover</th>
-            <th>Line of Sight</th>
+            <th>Vehicles</th>
+            <th>Cover inside</th>
+            <th>Cover behind</th>
+            <th>LoS through</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td>Building</td>
+            <td>Halved</td>
+            <td>Blocked</td>
+            <td>Hard</td>
+            <td>Hard</td>
+            <td>Blocked</td>
+          </tr>
+          <tr>
             <td>Forest</td>
-            <td>Half</td>
+            <td>Halved</td>
+            <td>Dangerous(4+)</td>
             <td>Soft</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Fields</td>
-            <td></td>
-            <td>Soft</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Ruins</td>
-            <td>Half</td>
             <td>Hard</td>
-            <td></td>
+            <td>Blocked</td>
           </tr>
           <tr>
-            <td>Mud</td>
-            <td>Half</td>
+            <td>Field</td>
             <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Water</td>
-            <td>None</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Hills</td>
-            <td></td>
-            <td></td>
-            <td>Not through</td>
-          </tr>
-          <tr>
-            <td>Hedges</td>
             <td></td>
             <td>Soft</td>
             <td></td>
+            <td></td>
           </tr>
           <tr>
-            <td>Walls</td>
+            <td>Hill</td>
+            <td></td>
+            <td></td>
             <td></td>
             <td>Hard</td>
+            <td>Blocked</td>
+          </tr>
+          <tr>
+            <td>Hedge</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Soft</td>
             <td></td>
           </tr>
           <tr>
             <td>Impasse</td>
-            <td>None</td>
+            <td>Blocked</td>
+            <td>Blocked</td>
             <td></td>
-            <td>None</td>
+            <td></td>
+            <td>Blocked</td>
           </tr>
           <tr>
-            <td>Smoke</td>
+            <td>Mud</td>
+            <td>Halved</td>
+            <td>Dangerous(4+)</td>
             <td></td>
-            <td>Soft</td>
-            <td>Not through</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ruin</td>
+            <td>Halved</td>
+            <td>Dangerous(5+)</td>
+            <td>Hard</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Trench</td>
+            <td></td>
+            <td>Dangerous(4+)</td>
+            <td>Hard</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Wall</td>
+            <td></td>
+            <td>Dangerous(4+)</td>
+            <td></td>
+            <td>Hard</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Water</td>
+            <td>Blocked</td>
+            <td>Blocked</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
-      <h2>Example Battlefield</h2>
-      <div className="wrapper-battlefield-example">
-        <img src={battlefield} alt="abo" className="battlefield-example" />
-      </div>
     </>
   );
 }
-export default Terrain;

@@ -4,11 +4,13 @@
     "modelName": "Aide",
     "movement": 6,
     "toughness": 4,
-    "discipline": 10,
+    "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Field Commander has Commanding Presence(+1), Scoring",
+    "specialRules": "Field Commander has Commanding Presence(1), Scoring",
+    "description": "The Imperial Officer Corps is one of the Empires most esteemed institutions and competition for admission is fierce and foul play common. Detractors often deride the Corps for being bloated and corrupt but, while some of the criticism is warranted, in times of strife the Corps time and again produces great personalities that lead the Empire to victory.",
     "startingCost": "Field Commander Squad Leader and 4 Aides for 50pts",
+    "availability": "Must include one and one only Field Commander unit",
     "options": [
       {
         "choice": "Field Commander may replace Rifle with",
@@ -20,6 +22,14 @@
           "Multiple Grenade Launcher for 5pts",
           "Flamethrower for 10pts",
           "Light Direct Energy for 10pts"
+        ]
+      },
+      {
+        "choice": "Field Commander may take one Call-in",
+        "alternatives": [
+          "Artillery Barrage for 50pts",
+          "Rocket Barrage for 50pts",
+          "Incendiary Barrage for 50pts"
         ]
       }
     ]
@@ -33,7 +43,9 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
+    "description": "The Guards Regiments make up the bulk of the Imperial Army and it is they who do most of the fighting, and dying, when the Empire wages war. The life of a Guardsman is tough but 'hardship breeds strength', or so the recruiting slogans go.",
     "startingCost": "Squad Leader and 4 Guardsmen for 50pts",
+    "availability": "Unrestricted",
     "options": [
       {
         "choice": "May add up to 5",
@@ -55,7 +67,7 @@
     ]
   },
   {
-    "name": "Conscript Infantry",
+    "name": "Conscripts Infantry",
     "modelName": "Conscript",
     "movement": 6,
     "toughness": 3,
@@ -63,7 +75,9 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
+    "description": "All able men of the Empire preform mandatory military service so that in times of great need they can be called upon to defend their homes. Hastily equipped and thrust into combat these troops help plug holes and hold ground.",
     "startingCost": "Squad Leader and 4 Conscripts for 35pts",
+    "availability": "Unrestricted",
     "options": [
       {
         "choice": "May add up to 5",
@@ -80,7 +94,9 @@
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring, Scout",
+    "description": "The Jaegers are the Empires elite special forces capable of operating independently deep in hostile territory. During war they specialize in reconnaissance, sabotage and ambush tactics, during peace they preform anti-insurgency and espionage operations.",
     "startingCost": "Squad Leader and 4 Jaegers for 65pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 5",
@@ -113,8 +129,10 @@
     "discipline": 10,
     "baseSize": 25,
     "equipment": "SMGs",
-    "specialRules": "Impact(1), Scoring",
+    "specialRules": "Impact(1), Scoring, Smoke Screen",
+    "description": "The Imperial Storm Troopers are the handpicked personal soldiers of the Emperor. They serve as shock troops specialized in close quarters combat and have a reputation for brutality. Feared both by the enemies of the Empire and Imperial politicians, they are personally deployed by the Emperor wherever he sees fit.",
     "startingCost": "Squad Leader and 4 Troopers for 75pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 5",
@@ -140,10 +158,12 @@
     "movement": 9,
     "toughness": 5,
     "discipline": 9,
-    "baseSize": 25,
+    "baseSize": 40,
     "equipment": "Pistol",
     "specialRules": "Impact(2), Mounted",
+    "description": "Though mostly ceremonial, and the occasional riot suppression, the Lancers themselves certainly wouldn't agree with that characterization and are always keen to prove their usefulness in times of war. They serve as scouts and quick response forces and are known for incessant optimism and glory seeking.",
     "startingCost": "Squad Leader and 4 Lancers for 75pts",
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "May add up to 5",
@@ -169,6 +189,7 @@
     "equipment": "Medium Machine Gun",
     "specialRules": "Fixed, Team(4)",
     "startingCost": "40pts",
+    "availability": "0-2 per army",
     "options": [
       {
         "choice": "May replace Medium Machine Gun with",
@@ -186,6 +207,7 @@
     "equipment": "Medium Mortar",
     "specialRules": "Fixed, Spotter, Team(4)",
     "startingCost": "50pts",
+    "availability": "0-1 per army",
     "options": []
   },
   {
@@ -198,6 +220,7 @@
     "equipment": "",
     "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
     "startingCost": 50,
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "Must take one",
@@ -220,6 +243,7 @@
     "equipment": "",
     "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(6)",
     "startingCost": 75,
+    "availability": "0-1 per army",
     "options": [
       {
         "choice": "Must take one",
