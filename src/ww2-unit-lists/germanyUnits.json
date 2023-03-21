@@ -402,7 +402,7 @@
     "toughness": 6,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Forward facing Heavy Machine Gun",
+    "equipment": "",
     "specialRules": "Open-topped, Transport(12), Vehicle",
     "description": "",
     "startingCost": "39pts",

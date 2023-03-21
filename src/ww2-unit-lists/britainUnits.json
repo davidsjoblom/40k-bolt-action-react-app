@@ -200,7 +200,7 @@
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Light Howitzer",
-    "specialRules": "Fixed, Cumbersome, Team(3)",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3)",
     "description": "",
     "startingCost": "Light Howitzer for 50pts",
     "availability": "0-1 Artillery pieces per army",
@@ -259,109 +259,57 @@
     "options": []
   },
   {
-    "name": "M16 AA-halftrack",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "4 Twin-linked Turret mounted Heavy Machine Guns",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "125",
-    "availability": "0-1 Tank/AA-vehicle per army",
-    "options": []
-  },
-  {
-    "name": "M8 Greyhound Armored Car",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "110",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "M20 Scout Car",
-    "modelName": "Scout Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "80",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "M20 Utility Car",
-    "modelName": "Utility Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "80",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "Jeep",
-    "modelName": "Jeep",
-    "movement": 9,
-    "toughness": 6,
+    "name": "UK Heavy Armored Car",
+    "modelName": "Armoured Car",
+    "movement": 12,
+    "toughness": 8,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "",
-    "specialRules": "Open-topped, Transport(3), Vehicle",
+    "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
+    "specialRules": "Armored, Vehicle",
     "description": "",
-    "startingCost": "21pts",
+    "startingCost": "135",
+    "availability": "0-1 Armoured Car per army",
+    "options": []
+  },
+  {
+    "name": "Universal Carrier",
+    "modelName": "Carrier",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Forward facing Light Machine Gun",
+    "specialRules": "All-terrain(2), Open-topped, Transport(5), Vehicle",
+    "description": "",
+    "startingCost": "60pts",
     "availability": "One Transport per infantry unit",
     "options": [
       {
-        "choice": "May loose Transport and take",
+        "choice": "May replace LMG with",
         "alternatives": [
-          "Pintle mounted Medium MG for 15pts",
-          "Pintle mounted Heavy MG for 25pts"
+          "Forward facing Anti-tank Rifle for 10pts"
         ]
       }
     ]
   },
   {
-    "name": "White Scout Car",
-    "modelName": "Scout Car",
-    "movement": 9,
-    "toughness": 7,
+    "name": "UK Army Truck",
+    "modelName": "Truck",
+    "movement": 12,
+    "toughness": 6,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Forward facing Heavy Machine Gun",
-    "specialRules": "Armored, Open-topped, Transport(8), Vehicle",
+    "equipment": "",
+    "specialRules": "Open-topped, Transport(12), Vehicle",
     "description": "",
-    "startingCost": "86pts",
+    "startingCost": "39pts",
     "availability": "One Transport per infantry unit",
-    "options": []
-  },
-  {
-    "name": "M3 Halftrack",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Transport(12), Vehicle",
-    "description": "",
-    "startingCost": "99pts",
-    "availability": "One Transport per infantry unit",
-    "options": []
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Pintle mounted Medium MG for 15pts"]
+      }
+    ]
   }
 ]

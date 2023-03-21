@@ -1,1 +1,316 @@
-[]
+[
+  {
+    "name": "Soviet Officer",
+    "modelName": "Officer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Officer has Commanding Presence(1), Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Officer and Aide for 60pts",
+    "availability": "1 per per army",
+    "options": [
+      {
+        "choice": "Officer may replace Commanding Presence(1) with",
+        "alternatives": ["Commanding Presence(2) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "Soviet Forward Observer",
+    "modelName": "Observer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Observer and Aide for free",
+    "availability": "1 per per army",
+    "options": [
+      {
+        "choice": "Any model may replace Rifle with",
+        "alternatives": ["SMG for free"]
+      },
+      {
+        "choice": "Observer may take one Call-in",
+        "alternatives": [
+          "Artillery Barrage for free",
+          "Rocket Barrage for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Red Army Infantry",
+    "modelName": "Rifleman",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Riflemen for 50pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Riflemen for 10pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "Any Riflemen may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "2 Riflemen may lose their Rifles and",
+        "alternatives": ["One gain LMG, one become loader for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Conscripts Infantry",
+    "modelName": "Conscript",
+    "movement": 6,
+    "toughness": 3,
+    "discipline": 8,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Squad Leader and 9 Conscripts for free",
+    "availability": "1 per army",
+    "options": []
+  },
+  {
+    "name": "Soviet Veterans Infantry",
+    "modelName": "Veteran",
+    "movement": 6,
+    "toughness": 5,
+    "discipline": 10,
+    "baseSize": 25,
+    "equipment": "Rifle",
+    "specialRules": "Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Veterans for 65pts",
+    "availability": "2-5 Infantry units per army",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Veteran for 13pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "Any Veteran may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      },
+      {
+        "choice": "2 Veterans may lose their Rifles and",
+        "alternatives": ["One gain LMG, one become loader for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "Medium Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(3), Stubborn(1)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-3 MG teams per army",
+    "options": [
+      {
+        "choice": "May replace Medium Machine Gun for",
+        "alternatives": ["Heavy Machine Gun for 20pts"]
+      }
+    ]
+  },
+  {
+    "name": "AT-rifle Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "AT-rifle",
+    "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1), Unwieldy, Stubborn(1)",
+    "description": "",
+    "startingCost": "AT-rifle gunner and loader for 30pts",
+    "availability": "0-1 AT-team per army",
+    "options": []
+  },
+  {
+    "name": "Tank Hunters Team",
+    "modelName": "Tank Hunter",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Rifle, Tank Hunter has Explosive Charge(5), Stubborn(1)",
+    "specialRules": "",
+    "description": "",
+    "startingCost": "Squad Leader and Tank Hunter for 30pts",
+    "availability": "0-1 AT-team per army, Up to 3 Tank Hunter Teams counts as a single AT-team selection",
+    "options": [
+      {
+        "choice": "Squad Leader may replace Rifle with",
+        "alternatives": ["SMG for 3pts"]
+      }
+    ]
+  },
+  {
+    "name": "Sniper Team",
+    "modelName": "Team Member",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Sniper, Pistols",
+    "specialRules": "Gunner takes -1 to hit if loader is dead, Stubborn(1)",
+    "description": "",
+    "startingCost": "Sniper gunner and assistant for 65pts",
+    "availability": "0-1 Sniper team per army",
+    "options": []
+  },
+  {
+    "name": "Medium Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Team(3), Stubborn(1)",
+    "description": "",
+    "startingCost": "Medium Mortar Team for 50pts",
+    "availability": "0-1 Mortar team per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      },
+      {
+        "choice": "May replace Medium Mortar and Team(3) with",
+        "alternatives": ["Heavy Mortar and Team(4) for 15pts"]
+      }
+    ]
+  },
+  {
+    "name": "Light Howitzer",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light Howitzer",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3), Stubborn(1)",
+    "description": "",
+    "startingCost": "Light Howitzer for 50pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Spotter for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Anti-tank Gun",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 60,
+    "equipment": "Light AT-gun",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3), Stubborn(1)",
+    "description": "",
+    "startingCost": "Light AT-gun for 50pts",
+    "availability": "0-1 Artillery pieces per army",
+    "options": [
+      {
+        "choice": "May replace Light AT-gun and Team(3) with",
+        "alternatives": ["Medium AT-gun and Team(4) for 25pts"]
+      }
+    ]
+  },
+  {
+    "name": "T-70 Light Tank",
+    "modelName": "Light Tank",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Turret mounted Light AT-gun with Coax Medium MG",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "125pts",
+    "availability": "0-1 Tank per army",
+    "options": []
+  },
+  {
+    "name": "SU-76 Light Self Propelled Gun",
+    "modelName": "Light SPG",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward facing Medium AT-gun with upgraded Blast(D3+1)",
+    "specialRules": "All-Terrain(2), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "115pts",
+    "availability": "0-1 Tank per army",
+    "options": []
+  },
+  {
+    "name": "T-34/76 Medium Tank",
+    "modelName": "Medium Tank",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Medium AT-gun with Coax Medium MG, Forward facing Medium MG",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "195pts",
+    "availability": "0-1 Tank per army",
+    "options": [
+      {
+         "choice": "May replace Medium AT-gun with",
+         "alternatives": ["Heavy AT-gun for 40pts (T-34/86)"]
+       }
+    ]
+  },
+  {
+    "name": "Soviet GAZ Truck",
+    "modelName": "Truck",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "",
+    "specialRules": "Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": "39pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Pintle mounted Medium MG for 15pts"]
+      }
+    ]
+  }
+]
