@@ -150,7 +150,7 @@
     "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1), Unwieldy, Stubborn(1)",
     "description": "",
     "startingCost": "AT-rifle gunner and loader for 30pts",
-    "availability": "0-1 AT-team per army",
+    "availability": "0-1 AT-team per army, Up to 3 AT-rifle Teams counts as a single AT-team selection",
     "options": []
   },
   {
@@ -289,9 +289,9 @@
     "availability": "0-1 Tank per army",
     "options": [
       {
-         "choice": "May replace Medium AT-gun with",
-         "alternatives": ["Heavy AT-gun for 40pts (T-34/86)"]
-       }
+        "choice": "May replace Medium AT-gun with",
+        "alternatives": ["Heavy AT-gun for 40pts (T-34/86)"]
+      }
     ]
   },
   {
