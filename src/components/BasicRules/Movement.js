@@ -22,18 +22,15 @@ const Movement = function () {
       <p>Some terrain affect movement, see Terrain chapter for details.</p>
       <h2>Unit Cohesion</h2>
       <p>
-        A unit consisting of more than one model has to end a move in either a
-        clump or line formation with all models within 1" of at least one other
-        friendly model.
-      </p>
-      <p>
-        If a unit is unable to achieve Unit Cohesion then it has to end the
-        move as close as possible to fulfilling it.
+        A unit has to end a move Cohesive (see General Principles Unit
+        Cohesion). If a unit is unable to achieve Cohesion it must move as close
+        as possible to fulfilling it.
       </p>
       <h2>Unit Spacing</h2>
       <p>
         A model may never end a move within 1" of an enemy model unless
-        Charging.
+        Charging. If unable to move outside of 1" it must move as close as
+        possible to achieve this.
       </p>
     </>
   );

@@ -10,7 +10,7 @@ const Shooting = function () {
         <li>Roll to Hit & place Pins</li>
         <li>Roll to Wound</li>
         <li>Remove casualties</li>
-        <li>Target checks morale</li>
+        <li>Target Panic test</li>
       </ol>
       <h2>Choose target</h2>
       <p>
@@ -157,10 +157,10 @@ const Shooting = function () {
         the unit is considered destroyed and any excess casualties caused are
         disregarded.
       </p>
-      <h2>Target checks morale</h2>
+      <h2>Target Panic test</h2>
       <p>
         If half or more of the target units models were removed as casualties
-        due to a single shooting attack it has to take a Discipline test. If it
+        due to a single shooting attack it has to take a Panic Discipline test. If it
         fails this test it panics, is immediately removed from play and
         considered Destroyed.
       </p>

@@ -170,7 +170,7 @@
     "options": []
   },
   {
-    "name": "Medium Mortar Team",
+    "name": "Mortar Team",
     "modelName": "Crew",
     "movement": 6,
     "toughness": 4,

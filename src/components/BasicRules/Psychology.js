@@ -10,6 +10,10 @@ const Psychology = function () {
         characteristic the test is passed. There are numerous modifiers which
         can affect a units current Discipline.
       </p>
+      <h3>Types of Discipline tests</h3>
+      <p>
+        There are several types of Discipline tests; Order, Panic and Break tests. The type of test refers to when it is taken and different modifiers may apply to them. 
+      </p>
       <h2>Pin Markers</h2>
       <p>
         Units take Pins when fired upon. Pins markers are placed next to a unit

@@ -117,7 +117,7 @@
   },
   {
     "name": "Team(X)",
-    "description": "When removing a Team model as casualty it is not removed but instead mark it with a Wound token. Place one Wound token per casualty taken. When the number of Wound tokens equals X the model is immediately removed. Team models with only one Wound away from being removed suffer a -1 Penalty to hit."
+    "description": "When removing a Team model as casualty it is not removed but instead mark it with a Wound marker. Place one Wound marker per casualty taken. When the number of Wound markers equals X the model is immediately removed. Team models with only one Wound away from being removed suffer a -1 Penalty to hit. When calculating models removed for whether to take a Panic test from shooting the Team model counts as as many model as Wounds it had left to take and every Wound marker placed counts as a model removed."
   },
   {
     "name": "Unwieldy",

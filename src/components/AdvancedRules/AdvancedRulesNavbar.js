@@ -12,14 +12,7 @@ function AdvancedRulesNavbar({ setRememberedAdvancedRulesSection }) {
             Special Rules
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="weapons"
-            onClick={() => setRememberedAdvancedRulesSection("weapons")}
-          >
-            Weapons
-          </NavLink>
-        </li>
+        
         <li>
           <NavLink
             to="terrain"

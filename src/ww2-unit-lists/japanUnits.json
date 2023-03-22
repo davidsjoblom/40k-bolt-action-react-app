@@ -7,7 +7,7 @@
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Officer has Commanding Presence(1), Scoring, Quick to Fire",
+    "specialRules": "Officer has Commanding Presence(1), Scoring, Banzai, Stubborn(1)",
     "description": "",
     "startingCost": "Officer and Aide for 60pts",
     "availability": "1 per per army",
@@ -19,6 +19,12 @@
       {
         "choice": "Officer may replace Commanding Presence(1) with",
         "alternatives": ["Commanding Presence(2) for 25pts"]
+      },
+      {
+        "choice": "Faction unique rule",
+        "alternatives": [
+          "Banzai: Order tests for Run Orders may be auto-passed but no Pin is removed"
+        ]
       }
     ]
   },
@@ -30,7 +36,7 @@
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring, Quick to Fire",
+    "specialRules": "Scoring, Banzai, Stubborn(1)",
     "description": "",
     "startingCost": "Observer and Aide for 100pts",
     "availability": "0-1 per per army",
@@ -46,6 +52,12 @@
           "Anti-infantry Strafe for free",
           "Anti-tank Strafe for free"
         ]
+      },
+      {
+        "choice": "Faction unique rule",
+        "alternatives": [
+          "Banzai: Order tests for Run Orders may be auto-passed but no Pin is removed"
+        ]
       }
     ]
   },
@@ -57,7 +69,7 @@
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring",
+    "specialRules": "Scoring, Banzai, Squad Leader has Melee Specialist, Stubborn(1)",
     "description": "",
     "startingCost": "Squad Leader and 5 Riflemen for 60pts",
     "availability": "2-5 Infantry units per army",
@@ -76,6 +88,12 @@
           "One gain LMG, one become loader for 20pts",
           "One gain Light Mortar, one become loader for 20pts"
         ]
+      },
+      {
+        "choice": "Faction unique rule",
+        "alternatives": [
+          "Banzai: Order tests for Run Orders may be auto-passed but no Pin is removed"
+        ]
       }
     ]
   },
@@ -87,7 +105,7 @@
     "discipline": 10,
     "baseSize": 25,
     "equipment": "Rifle",
-    "specialRules": "Scoring",
+    "specialRules": "Scoring, Banzai, Squad Leader has Melee Specialist, Stubborn(1)",
     "description": "",
     "startingCost": "Squad Leader and 5 Veterans for 78pts",
     "availability": "2-5 Infantry units per army",
@@ -110,6 +128,12 @@
           "One gain LMG, one become loader for 20pts",
           "One gain Light Mortar, one become loader for 20pts"
         ]
+      },
+      {
+        "choice": "Faction unique rule",
+        "alternatives": [
+          "Banzai: Order tests for Run Orders may be auto-passed but no Pin is removed"
+        ]
       }
     ]
   },
@@ -121,10 +145,10 @@
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Medium Machine Gun",
-    "specialRules": "Fixed, Team(3)",
+    "specialRules": "Fixed, Team(3), Stubborn(1)",
     "description": "",
     "startingCost": "50pts",
-    "availability": "0-3 MG teams per army",
+    "availability": "1 per army",
     "options": []
   },
   {
@@ -135,7 +159,7 @@
     "discipline": 9,
     "baseSize": 25,
     "equipment": "AT-rifle",
-    "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1), Unwieldy",
+    "specialRules": "Gunner takes -1 to hit if loader is dead, Hard Target(1), Unwieldy, Stubborn(1)",
     "description": "",
     "startingCost": "AT-rifle gunner and loader for 30pts",
     "availability": "0-1 AT-team per army",
@@ -143,20 +167,22 @@
   },
   {
     "name": "Suicide Anti-tank Team",
-    "modelName": "One Brave Boi",
+    "modelName": "Bomber",
     "movement": 6,
-    "toughness": 4,
-    "discipline": 9,
+    "toughness": 5,
+    "discipline": 10,
     "baseSize": 25,
-    "equipment": "Explosive Charge(5), Stubborn(1)",
-    "specialRules": "",
+    "equipment": "Explosive Charge(8) directly after using this the unit is immediately destroyed",
+    "specialRules": "Banzai",
     "description": "",
-    "startingCost": "Squad Leader and Tank Hunter for 30pts",
-    "availability": "0-1 AT-team per army, Up to 3 Tank Hunter Teams counts as a single AT-team selection",
+    "startingCost": "1 Bomber for 26pts",
+    "availability": "0-1 AT-team per army, Up to 3 Suicide AT Teams counts as a single AT-team selection",
     "options": [
       {
-        "choice": "Squad Leader may replace Rifle with",
-        "alternatives": ["SMG for 3pts"]
+        "choice": "Faction unique rule",
+        "alternatives": [
+          "Banzai: Order tests for Run Orders may be auto-passed but no Pin is removed"
+        ]
       }
     ]
   },
@@ -167,7 +193,7 @@
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
-    "equipment": "Sniper, Pistols",
+    "equipment": "Sniper, Pistols, Banzai, Stubborn(1)",
     "specialRules": "Gunner takes -1 to hit if loader is dead",
     "description": "",
     "startingCost": "Sniper gunner and assistant for 65pts",
@@ -175,14 +201,14 @@
     "options": []
   },
   {
-    "name": "Medium Mortar Team",
+    "name": "Mortar Team",
     "modelName": "Crew",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Medium Mortar",
-    "specialRules": "Fixed, Team(3)",
+    "specialRules": "Fixed, Team(3), Stubborn(1)",
     "description": "",
     "startingCost": "Medium Mortar Team for 50pts",
     "availability": "0-1 Mortar team per army",
@@ -205,7 +231,7 @@
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Light Howitzer",
-    "specialRules": "Fixed, Cumbersome, Team(3)",
+    "specialRules": "Fixed, Cumbersome, Team(3), Stubborn(1)",
     "description": "",
     "startingCost": "Light Howitzer for 45pts",
     "availability": "0-1 Artillery pieces per army",
@@ -228,7 +254,7 @@
     "discipline": 9,
     "baseSize": 60,
     "equipment": "Light AT-gun",
-    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3)",
+    "specialRules": "Fixed, Cumbersome, Gun Shield, Team(3), Stubborn(1)",
     "description": "",
     "startingCost": "50pts",
     "availability": "0-1 Artillery pieces per army",
@@ -240,123 +266,83 @@
     ]
   },
   {
-    "name": "Stuart Light Tank",
+    "name": "Type 95 Ha-Go Light Tank",
     "modelName": "Light Tank",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Turret mounted Light AT-gun with Pintle Medium MG and Forward facing Medium MG(may be fired along with the Pintle one)",
+    "specialRules": "All-Terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "90pts",
+    "availability": "0-1 Tank per army",
+    "options": []
+  },
+  {
+    "name": "Type 97 Chi-Ha Medium Tank",
+    "modelName": "Medium Tank",
     "movement": 9,
     "toughness": 8,
     "discipline": 9,
-    "baseSize": "50x75",
-    "equipment": "Turret mounted Light AT-gun with Coax Medium MG and Forward facing Medium MG",
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Light Howitzer with Pintle Medium MG and Forward facing Medium MG(may be fired along with the Pintle one)",
     "specialRules": "All-Terrain(2), Armored, Vehicle",
     "description": "",
     "startingCost": "135pts",
-    "availability": "0-1 Tank/AA-vehicle per army",
-    "options": []
-  },
-  {
-    "name": "Sherman Medium Tank",
-    "modelName": "Medium Tank",
-    "movement": 9,
-    "toughness": 9,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Turret mounted Medium AT-gun with upgraded Blast(D3+1) and Coax Medium MG, Forward facing Medium MG",
-    "specialRules": "All-Terrain(2), Armored, Vehicle",
-    "description": "",
-    "startingCost": "200pts",
-    "availability": "0-1 Tank/AA-vehicle per army",
-    "options": []
-  },
-  {
-    "name": "M16 AA-halftrack",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "4 Twin-linked Turret mounted Heavy Machine Guns",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "125pts",
-    "availability": "0-1 Tank/AA-vehicle per army",
-    "options": []
-  },
-  {
-    "name": "M8 Greyhound Armored Car",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Turret Mounted Light AT-gun with Coax Medium MG",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "110pts",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "M20 Utility Car",
-    "modelName": "Utility Car",
-    "movement": 9,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Vehicle",
-    "description": "",
-    "startingCost": "80pts",
-    "availability": "0-1 Armoured Car per army",
-    "options": []
-  },
-  {
-    "name": "Jeep",
-    "modelName": "Jeep",
-    "movement": 9,
-    "toughness": 6,
-    "discipline": 9,
-    "baseSize": "50x75",
-    "equipment": "",
-    "specialRules": "Open-topped, Transport(3), Vehicle",
-    "description": "",
-    "startingCost": "21pts",
-    "availability": "One Transport per infantry unit",
+    "availability": "0-1 Tank per army",
     "options": [
       {
-        "choice": "May loose Transport and take",
-        "alternatives": [
-          "Pintle mounted Medium MG for 15pts",
-          "Pintle mounted Heavy MG for 25pts"
-        ]
+        "choice": "May replace Light Howitzer for",
+        "alternatives": ["Medium AT-gun for 20pts"]
       }
     ]
   },
   {
-    "name": "White Scout Car",
-    "modelName": "Scout Car",
+    "name": "Type 4 Ho-Ro Assault Gun",
+    "modelName": "Medium SPG",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Forward facing Heavy Machine Gun",
-    "specialRules": "Armored, Open-topped, Transport(8), Vehicle",
+    "equipment": "Forward facing Heavy Howitzer",
+    "specialRules": "All-Terrain(2), Armored, Vehicle, Open-topped",
     "description": "",
-    "startingCost": "86pts",
-    "availability": "One Transport per infantry unit",
+    "startingCost": "155pts",
+    "availability": "0-1 Tank per army",
     "options": []
   },
   {
-    "name": "M3 Halftrack",
-    "modelName": "Halftrack",
-    "movement": 9,
-    "toughness": 7,
+    "name": "Type 98 AA-Truck",
+    "modelName": "AA-Truck",
+    "movement": 12,
+    "toughness": 6,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-Terrain(1), Armored, Open-topped, Transport(12), Vehicle",
+    "equipment": "Turret mounted Light Autocannon",
+    "specialRules": "Open-topped, Vehicle",
     "description": "",
-    "startingCost": "99pts",
-    "availability": "One Transport per infantry unit",
+    "startingCost": "50pts",
+    "availability": "0-1 Tank per army",
     "options": []
+  },
+  {
+    "name": "Rikugun Truck",
+    "modelName": "Truck",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "",
+    "specialRules": "Open-topped, Transport(13), Vehicle",
+    "description": "",
+    "startingCost": "41pts",
+    "availability": "One Transport per infantry unit",
+    "options": [
+      {
+        "choice": "May take",
+        "alternatives": ["Forward mounted Medium MG with +1 Shots for 15pts"]
+      }
+    ]
   }
 ]

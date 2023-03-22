@@ -48,7 +48,10 @@ function Vehicles() {
         number of targets.
       </p>
       <h2>Vehicles and Charging</h2>
-      <p>Vehicles may not preform charges.</p>
+      <p>
+        Vehicles may not preform charges but maybe charged by other units as
+        normal.
+      </p>
       <h2>Shooting at Vehicles</h2>
       <p>
         When a Vehicle unit is hit and wounded it is not immediately removed but
@@ -59,15 +62,13 @@ function Vehicles() {
         Vehicles do not benefit from cover by being in or behind terrain.
         Vehicles may still be Obscured.
       </p>
-      <h2>Charging Vehicles</h2>
+      <h2>Vehicles in Melee Combat</h2>
       <p>
-        Vehicles may be charged by other units as normal but they may never
-        attack back in Melee combat.
-      </p>
-      <h2>Attacking Vehicles in Close Combat</h2>
-      <p>
-        Attacks against Vehicles in Close Combat gain +1 to wound. Roll once on
-        the Penetration table for each wound caused.
+        Vehicles may not attack in Melee Combat. Attacks against Vehicles in
+        Close Combat gain +1 to wound. Roll once on the Penetration table for
+        each wound caused. Ignore the Determine winner and Loser tests
+        Discipline steps of Melee Combat. The unit that charged the Vehicle must
+        Regroup as if it won the combat.
       </p>
       <h2>Vehicle Penetration table</h2>
       <table>

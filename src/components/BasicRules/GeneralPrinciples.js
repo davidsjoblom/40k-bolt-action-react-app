@@ -18,11 +18,26 @@ export default function GeneralPrinciples() {
         base specific. The base a model is to be mounted on is specified in its
         profile.
       </p>
+      <h3>Model Interpretation</h3>
+      <p>
+        Only the base of a model is ever used for measurements and a model is
+        considered to occupy the entirety of the base. No model bases may
+        overlap or otherwise be placed on top of another.
+      </p>
       <h2>Units</h2>
       <p>
         A unit is a model or a group of models that receive and carry out orders
         together.
       </p>
+      <h3>Unit Cohesion</h3>
+      <p>A Unit is considered Cohesive if all of the following is fulfilled</p>
+      <ul>
+        <li>The units models form either a single clump or line formation</li>
+        <li>
+          All models are within 1" of at least one other model in the unit
+        </li>
+        <li>All models are within 6" in all other models of the unit</li>
+      </ul>
       <h2>Armies</h2>
       <p>
         An army consists of a number of units fighting together. A unit treats
@@ -61,7 +76,7 @@ export default function GeneralPrinciples() {
       <h3>Dice Bag</h3>
       <p>
         Some kind of container to place the Order dice in is needed from which a
-        random Order die can be drawn.{" "}
+        random Order die can be drawn.{' '}
       </p>
       <h2>Tokens</h2>
       <p>Some way to represent Pins on units and mark objectives is needed.</p>
