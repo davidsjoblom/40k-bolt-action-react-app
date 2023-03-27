@@ -140,5 +140,103 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Ravager Tracked Assault Gun",
+    "modelName": "Ravager",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Medium Howitzer",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Predator Tank Destroyer",
+    "modelName": "Predator",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x75",
+    "equipment": "Forward mounted Medium AT-gun",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Maniac Tracked Assault Flamer",
+    "modelName": "Maniac",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "40x60",
+    "equipment": "Forward mounted Heavy Flamer",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Butcher Mobile Anti-air Gun",
+    "modelName": "Butcher",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x110",
+    "equipment": "Turret mounted Medium Autocannon",
+    "specialRules": "Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Sunderer Mobile Howitzer",
+    "modelName": "Sunderer",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x110",
+    "equipment": "Turret mounted Medium Howitzer",
+    "specialRules": "Open-topped, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Viking 4x6 Truck",
+    "modelName": "Viking",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x100",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "All-terrain, Open-topped, Transport(10), Vehicle",
+    "description": "",
+    "startingCost": "75pts",
+    "availability": "1 Transport per Infantry unit",
+    "options": []
+  },
+  {
+    "name": "Marauder 4x4 Truck",
+    "modelName": "Marauder",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x80",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "Open-topped, Transport(5), Vehicle",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "1 Transport per Infantry unit",
+    "options": []
   }
 ]
