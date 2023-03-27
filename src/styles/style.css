@@ -162,3 +162,9 @@ th {
 .cursor-pointer {
   cursor: pointer;
 }
+
+.unit-thumbnail {
+  border-radius: 3rem;
+  margin: 1rem;
+  box-shadow: 0 0 1rem #111;
+}

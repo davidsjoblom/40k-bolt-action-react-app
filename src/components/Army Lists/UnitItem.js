@@ -1,12 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function UnitItem({ unit, isActive, onShow, onClose }) {
+  let thumbnailUrl;
+  try {
+    thumbnailUrl = require('../../unit-thumbnails/' + unit.name + '.jpg');
+  } catch {}
   return isActive ? (
     <>
       <h2 onClick={onClose} className="cursor-pointer">
         {unit.name} <FontAwesomeIcon icon={faCaretDown} />
       </h2>
+      
       <table>
         <thead>
           <tr>
@@ -37,6 +42,11 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
           </tr>
         </tbody>
       </table>
+      <img
+        src={thumbnailUrl}
+        alt={unit.name + ' thumbnail'}
+        className="unit-thumbnail"
+      />
       <p>
         <i>{unit.description}</i>
       </p>
@@ -52,12 +62,12 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
               <i>Availability:</i> {unit.availability}
             </td>
           </tr>
-          {unit.options.map((option) => (
+          {unit.options.map(option => (
             <tr key={option.choice}>
               <td>
                 {option.choice}
                 <ul>
-                  {option.alternatives.map((alternative) => (
+                  {option.alternatives.map(alternative => (
                     <li key={alternative}>{alternative}</li>
                   ))}
                 </ul>
