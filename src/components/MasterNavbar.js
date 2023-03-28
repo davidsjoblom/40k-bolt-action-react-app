@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function MasterNavbar({
+  rememberedHomeSection,
   rememberedBasicRulesSection,
   rememberedAdvancedRulesSection,
   rememberedArmyListsSection,
@@ -17,7 +18,7 @@ function MasterNavbar({
     <nav>
       <ul>
         <li>
-          <NavLink to="/">
+          <NavLink to={"/" + rememberedHomeSection}>
             <FontAwesomeIcon icon={faHouse} />
             &nbsp; Home
           </NavLink>

@@ -122,21 +122,38 @@ const Shooting = function () {
       <p></p>
       <h3>Target is Down</h3>
       <p>The target has been issued a Down Order.</p>
-      <h3>Soft Cover</h3>
+      <h3>Cover</h3>
       <p>
-        If the majority of half of the models(rounded up) in the target unit
-        that are closest to the shooter are visible and benefit from at least
-        Soft cover the whole unit is considered to be in Soft Cover.
+        Cover is determined individually for each shooting model and different
+        models in a unit may have different cover penalties applied to their to
+        hit roll.
       </p>
       <p>
-        A unit cannot benefit from Soft cover if it is also considered to be in
-        Hard cover.
+        Soft and Hard cover are not cumulative and only one is applied at a
+        time.
       </p>
-      <h3>Hard Cover</h3>
+      <h4>Soft Cover</h4>
       <p>
-        If the majority of half of the models(rounded up) in the target unit
-        that are closest to the shooter either benefit from Hard cover or are
-        Obscured the whole unit is considered to be in Hard Cover.
+        If at least half of the models in the target unit benefit from at Soft
+        or Hard cover the whole unit is considered to be in Soft Cover.
+      </p>
+      <h4>Hard Cover</h4>
+      <p>
+        If at least half of the models in the target unit the shooter either
+        benefit from Hard cover or are not in Line of Sight the whole unit is
+        considered to be in Hard Cover.
+      </p>
+      <h4>Cover Specific Targeting</h4>
+      <p>
+        A unit may choose to only target models in a unit with a particular
+        cover 'level' instead of determining cover as normal for the whole unit.
+        Choose either no cover or Soft cover. Only models in the shooting unit
+        that have Line of Sight and range to at least one model in the targeted unit that benefit
+        from the chosen cover 'level' or less may fire their weapons. The
+        targeted unit counts as benefiting from the chosen cover 'level'. The
+        number of casualties inflicted by this shooting attack may not exceed
+        the number of models that are in the chosen cover 'level' or less from at least
+        one shooting model.
       </p>
       <h2>Roll to Wound</h2>
       <p>
@@ -160,8 +177,8 @@ const Shooting = function () {
       <h2>Target Panic test</h2>
       <p>
         If half or more of the target units models were removed as casualties
-        due to a single shooting attack it has to take a Panic Discipline test. If it
-        fails this test it panics, is immediately removed from play and
+        due to a single shooting attack it has to take a Panic Discipline test.
+        If it fails this test it panics, is immediately removed from play and
         considered Destroyed.
       </p>
       <h3>Panicking in Cover</h3>

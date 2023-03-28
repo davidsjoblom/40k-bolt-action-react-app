@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import ArmyListsNavbar from './ArmyListsNavbar';
+import { Outlet } from "react-router-dom";
+import ArmyListsNavbar from "./ArmyListsNavbar";
 
-function ArmyLists({ setRememberedArmyListsSection }) {
+export default function ArmyLists({ setRememberedArmyListsSection }) {
   return (
     <>
       <ArmyListsNavbar
@@ -11,4 +11,3 @@ function ArmyLists({ setRememberedArmyListsSection }) {
     </>
   );
 }
-export default ArmyLists;

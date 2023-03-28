@@ -1,70 +1,73 @@
-import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
-import MasterNavbar from './components/MasterNavbar';
-import Home from './components/Home';
+import MasterNavbar from "./components/MasterNavbar";
+import Home from "./components/Home/Home";
+import Start from "./components/Home/Start";
 
-import BasicRules from './components/BasicRules/BasicRules';
-import GeneralPrinciples from './components/BasicRules/GeneralPrinciples';
-import TheTurn from './components/BasicRules/TheTurn';
-import Orders from './components/BasicRules/Orders';
-import Movement from './components/BasicRules/Movement';
-import Characteristics from './components/BasicRules/Characteristics';
-import Psychology from './components/BasicRules/Psychology';
-import Shooting from './components/BasicRules/Shooting';
-import MeleeCombat from './components/BasicRules/MeleeCombat';
-import Charging from './components/BasicRules/Charging';
-import SquareBases from './components/BasicRules/SquareBases';
-import Weapons from './components/BasicRules/Weapons/Weapons';
+import BasicRules from "./components/BasicRules/BasicRules";
+import GeneralPrinciples from "./components/BasicRules/GeneralPrinciples";
+import TheTurn from "./components/BasicRules/TheTurn";
+import Orders from "./components/BasicRules/Orders";
+import Movement from "./components/BasicRules/Movement";
+import Characteristics from "./components/BasicRules/Characteristics";
+import Psychology from "./components/BasicRules/Psychology";
+import Shooting from "./components/BasicRules/Shooting";
+import MeleeCombat from "./components/BasicRules/MeleeCombat";
+import Charging from "./components/BasicRules/Charging";
+import SquareBases from "./components/BasicRules/SquareBases";
+import Weapons from "./components/BasicRules/Weapons/Weapons";
 
-import AdvancedRules from './components/AdvancedRules/AdvancedRules';
-import Terrain from './components/AdvancedRules/Terrain';
-import SpecialRules from './components/AdvancedRules/Special Rules/SpecialRules';
-import Vehicles from './components/AdvancedRules/Vehicles';
-import Armoured from './components/AdvancedRules/Armoured';
-import Transports from './components/AdvancedRules/Transports';
-import Objectives from './components/AdvancedRules/Objectives';
-import Deployment from './components/AdvancedRules/Deployment';
-import CallIns from './components/AdvancedRules/Call-ins/CallIns';
-import ArmyBuilding from './components/AdvancedRules/ArmyBuilding';
-import PlayingTheGame from './components/AdvancedRules/PlayingTheGame';
-import BattlefieldSetup from './components/AdvancedRules/BattlefieldSetup';
+import AdvancedRules from "./components/AdvancedRules/AdvancedRules";
+import Terrain from "./components/AdvancedRules/Terrain";
+import SpecialRules from "./components/AdvancedRules/Special Rules/SpecialRules";
+import Vehicles from "./components/AdvancedRules/Vehicles";
+import Armoured from "./components/AdvancedRules/Armoured";
+import Transports from "./components/AdvancedRules/Transports";
+import Objectives from "./components/AdvancedRules/Objectives";
+import Deployment from "./components/AdvancedRules/Deployment";
+import CallIns from "./components/AdvancedRules/Call-ins/CallIns";
+import ArmyBuilding from "./components/AdvancedRules/ArmyBuilding";
+import PlayingTheGame from "./components/AdvancedRules/PlayingTheGame";
+import BattlefieldSetup from "./components/AdvancedRules/BattlefieldSetup";
 
-import ArmyLists from './components/Army Lists/ArmyLists';
-import UnitList from './components/Army Lists/UnitList';
-import EmpireUnits from './unit-lists/empireUnits.json';
-import FederationUnits from './unit-lists/federationUnits.json';
-import ClansUnits from './unit-lists/clansUnits.json';
-import CultsUnits from './unit-lists/cultsUnits.json';
+import ArmyLists from "./components/Army Lists/ArmyLists";
+import UnitList from "./components/Army Lists/UnitList";
+import EmpireUnits from "./unit-lists/empireUnits.json";
+import FederationUnits from "./unit-lists/federationUnits.json";
+import ClansUnits from "./unit-lists/clansUnits.json";
+import CultsUnits from "./unit-lists/cultsUnits.json";
 
-import Ww2ArmyLists from './components/Army Lists/Ww2ArmyLists';
-import UsUnits from './ww2-unit-lists/usUnits.json';
-import GermanyUnits from './ww2-unit-lists/germanyUnits.json';
-import BritainUnits from './ww2-unit-lists/britainUnits.json';
-import SovietUnits from './ww2-unit-lists/sovietUnits.json';
-import JapanUnits from './ww2-unit-lists/japanUnits.json';
+import Ww2ArmyLists from "./components/Army Lists/Ww2ArmyLists";
+import UsUnits from "./ww2-unit-lists/usUnits.json";
+import GermanyUnits from "./ww2-unit-lists/germanyUnits.json";
+import BritainUnits from "./ww2-unit-lists/britainUnits.json";
+import SovietUnits from "./ww2-unit-lists/sovietUnits.json";
+import JapanUnits from "./ww2-unit-lists/japanUnits.json";
 
 function App() {
+  const [rememberedHomeSection, setRememberedHomeSection] = useState("start");
   const [rememberedBasicRulesSection, setRememberedBasicRulesSection] =
-    useState('general-principles');
+    useState("general-principles");
   const [rememberedAdvancedRulesSection, setRememberedAdvancedRulesSection] =
-    useState('special-rules');
+    useState("special-rules");
   const [rememberedArmyListsSection, setRememberedArmyListsSection] =
-    useState('empire-army-list');
-  const [activeEmpireItem, setActiveEmpireItem] = useState('');
-  const [activeFederationItem, setActiveFederationItem] = useState('');
-  const [activeClansItem, setActiveClansItem] = useState('');
-  const [activeCultsItem, setActiveCultsItem] = useState('');
+    useState("empire-army-list");
+  const [activeEmpireItem, setActiveEmpireItem] = useState("");
+  const [activeFederationItem, setActiveFederationItem] = useState("");
+  const [activeClansItem, setActiveClansItem] = useState("");
+  const [activeCultsItem, setActiveCultsItem] = useState("");
   const [rememberedWw2ArmyListsSection, setRememberedWw2ArmyListsSection] =
-    useState('us-army-list');
-  const [activeUsItem, setActiveUsItem] = useState('');
-  const [activeGermanyItem, setActiveGermanyItem] = useState('');
-  const [activeBritainItem, setActiveBritainItem] = useState('');
-  const [activeSovietItem, setActiveSovietItem] = useState('');
-  const [activeJapanItem, setActiveJapanItem] = useState('');
+    useState("us-army-list");
+  const [activeUsItem, setActiveUsItem] = useState("");
+  const [activeGermanyItem, setActiveGermanyItem] = useState("");
+  const [activeBritainItem, setActiveBritainItem] = useState("");
+  const [activeSovietItem, setActiveSovietItem] = useState("");
+  const [activeJapanItem, setActiveJapanItem] = useState("");
   return (
     <>
       <MasterNavbar
+        rememberedHomeSection={rememberedHomeSection}
         rememberedBasicRulesSection={rememberedBasicRulesSection}
         rememberedAdvancedRulesSection={rememberedAdvancedRulesSection}
         rememberedArmyListsSection={rememberedArmyListsSection}
@@ -73,6 +76,15 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+
+          <Route
+            path="/"
+            element={
+              <Home setRememberedHomeSection={setRememberedHomeSection} />
+            }
+          >
+            <Route path="start" element={<Start />} />
+          </Route>
           <Route
             path="basic-rules"
             element={
