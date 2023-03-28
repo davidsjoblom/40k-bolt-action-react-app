@@ -38,6 +38,10 @@ function MeleeCombat() {
         Roll a die for each hit caused and each that equals or exceeds the
         targets Toughness inflicts a casualty.
       </p>
+      <p>
+        A natural roll of 1 to wound is always considered a failed roll regardless of
+        modifiers.
+      </p>
       <h3>Remove casualties</h3>
       <p>
         For each casualty inflicted remove a model chosen by the units owner.
@@ -73,7 +77,8 @@ function MeleeCombat() {
       <h3>If Loser fails then winner Regroups</h3>
       <p>
         If the loser fails the Discipline test it is immediately destroyed and
-        all models are removed. The winning unit may now make a move up to D6".
+        all models are removed. The winning unit now makes a move up to D6" in
+        any direction.
       </p>
     </>
   );

@@ -26,12 +26,6 @@ const MeleeCombat = function () {
         Fire order must target the charging unit only and is resolved
         immediately.
       </p>
-      <h3>Charger fails Discipline test</h3>
-      <p>
-        Should this Fire order trigger a morale check which is then failed the
-        charging unit immediately abandons its charge attempt and goes Down
-        instead by flipping its Order die to Down.
-      </p>
       <h2>Roll charge distance</h2>
       <p>
         Roll 2D6 and add them to the charging units Movement Speed. If the
@@ -80,8 +74,8 @@ const MeleeCombat = function () {
       </p>
       <h3>Disrupted Charge</h3>
       <p>
-        Any charging model that moved through Rough terrain or a Wall during its
-        charge move counts as a Disrupted Charge.
+        Any charging model that moved through a Terrain feature, except Hills or
+        Fields, during its charge move counts as a Disrupted Charge.
       </p>
       <h2>Pile in charged models</h2>
       <p>

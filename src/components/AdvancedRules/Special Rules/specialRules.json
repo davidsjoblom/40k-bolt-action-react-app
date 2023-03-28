@@ -41,7 +41,7 @@
   },
   {
     "name": "Flamethrower(X)",
-    "description": "Flamethrowers hit on 2+ and ignore all to hit modifiers except Pins of Shooter. A hit from a Flamethrower is multiplied by X but may not cause more hits that there are models in the target unit."
+    "description": "Flamethrowers hit on 2+ and ignore all to hit modifiers except Pins of Shooter. A hit from a Flamethrower is multiplied by X but may not cause more hits that there are models in the target unit. A unit hit by a Flamethrower always has to take a Panic test even if the Flamethrower didn't kill half of the targets models."
   },
   {
     "name": "Gun Shield",
@@ -92,7 +92,7 @@
     "description": "Scout units can be deployed anywhere fully within the owners table half and 12\" away from any enemy unit. Scout units that deploy outside of the deployment zone may not declare charges during the turn they deployed."
   },
   {
-    "name": "Smoke Screen",
+    "name": "Smoke Launchers",
     "description": "Once per game instead of firing any weapons during an Advance or Fire order a unit may use its Smoke Launchers. The unit gains Hard Target(1) until the end of the turn."
   },
   {
@@ -121,10 +121,10 @@
   },
   {
     "name": "Unwieldy",
-    "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting."
+    "description": "Models with Unwieldy o models shooting with Unwieldy weapon suffer an additional -1 for Moving and Shooting. Models with Quick to Fire as well still suffer -1."
   },
   {
-    "name": "Up-armored Front",
-    "description": "+1 Toughness vs front shots."
+    "name": "Up-armored(X)",
+    "description": "+1 Toughness vs X facing shots."
   }
 ]

@@ -196,7 +196,7 @@
     "options": []
   },
   {
-    "name": "Samaritan Anti-tank Rocket Carrier",
+    "name": "Samaritan Rocket Carrier",
     "modelName": "Samaritan",
     "movement": 9,
     "toughness": 7,
@@ -238,7 +238,7 @@
     "options": []
   },
   {
-    "name": "Prosecutor Anti-tank Gun Carrier",
+    "name": "Prosecutor Mobile Gun System",
     "modelName": "Samaritan",
     "movement": 12,
     "toughness": 8,

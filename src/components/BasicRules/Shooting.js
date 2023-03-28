@@ -148,12 +148,12 @@ const Shooting = function () {
         A unit may choose to only target models in a unit with a particular
         cover 'level' instead of determining cover as normal for the whole unit.
         Choose either no cover or Soft cover. Only models in the shooting unit
-        that have Line of Sight and range to at least one model in the targeted unit that benefit
-        from the chosen cover 'level' or less may fire their weapons. The
-        targeted unit counts as benefiting from the chosen cover 'level'. The
-        number of casualties inflicted by this shooting attack may not exceed
-        the number of models that are in the chosen cover 'level' or less from at least
-        one shooting model.
+        that have Line of Sight and range to at least one model in the targeted
+        unit that benefit from the chosen cover 'level' or less may fire their
+        weapons. The targeted unit counts as benefiting from the chosen cover
+        'level'. The number of casualties inflicted by this shooting attack may
+        not exceed the number of models that are in the chosen cover 'level' or
+        less from at least one shooting model.
       </p>
       <h2>Roll to Wound</h2>
       <p>
@@ -180,15 +180,6 @@ const Shooting = function () {
         due to a single shooting attack it has to take a Panic Discipline test.
         If it fails this test it panics, is immediately removed from play and
         considered Destroyed.
-      </p>
-      <h3>Panicking in Cover</h3>
-      <p>
-        If the unit benefited from Soft cover during the shooting attack that
-        caused the morale check it gains +1 Discipline for that test.
-      </p>
-      <p>
-        If the unit benefited from Hard cover during the shooting attack that
-        caused the morale check it gains +2 Discipline for that test.
       </p>
     </>
   );

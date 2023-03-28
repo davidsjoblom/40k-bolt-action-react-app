@@ -8,7 +8,7 @@
   },
   {
     "name": "Rocket Launcher",
-    "range": 30,
+    "range": 24,
     "shots": 1,
     "penetration": "+5",
     "specialRules": "Anti-tank or Blast(D3+1), Reload"
