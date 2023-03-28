@@ -5,7 +5,9 @@ export default function Home({ setRememberedHomeSection }) {
   return (
     <>
       <HomeNavbar setRememberedHomeSection={setRememberedHomeSection} />
-      <Outlet />
+      <div className="outlet-padding">
+        <Outlet />
+      </div>
     </>
   );
 }

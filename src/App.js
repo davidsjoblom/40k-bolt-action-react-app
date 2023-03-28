@@ -1,9 +1,10 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { useState } from "react";
 
 import MasterNavbar from "./components/MasterNavbar";
 import Home from "./components/Home/Home";
 import Start from "./components/Home/Start";
+import Changes from "./components/Home/Changes";
 
 import BasicRules from "./components/BasicRules/BasicRules";
 import GeneralPrinciples from "./components/BasicRules/GeneralPrinciples";
@@ -75,7 +76,7 @@ function App() {
       />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Navigate to="/start" />} />
 
           <Route
             path="/"
@@ -84,6 +85,7 @@ function App() {
             }
           >
             <Route path="start" element={<Start />} />
+            <Route path="changes" element={<Changes />} />
           </Route>
           <Route
             path="basic-rules"

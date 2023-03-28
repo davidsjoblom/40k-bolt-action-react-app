@@ -5,11 +5,16 @@ export default function HomeNavbar({ setRememberedHomeSection }) {
     <nav>
       <ul>
         <li>
-          <NavLink
-            to="start"
-            onClick={() => setRememberedHomeSection("start")}
-          >
+          <NavLink to="start" onClick={() => setRememberedHomeSection("start")}>
             Start
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="changes"
+            onClick={() => setRememberedHomeSection("changes")}
+          >
+            Changes
           </NavLink>
         </li>
       </ul>
