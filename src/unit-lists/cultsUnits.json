@@ -144,7 +144,7 @@
     "equipment": "Forward mounted Heavy AT-gun with Unwieldy",
     "specialRules": "All-terrain(2), Armored, Up-armored(Front), Vehicle",
     "description": "",
-    "startingCost": "150",
+    "startingCost": "150pts",
     "availability": "0-1 per army",
     "options": []
   },
@@ -158,7 +158,7 @@
     "equipment": "Turret mounted Twin-Linked(2) Medium Machine Gun",
     "specialRules": "Armored, Vehicle",
     "description": "",
-    "startingCost": "100",
+    "startingCost": "100pts",
     "availability": "0-1 per army",
     "options": []
   },
@@ -172,7 +172,7 @@
     "equipment": "Pintle mounted Heavy Machine Gun",
     "specialRules": "All-terrain(2), Open-topped, Transport(5), Vehicle",
     "description": "",
-    "startingCost": "50",
+    "startingCost": "50pts",
     "availability": "1 Transport per Infantry unit",
     "options": []
   }
