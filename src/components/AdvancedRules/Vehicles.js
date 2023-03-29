@@ -202,11 +202,6 @@ function Vehicles() {
         center of the model. A Pintle mounted weapon may only be fired if it is
         the only weapon fired by the Vehicle.
       </p>
-      <h3>Twin-linked weapons</h3>
-      <p>
-        2 or more weapons may be Twin-linked. Twin-linked weapons share the same
-        mounting and must target the same unit when shooting.
-      </p>
     </>
   );
 }

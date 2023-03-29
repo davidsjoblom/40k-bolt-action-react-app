@@ -119,5 +119,61 @@
         "alternatives": ["Light Machine Gun for 10pts"]
       }
     ]
+  },
+  {
+    "name": "Defiler Assault Tank",
+    "modelName": "Defiler",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Heavy Directed Energy, Turret mounted Twin-Linked(2) Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "200pts",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Reaper Tank Destroyer",
+    "modelName": "Reaper",
+    "movement": 9,
+    "toughness": 8,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Heavy AT-gun with Unwieldy",
+    "specialRules": "All-terrain(2), Armored, Up-armored(Front), Vehicle",
+    "description": "",
+    "startingCost": "150",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Corruptor Armored Car",
+    "modelName": "Corruptor",
+    "movement": 12,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Twin-Linked(2) Medium Machine Gun",
+    "specialRules": "Armored, Vehicle",
+    "description": "",
+    "startingCost": "100",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Shepherd Utility Vehicle",
+    "modelName": "Shepherd",
+    "movement": 9,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x60",
+    "equipment": "Pintle mounted Heavy Machine Gun",
+    "specialRules": "All-terrain(2), Open-topped, Transport(5), Vehicle",
+    "description": "",
+    "startingCost": "50",
+    "availability": "1 Transport per Infantry unit",
+    "options": []
   }
 ]

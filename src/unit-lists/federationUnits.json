@@ -168,7 +168,7 @@
     ]
   },
   {
-    "name": "Pacifier Assault Tank",
+    "name": "Pacifier Heavy Tank",
     "modelName": "Pacifier",
     "movement": 9,
     "toughness": 10,
@@ -196,13 +196,13 @@
     "options": []
   },
   {
-    "name": "Samaritan Rocket Carrier",
+    "name": "Samaritan Mobile Rocket Launcher",
     "modelName": "Samaritan",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "2 Turret mounted Twin-linked Rocket Launchers, Pintle mounted Medium Machine Gun",
+    "equipment": "Turret mounted Twin-linked(2) Rocket Launcher, Pintle mounted Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Vehicle",
     "description": "",
     "startingCost": "100pts",
@@ -210,13 +210,13 @@
     "options": []
   },
   {
-    "name": "Samaritan Anti-air Gun Carrier",
+    "name": "Samaritan Mobile Air Defense",
     "modelName": "Samaritan",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "2 Turret mounted Twin-linked Light Autocannons, Pintle mounted Medium Machine Gun",
+    "equipment": "Turret mounted Twin-linked(2) Light Autocannon, Pintle mounted Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Vehicle",
     "description": "",
     "startingCost": "100pts",
@@ -230,7 +230,7 @@
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "Medium Mortar, Pintle mounted Medium Machine Gun",
+    "equipment": "Turret mounted Medium Mortar, Pintle mounted Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Open-topped, Spotter, Vehicle",
     "description": "",
     "startingCost": "80pts",

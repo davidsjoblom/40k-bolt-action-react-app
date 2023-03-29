@@ -188,6 +188,7 @@
     "baseSize": "60x60",
     "equipment": "Medium Machine Gun",
     "specialRules": "Fixed, Team(4)",
+    "description": "",
     "startingCost": "40pts",
     "availability": "0-2 per army",
     "options": [
@@ -206,6 +207,7 @@
     "baseSize": "60x60",
     "equipment": "Medium Mortar",
     "specialRules": "Fixed, Spotter, Team(4)",
+    "description": "",
     "startingCost": "50pts",
     "availability": "0-1 per army",
     "options": []
@@ -219,6 +221,7 @@
     "baseSize": "60x60",
     "equipment": "",
     "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
+    "description": "",
     "startingCost": 50,
     "availability": "0-1 per army",
     "options": [
@@ -242,6 +245,7 @@
     "baseSize": "75x75",
     "equipment": "",
     "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(6)",
+    "description": "",
     "startingCost": 75,
     "availability": "0-1 per army",
     "options": [
@@ -258,196 +262,73 @@
     ]
   },
   {
-    "name": "Bloodhound Heavy Armoured Car",
-    "modelName": "Heavy Car",
-    "movement": 10,
-    "toughness": 8,
+    "name": "Grizzly Battle Tank",
+    "modelName": "Grizzly",
+    "movement": 9,
+    "toughness": 10,
     "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "",
-    "specialRules": "Vehicle, Armoured, All-Terrain(1)",
-    "startingCost": 100,
-    "options": [
-      {
-        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
-        "alternatives": [
-          "Light AT Gun for free",
-          "Light Autocannon for free",
-          "Medium Directed Energy for free",
-          "Heavy Flamethrower for free"
-        ]
-      }
-    ]
+    "baseSize": "60x120",
+    "equipment": "Turret mounted Heavy AT-gun with Coax Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": 300,
+    "availability": "0-1 per army",
+    "options": []
   },
   {
-    "name": "Racoon Light Tank",
-    "modelName": "Light Tank",
+    "name": "Bullfrog Light Tank",
+    "modelName": "Bullfrog",
     "movement": 9,
     "toughness": 8,
     "discipline": 9,
     "baseSize": "50x75",
-    "equipment": "",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
+    "equipment": "Turret mounted Twin-linked(2) Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Vehicle",
+    "description": "",
     "startingCost": 100,
-    "options": [
-      {
-        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
-        "alternatives": [
-          "Light AT Gun for free",
-          "Light Autocannon for free",
-          "Light Howitzer for free",
-          "Medium Directed Energy for free",
-          "Heavy Flamethrower for free"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Greywolf Medium Tank",
-    "modelName": "Medium Tank",
-    "movement": 8,
-    "toughness": 9,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Front facing Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 175,
-    "options": [
-      {
-        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
-        "alternatives": [
-          "Medium AT Gun for free",
-          "Medium Autocannon for free",
-          "Medium Howitzer for free",
-          "Heavy Directed Energy for free",
-          "Heavy Flamethrower for free"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Grizzly Heavy Tank",
-    "modelName": "Heavy Tank",
-    "movement": 7,
-    "toughness": 10,
-    "discipline": 9,
-    "baseSize": "75x125",
-    "equipment": "Front facing Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 250,
-    "options": [
-      {
-        "choice": "Must take one Turret mounted with Coax Medium Machine Gun",
-        "alternatives": ["Heavy AT Gun for free", "Heavy Autocannon for free"]
-      },
-      {
-        "choice": "Or take one Turret mounted",
-        "alternatives": [
-          "Heavy Howitzer for free",
-          "Twin-linked Heavy Directed Energy for free",
-          "Twin-linked Heavy Flamethrower for free"
-        ]
-      },
-      {
-        "choice": "May take Sponson mounted",
-        "alternatives": ["2 Medium Machine Guns for 30pts"]
-      }
-    ]
-  },
-  {
-    "name": "Antlion Light Self Propelled Gun",
-    "modelName": "Light SPG",
-    "movement": 8,
-    "toughness": 8,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle Mounted Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 100,
-    "options": [
-      {
-        "choice": "Must take one Forward facing weapon with Unwieldy",
-        "alternatives": [
-          "Medium AT Gun for free",
-          "Medium Autocannon for free",
-          "Medium Howitzer for free",
-          "Heavy Directed Energy for free"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Aardwark Medium Self Propelled Gun",
-    "modelName": "Medium Tank",
-    "movement": 8,
-    "toughness": 9,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Front facing Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 175,
-    "options": [
-      {
-        "choice": "Must take one Forward facing weapon with Unwieldy",
-        "alternatives": [
-          "Heavy AT Gun for free",
-          "Heavy Autocannon for free",
-          "Heavy Howitzer for free"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Mammoth Heavy Self Propelled Gun",
-    "modelName": "Heavy SPG",
-    "movement": 6,
-    "toughness": 10,
-    "discipline": 9,
-    "baseSize": "75x125",
-    "equipment": "Front facing Mass Driver, Pintle Mounted Medium Machine Gun",
-    "specialRules": "Vehicle, Armoured, All-Terrain(2)",
-    "startingCost": 250,
-    "options": [
-      {
-        "choice": "May take Front facing",
-        "alternatives": ["Medium Machine Gun for 15ts"]
-      }
-    ]
-  },
-  {
-    "name": "Tarsier Light APC",
-    "modelName": "Light APC",
-    "movement": 12,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x100",
-    "equipment": "Pintle Mounted Heavy Machine Gun",
-    "specialRules": "Vehicle, Transport(5)",
-    "startingCost": 70,
+    "availability": "0-1 per army",
     "options": []
   },
   {
-    "name": "Pangolin Medium APC",
-    "modelName": "Medium APC",
-    "movement": 10,
-    "toughness": 7,
-    "discipline": 9,
-    "baseSize": "50x125",
-    "equipment": "Turret Mounted Light Autocannon",
-    "specialRules": "Vehicle, Transport(10), All-terrain(1)",
-    "startingCost": 85,
-    "options": []
-  },
-  {
-    "name": "Bullfrog Heavy APC",
-    "modelName": "Heavy APC",
+    "name": "Mammoth Heavy Mortar",
+    "modelName": "Mammoth",
     "movement": 9,
-    "toughness": 8,
+    "toughness": 7,
     "discipline": 9,
-    "baseSize": "50x125",
-    "equipment": "Turret Mounted Medium Autocannon",
-    "specialRules": "Armoured, Vehicle, Transport(10), All-terrain(2)",
-    "startingCost": 120,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Heavy Mortar with Blast(2D3+1) and Move or Fire, Forward mounted Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Spotter, Vehicle",
+    "description": "",
+    "startingCost": 100,
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Bison APC",
+    "modelName": "Bison",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Forward mounted Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Transport(12), Vehicle",
+    "description": "",
+    "startingCost": 80,
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Racoon APC",
+    "modelName": "Racoon",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "40x60",
+    "equipment": "Forward mounted Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Transport(5), Vehicle",
+    "description": "",
+    "startingCost": 70,
+    "availability": "0-1 per army",
     "options": []
   }
 ]

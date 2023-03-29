@@ -1,12 +1,12 @@
-import WeaponItem from './WeaponItem';
-import smallArms from './smallArms.json';
-import support from './support.json';
-import machineGuns from './machineGuns.json';
-import autocannons from './autocannons.json';
-import ATguns from './ATguns.json';
-import mortars from './mortars.json';
-import howitzers from './howitzers.json';
-import DEW from './DEW.json';
+import WeaponItem from "./WeaponItem";
+import smallArms from "./smallArms.json";
+import support from "./support.json";
+import machineGuns from "./machineGuns.json";
+import autocannons from "./autocannons.json";
+import ATguns from "./ATguns.json";
+import mortars from "./mortars.json";
+import howitzers from "./howitzers.json";
+import DEW from "./DEW.json";
 
 const Weapons = function () {
   return (
@@ -32,7 +32,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {smallArms.map(weapon => (
+          {smallArms.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -42,7 +42,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {support.map(weapon => (
+          {support.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -52,7 +52,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {machineGuns.map(weapon => (
+          {machineGuns.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -62,7 +62,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {autocannons.map(weapon => (
+          {autocannons.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -72,7 +72,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {ATguns.map(weapon => (
+          {ATguns.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -82,7 +82,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {mortars.map(weapon => (
+          {mortars.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -92,7 +92,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {howitzers.map(weapon => (
+          {howitzers.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -102,7 +102,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {DEW.map(weapon => (
+          {DEW.map((weapon) => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
         </tbody>
@@ -176,6 +176,15 @@ const Weapons = function () {
         Some weapons have several firing modes. Rules separated by 'or' are only
         applied one at a time, chosen by the controlling player when choosing
         target for a shooting attack.
+      </p>
+      <h2>Twin-linked(X) Weapons</h2>
+      <p>
+        Twin-linked(X) weapons are X number of weapons bolted together to be
+        used as a single weapon.
+      </p>
+      <p>
+        A Twin-linked weapon is considered a single weapon for all purposes
+        except that when fired it shoots X times its base Shots value.
       </p>
     </>
   );
