@@ -60,6 +60,10 @@
     "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\"."
   },
   {
+    "name": "Jet Packs",
+    "description": "Units with Jump Packs may "
+  },
+  {
     "name": "Melee Specialist",
     "description": "Model causes 2 hits instead of 1 when attacking in Melee combat."
   },
@@ -112,12 +116,12 @@
     "description": "Units with Swiftstride roll one additional die and discards the lowest when rolling for charge distance."
   },
   {
-    "name": "Tall",
-    "description": "Models targeting Tall units with shooting may ignore intervening non-Tall enemy units for determining cover."
-  },
-  {
     "name": "Team(X)",
     "description": "When removing a Team model as casualty it is not removed but instead mark it with a Wound marker. Place one Wound marker per casualty taken. When the number of Wound markers equals X the model is immediately removed. Team models with only one Wound away from being removed suffer a -1 Penalty to hit. When calculating models removed for whether to take a Panic test from shooting the Team model counts as as many model as Wounds it had left to take and every Wound marker placed counts as a model removed."
+  },
+  {
+    "name": "Towering",
+    "description": "Models targeting Towering units with shooting may ignore intervening non-Towering enemy units for determining cover. Towering units counts as Vehicles when targeted by Anti-tank weapons."
   },
   {
     "name": "Unwieldy",

@@ -50,6 +50,15 @@ export default function GeneralPrinciples() {
         are measured from the closest point of their respective bases. Players
         are allowed to measure any distance at any time.
       </p>
+      <h3>'Within' & 'Fully within'</h3>
+      <p>
+        When a model has to be 'within' a certain distance then ANY part of the
+        base being within the specified distance is sufficient.
+      </p>
+      <p>
+        When a model has to be 'fully within' then the ENTIRETY of its base has
+        to be within the specified distance.
+      </p>
       <h2>Line of Sight</h2>
       <p>
         Whether a model can see another model depends on if it has Line of Sight
@@ -76,7 +85,7 @@ export default function GeneralPrinciples() {
       <h3>Dice Bag</h3>
       <p>
         Some kind of container to place the Order dice in is needed from which a
-        random Order die can be drawn.{' '}
+        random Order die can be drawn.{" "}
       </p>
       <h2>Tokens</h2>
       <p>Some way to represent Pins on units and mark objectives is needed.</p>
