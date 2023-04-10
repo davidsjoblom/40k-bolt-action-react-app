@@ -134,14 +134,14 @@
     ]
   },
   {
-    "name": "Super Soldiers",
+    "name": "Supers Infantry",
     "modelName": "Super",
     "movement": 6,
     "toughness": 6,
     "discipline": 10,
     "baseSize": 25,
     "equipment": "Assault Rifle",
-    "specialRules": "Crushing Strength(1)",
+    "specialRules": "Bulky, Crushing Strength(1)",
     "description": "The worst kept secret of the Federation is its Super Soldier program. Never officially acknowledged the public came to refer to them as Supers and their reputation is that of legend. Clad in fully enclosed exo-skeletons ",
     "startingCost": "Squad Leader and 2 Operators for 75pts",
     "availability": "0-1 per army",
@@ -168,18 +168,105 @@
     ]
   },
   {
-    "name": "Pacifier Heavy Tank",
+    "name": "Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(4)",
+    "description": "",
+    "startingCost": "40pts",
+    "availability": "0-2 per army",
+    "options": [
+      {
+        "choice": "May replace Medium Machine Gun with",
+        "alternatives": ["Heavy Machine Gun for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Spotter, Team(4)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Support Gun",
+    "modelName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
+    "description": "",
+    "startingCost": 50,
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "Must take one",
+        "alternatives": [
+          "Light Autocannon for free",
+          "Light AT Gun for free",
+          "Light Howitzer and Spotter for free",
+          "Medium Directed Energy for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heavy Support Gun",
+    "modelName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "75x75",
+    "equipment": "",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(6)",
+    "description": "",
+    "startingCost": 75,
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "Must take one",
+        "alternatives": [
+          "Medium Autocannon for free",
+          "Medium AT Gun for free",
+          "Medium Howitzer and Spotter for free",
+          "Heavy Directed Energy for free",
+          "Heavy Mortar, Spotter and lose Gun Shield for free"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pacifier Battle Tank",
     "modelName": "Pacifier",
     "movement": 9,
     "toughness": 10,
     "discipline": 9,
     "baseSize": "60x125",
-    "equipment": "Turret mounted Heavy Howitzer with Coax Medium Machine Gun",
+    "equipment": "Turret mounted Multi-purpose Gun with Coax Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Smoke Launchers, Vehicle",
     "description": "",
     "startingCost": "300pts",
     "availability": "0-1 per army",
-    "options": []
+    "options": [
+      {
+        "choice": "Multi-purpose Gun may be fired as either",
+        "alternatives": ["Medium AT-gun", "Medium Howitzer"]
+      }
+    ]
   },
   {
     "name": "Arbiter Armored Car",
@@ -262,7 +349,7 @@
     "specialRules": "All-terrain(1), Armored, Smoke Launchers, Transport(8) Vehicle",
     "description": "",
     "startingCost": "150pts",
-    "availability": "1 Transport per Infantry unit",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   },
   {
@@ -273,10 +360,10 @@
     "discipline": 9,
     "baseSize": "50x100",
     "equipment": "Turret mounted Heavy Machine Gun",
-    "specialRules": "Armored, Smoke Launchers, Transport(10), Vehicle",
+    "specialRules": "Armored, Smoke Launchers, Transport(12), Vehicle",
     "description": "",
     "startingCost": "75pts",
-    "availability": "1 Transport per Infantry unit",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   }
 ]

@@ -1,31 +1,34 @@
 [
   {
     "name": "Prophet",
-    "modelName": "Sycophant",
+    "modelName": "Apostle",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Carbine",
-    "specialRules": "Prophet has Commanding Presence(2),Scoring",
+    "specialRules": "Prophet has Commanding Presence(2), Scoring",
     "description": "",
-    "startingCost": "Prophet Squad Leader and 4 Sycophants for 50pts",
-    "availability": "1 per army",
+    "startingCost": "Prophet Squad Leader and 4 Apostles for 50pts",
+    "availability": "1 required unit per Army",
     "options": [
       {
         "choice": "Prophet may replace Carbine with",
-        "alternatives": ["Pistol and Melee Specialist for free"]
+        "alternatives": [
+          "Shotgun for free",
+          "Pistol and Melee Specialist for free"
+        ]
       },
       {
         "choice": "Prophet may take one Call-in",
         "alternatives": ["Miasma for 50pts", "Frenzy for 50pts"]
       },
       {
-        "choice": "Any Sycophant may replace Carbine with",
+        "choice": "Any Apostle may replace Carbine with",
         "alternatives": ["Shotgun for free"]
       },
       {
-        "choice": "One Sycophant may take",
+        "choice": "One Apostle may take",
         "alternatives": ["Explosive charge(5) for 10pts"]
       }
     ]
@@ -34,62 +37,89 @@
     "name": "Cultists Infantry",
     "modelName": "Cultist",
     "movement": 6,
-    "toughness": 3,
-    "discipline": 9,
-    "baseSize": 25,
-    "equipment": "Carbine",
-    "specialRules": "Scoring",
-    "description": "",
-    "startingCost": "Squad Leader and 4 Cultists for 35pts",
-    "availability": "Unrestricted",
-    "options": [
-      {
-        "choice": "May add up to 5",
-        "alternatives": ["Cultist for 7pts"]
-      },
-      {
-        "choice": "Squad Leader may replace Carbine with",
-        "alternatives": ["Pistol and Melee Specialist for free"]
-      },
-      {
-        "choice": "Any Cultist may replace Carbine with",
-        "alternatives": ["Shotgun for free"]
-      },
-      {
-        "choice": "One cultist may take",
-        "alternatives": ["Explosive charge(5) for 10pts"]
-      }
-    ]
-  },
-  {
-    "name": "Deserters Infantry",
-    "modelName": "Deserter",
-    "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
     "equipment": "Rifle",
     "specialRules": "Scoring",
     "description": "",
-    "startingCost": "Squad Leader and 4 Deserters for 50pts",
-    "availability": "0-1 per army",
+    "startingCost": "Squad Leader and 4 Cultists for 50pts",
+    "availability": "No limit",
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Deserter for 10pts"]
+        "alternatives": ["Cultist for 10pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "May replace 2 Deserters for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "May replace 2 Cultists for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Anti-materiel Rifle for 5pts",
           "Light Machine Gun for 10pts",
           "Light Mortar for 10pts",
           "Rocket Launcher for 20pts"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Coverts Infantry",
+    "modelName": "Covert",
+    "movement": 6,
+    "toughness": 3,
+    "discipline": 8,
+    "baseSize": 25,
+    "equipment": "Carbine",
+    "specialRules": "Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Coverts for 25pts",
+    "availability": "No limit",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Covert for 5pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Carbine with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "Any Covert may replace Carbine with",
+        "alternatives": ["Shotgun for free"]
+      },
+      {
+        "choice": "One Covert may take",
+        "alternatives": ["Explosive charge(5) for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Sleepers Infantry",
+    "modelName": "Sleeper",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Scoring, Scout",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Sleepers for 65pts",
+    "availability": "No limit",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Sleeper for 13pts"]
+      },
+      {
+        "choice": "Squad Leader may replace SMG with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Sleeper may take",
+        "alternatives": ["Explosive charge(5) for 10pts"]
       }
     ]
   },
@@ -101,7 +131,7 @@
     "discipline": 10,
     "baseSize": 25,
     "equipment": "",
-    "specialRules": "Crushing Strength(1), Scoring, Swiftstride",
+    "specialRules": "Bulky, Crushing Strength(1), Scoring, Swiftstride",
     "description": "",
     "startingCost": "Squad Leader and 4 Chosen for 75pts",
     "availability": "0-1 per army",
@@ -119,6 +149,20 @@
         "alternatives": ["Light Machine Gun for 10pts"]
       }
     ]
+  },
+  {
+    "name": "Preacher Assault Gun",
+    "modelName": "Preacher",
+    "movement": 9,
+    "toughness": 10,
+    "discipline": 9,
+    "baseSize": "75x125",
+    "equipment": "Forward mounted Heavy Howitzer with Unwieldy, Forward Mounted Medium Machine Gun, Turret mounted Twin-Linked(2) Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Vehicle",
+    "description": "",
+    "startingCost": "300pts",
+    "availability": "0-1 per army",
+    "options": []
   },
   {
     "name": "Defiler Assault Tank",
@@ -158,22 +202,36 @@
     "equipment": "Turret mounted Twin-Linked(2) Medium Machine Gun",
     "specialRules": "Armored, Vehicle",
     "description": "",
-    "startingCost": "100pts",
+    "startingCost": "75pts",
     "availability": "0-1 per army",
     "options": []
   },
   {
-    "name": "Shepherd Utility Vehicle",
+    "name": "Deliverer APC",
+    "modelName": "Deliverer",
+    "movement": 9,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "65x150",
+    "equipment": "Turret mounted Twin-Linked(2) Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Transport(20), Vehicle, Up-armored(Front)",
+    "description": "",
+    "startingCost": "125pts",
+    "availability": "Up to 1 Transport per transportable unit",
+    "options": []
+  },
+  {
+    "name": "Shepherd APC",
     "modelName": "Shepherd",
     "movement": 9,
-    "toughness": 6,
+    "toughness": 7,
     "discipline": 9,
-    "baseSize": "40x60",
-    "equipment": "Pintle mounted Heavy Machine Gun",
-    "specialRules": "All-terrain(2), Open-topped, Transport(5), Vehicle",
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Twin-Linked(2) Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Transport(8), Vehicle",
     "description": "",
-    "startingCost": "50pts",
-    "availability": "1 Transport per Infantry unit",
+    "startingCost": "100pts",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   }
 ]

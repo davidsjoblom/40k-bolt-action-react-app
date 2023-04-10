@@ -16,6 +16,10 @@
     "description": "When a unit with Booby Trap deploys it may mark one terrain feature it is in contact with as Booby Trapped. When another unit contacts the Booby Trapped terrain feature during a move roll a die and on 4+ the unit is hit by one Medium Blast hit, takes a Pin and then remove the Booby Trapped marker. If it is not triggered the marker is left in place."
   },
   {
+    "name": "Bulky",
+    "description": "Models with Bulky take up 2 spaces in a Transport."
+  },
+  {
     "name": "Commanding Presence(X)",
     "description": "The unit and friendly units within 12\" gains +X Discipline."
   },
@@ -41,7 +45,7 @@
   },
   {
     "name": "Flamethrower(X)",
-    "description": "Flamethrowers hit on 2+ and ignore all to hit modifiers except Pins of Shooter. A hit from a Flamethrower is multiplied by X but may not cause more hits that there are models in the target unit. A unit hit by a Flamethrower always has to take a Panic test even if the Flamethrower didn't kill half of the targets models."
+    "description": "Flamethrowers hit on 2+ and ignore all to hit modifiers except Pins of Shooter. A hit from a Flamethrower is multiplied by X but may not cause more hits that there are models in the target unit. A unit hit by a Flamethrower always has to take a Panic test even if it didn't suffer enough casualties during that shooting attack to trigger a Panic test normally."
   },
   {
     "name": "Gun Shield",

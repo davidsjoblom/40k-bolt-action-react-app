@@ -19,6 +19,18 @@ function SpecialRules() {
         choose to ignore a Special Rule it has. Special rules that a weapon has
         are applied to the shots fired with that specific weapon.
       </p>
+      <h3>Special Rule stacking</h3>
+      <p>
+        Several instances of the same Special Rule do not 'stack' i.e. they are
+        only applied once. In case of several Special Rule(X) with differing X
+        values only apply the most significant modifier of the available values.
+      </p>
+      <p>
+        Different Special Rules providing the same type of modifier does stack,
+        for example would Impact(1) and Crushing Strength(1) provide a +2 to
+        wound modifier while Crushing Strength(1) and Crushing Strength(2) would
+        not provide a +3 to wound modifier.
+      </p>
       <table>
         <thead>
           <tr>

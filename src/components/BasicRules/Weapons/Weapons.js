@@ -1,12 +1,12 @@
-import WeaponItem from "./WeaponItem";
-import smallArms from "./smallArms.json";
-import support from "./support.json";
-import machineGuns from "./machineGuns.json";
-import autocannons from "./autocannons.json";
-import ATguns from "./ATguns.json";
-import mortars from "./mortars.json";
-import howitzers from "./howitzers.json";
-import DEW from "./DEW.json";
+import WeaponItem from './WeaponItem';
+import smallArms from './smallArms.json';
+import support from './support.json';
+import machineGuns from './machineGuns.json';
+import autocannons from './autocannons.json';
+import ATguns from './ATguns.json';
+import mortars from './mortars.json';
+import howitzers from './howitzers.json';
+import DEW from './DEW.json';
 
 const Weapons = function () {
   return (
@@ -32,7 +32,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {smallArms.map((weapon) => (
+          {smallArms.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -42,7 +42,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {support.map((weapon) => (
+          {support.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -52,7 +52,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {machineGuns.map((weapon) => (
+          {machineGuns.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -62,7 +62,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {autocannons.map((weapon) => (
+          {autocannons.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -72,7 +72,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {ATguns.map((weapon) => (
+          {ATguns.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -82,7 +82,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {mortars.map((weapon) => (
+          {mortars.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -92,7 +92,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {howitzers.map((weapon) => (
+          {howitzers.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
           <tr>
@@ -102,7 +102,7 @@ const Weapons = function () {
             <td></td>
             <td></td>
           </tr>
-          {DEW.map((weapon) => (
+          {DEW.map(weapon => (
             <WeaponItem weapon={weapon} key={weapon.name.toString()} />
           ))}
         </tbody>
@@ -159,17 +159,24 @@ const Weapons = function () {
       </p>
       <h2>Indirect(X)</h2>
       <p>
-        Indirect weapons may shoot through friendly units, ignore all to hit
-        penalties and always hit on a 6+.
+        Indirect weapons hit on 6+, may draw Line of Sight through friendly
+        units when shooting and ignore all to hit penalties except Pins on
+        Shooter.
       </p>
       <h3>Zeroing</h3>
       <p>
         Indirect weapons targeting a unit that it had missed or partially hit
         during its previous Order gains a cumulative +1 to hit modifier for each
         miss or partial hit in a row. Indirect weapons targeting a unit that it
-        has previously hit gains +5 to hit instead. A targeted unit may 'shake'
-        the zero by moving at least 6" away from its previous location,
-        resetting all the Indirect weapons modifiers.
+        has previously hit gains +5 to hit instead.
+      </p>
+      <p>
+        A targeted unit may 'shake' the zero by moving at least 6" away from its
+        previous location, resetting the Indirect weapons modifiers.
+      </p>
+      <p>
+        If the unit with the Indirect Weapon moves for any reason the Zero is
+        immediately reset.
       </p>
       <h2>'or'</h2>
       <p>

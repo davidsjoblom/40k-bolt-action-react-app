@@ -1,44 +1,86 @@
 [
   {
-    "name": "Clan Elder",
-    "modelName": "Clansman",
+    "name": "Warlord",
+    "modelName": "Bodyguard",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
     "baseSize": 25,
-    "equipment": "Carbine",
-    "specialRules": "Elder has Commanding Presence(1), Scoring, Stubborn(1)",
+    "equipment": "Shotgun",
+    "specialRules": "Warlord has Commanding Presence(1), Scoring, Stubborn(1)",
     "description": "",
-    "startingCost": "Elder Squad Leader and 4 Clansmen for 50pts",
-    "availability": "Must include one and one only Clan Elder unit",
+    "startingCost": "Warlord Squad Leader and 4 Bodyguards for 50pts",
+    "availability": "1 required unit per Army",
     "options": [
       {
-        "choice": "Elder may replace Carbine with",
-        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+        "choice": "Warlord may replace Carbine with",
+        "alternatives": [
+          "Pistol and Melee Specialist for free",
+          "Crushing Strength(3) for 10pts"
+        ]
       },
       {
-        "choice": "Elder may take one Call-in",
+        "choice": "Any Bodyguard may replace Shotgun with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Bodyguard may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      },
+      {
+        "choice": "Warlord may take one Call-in",
         "alternatives": [
           "War Cry for 50pts",
           "Fix Bayonets! for 50pts",
           "To the Last Man for 50pts"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Warriors",
+    "modelName": "Warrior",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Shotgun",
+    "specialRules": "Scoring, Stubborn(1)",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Guerillas for 50pts",
+    "availability": "No limit",
+    "options": [
+      {
+        "choice": "May add up to 5",
+        "alternatives": ["Warriors for 10pts"]
       },
       {
-        "choice": "May replace 2 Clansmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "Squad Leader may replace Shotgun with",
         "alternatives": [
-          "Anti-materiel Rifle for 10pts",
-          "Sniper for 10pts",
-          "Light Mortar for 10pts",
-          "Light Machine Gun for 10pts",
-          "Rocket Launcher for 20pts"
+          "Pistol and Melee Specialist for free",
+          "Crushing Strength(3) for 10pts"
+        ]
+      },
+      {
+        "choice": "Any Warrior may replace Rifle with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Warrior may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      },
+      {
+        "choice": "One Warrior may replace Shotgun with",
+        "alternatives": [
+          "Flamethrower for 10pts",
+          "Multiple Grenade Launcher for 10pts"
         ]
       }
     ]
   },
   {
-    "name": "Clansmen Infantry",
-    "modelName": "Clansman",
+    "name": "Locals",
+    "modelName": "Local",
     "movement": 6,
     "toughness": 4,
     "discipline": 8,
@@ -46,22 +88,23 @@
     "equipment": "Carbine",
     "specialRules": "Scoring, Stubborn(2)",
     "description": "",
-    "startingCost": "Squad Leader and 4 Clansmen for 40pts",
+    "startingCost": "Squad Leader and 4 Locals for 40pts",
+    "availability": "No limit",
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Clansman for 8pts"]
+        "alternatives": ["Local for 8pts"]
       },
       {
         "choice": "Squad Leader may replace Carbine with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "One Clansman may take",
+        "choice": "One Local may take",
         "alternatives": ["Explosive Charge(5) for 5pts"]
       },
       {
-        "choice": "May replace 2 Clansmen for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "May replace 2 Locals for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Anti-materiel Rifle for 10pts",
           "Sniper for 10pts",
@@ -73,8 +116,8 @@
     ]
   },
   {
-    "name": "Guerillas Infantry",
-    "modelName": "Guerilla",
+    "name": "Guerrillas",
+    "modelName": "Guerrilla",
     "movement": 6,
     "toughness": 4,
     "discipline": 9,
@@ -82,22 +125,23 @@
     "equipment": "Rifle",
     "specialRules": "Booby Trap, Scoring, Scout, Stubborn(1)",
     "description": "",
-    "startingCost": "Squad Leader and 4 Guerillas for 60pts",
+    "startingCost": "Squad Leader and 4 Guerrillas for 60pts",
+    "availability": "0-1 per Army",
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Guerilla for 12pts"]
+        "alternatives": ["Guerrilla for 12pts"]
       },
       {
         "choice": "Squad Leader may replace Rifle with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "One Guerilla may take",
+        "choice": "One Guerrilla may take",
         "alternatives": ["Explosive Charge(5) for 5pts"]
       },
       {
-        "choice": "May replace 2 Guerillas for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "May replace 2 Guerrillas for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Anti-materiel Rifle for 10pts",
           "Sniper for 10pts",
@@ -113,16 +157,17 @@
     "modelName": "Biker",
     "movement": 9,
     "toughness": 5,
-    "discipline": 8,
-    "baseSize": 25,
+    "discipline": 9,
+    "baseSize": 40,
     "equipment": "SMG",
-    "specialRules": "Impact(1), Mounted, Stubborn(2), Swiftstride",
+    "specialRules": "Impact(1), Mounted, Stubborn(1), Swiftstride",
     "description": "",
     "startingCost": "Squad Leader and 4 Bikers for 75pts",
+    "availability": "0-1 per Army",
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Guerilla for 12pts"]
+        "alternatives": ["Biker for 15pts"]
       },
       {
         "choice": "Squad Leader may replace SMG with",
@@ -142,13 +187,63 @@
     ]
   },
   {
+    "name": "Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(4)",
+    "description": "",
+    "startingCost": "40pts",
+    "availability": "0-2 per army",
+    "options": []
+  },
+  {
+    "name": "Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Spotter, Team(4)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Gun Team",
+    "modelName": "Gun Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "",
+    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
+    "description": "",
+    "startingCost": 50,
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "Must take one",
+        "alternatives": [
+          "Light AT Gun for free",
+          "Light Howitzer and Spotter for free"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Ravager Tracked Assault Gun",
     "modelName": "Ravager",
     "movement": 9,
     "toughness": 7,
     "discipline": 9,
     "baseSize": "50x100",
-    "equipment": "Forward mounted Medium Howitzer",
+    "equipment": "Forward mounted Light Howitzer",
     "specialRules": "All-terrain(2), Armored, Open-topped, Vehicle",
     "description": "",
     "startingCost": "100pts",
@@ -205,7 +300,7 @@
     "discipline": 9,
     "baseSize": "40x110",
     "equipment": "Turret mounted Medium Howitzer",
-    "specialRules": "Open-topped, Vehicle",
+    "specialRules": "Open-topped, Spotter, Vehicle",
     "description": "",
     "startingCost": "100pts",
     "availability": "0-1 per Army",
@@ -222,7 +317,7 @@
     "specialRules": "All-terrain, Open-topped, Transport(10), Vehicle",
     "description": "",
     "startingCost": "75pts",
-    "availability": "1 Transport per Infantry unit",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   },
   {
@@ -236,7 +331,7 @@
     "specialRules": "Open-topped, Transport(5), Vehicle",
     "description": "",
     "startingCost": "50pts",
-    "availability": "1 Transport per Infantry unit",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   }
 ]

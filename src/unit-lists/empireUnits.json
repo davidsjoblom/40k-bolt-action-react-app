@@ -262,7 +262,7 @@
     ]
   },
   {
-    "name": "Grizzly Battle Tank",
+    "name": "Grizzly Heavy Tank",
     "modelName": "Grizzly",
     "movement": 9,
     "toughness": 10,
@@ -276,6 +276,20 @@
     "options": []
   },
   {
+    "name": "Antlion Medium Tank",
+    "modelName": "Antlion",
+    "movement": 9,
+    "toughness": 9,
+    "discipline": 9,
+    "baseSize": "50x100",
+    "equipment": "Turret mounted Medium Autocannon, Forward mounted Medium Machine Gun",
+    "specialRules": "All-terrain(2), Armored, Open-topped, Vehicle",
+    "description": "",
+    "startingCost": 200,
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
     "name": "Bullfrog Light Tank",
     "modelName": "Bullfrog",
     "movement": 9,
@@ -285,12 +299,26 @@
     "equipment": "Turret mounted Twin-linked(2) Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Vehicle",
     "description": "",
+    "startingCost": 125,
+    "availability": "0-1 per army",
+    "options": []
+  },
+  {
+    "name": "Bloodhound Armored Car",
+    "modelName": "Bloodhound",
+    "movement": 12,
+    "toughness": 7,
+    "discipline": 9,
+    "baseSize": "40x100",
+    "equipment": "Turret mounted Light Autocannon with Coax Medium Machine Gun",
+    "specialRules": "All-terrain(1), Armored, Vehicle",
+    "description": "",
     "startingCost": 100,
     "availability": "0-1 per army",
     "options": []
   },
   {
-    "name": "Mammoth Heavy Mortar",
+    "name": "Mammoth Mortar Carrier",
     "modelName": "Mammoth",
     "movement": 9,
     "toughness": 7,
@@ -299,7 +327,7 @@
     "equipment": "Forward mounted Heavy Mortar with Blast(2D3+1) and Move or Fire, Forward mounted Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Open-topped, Spotter, Vehicle",
     "description": "",
-    "startingCost": 100,
+    "startingCost": 150,
     "availability": "0-1 per army",
     "options": []
   },
@@ -314,7 +342,7 @@
     "specialRules": "All-terrain(2), Armored, Open-topped, Transport(12), Vehicle",
     "description": "",
     "startingCost": 80,
-    "availability": "0-1 per army",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   },
   {
@@ -328,7 +356,7 @@
     "specialRules": "All-terrain(2), Armored, Open-topped, Transport(5), Vehicle",
     "description": "",
     "startingCost": 70,
-    "availability": "0-1 per army",
+    "availability": "Up to 1 Transport per transportable unit",
     "options": []
   }
 ]
