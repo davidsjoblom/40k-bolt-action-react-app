@@ -268,7 +268,7 @@
     "toughness": 10,
     "discipline": 9,
     "baseSize": "60x120",
-    "equipment": "Turret mounted Heavy AT-gun with Coax Medium Machine Gun",
+    "equipment": "Turret mounted Heavy AT-gun with Coax Medium Machine Gun, Front mounted Medium Machine Gun",
     "specialRules": "All-terrain(2), Armored, Vehicle",
     "description": "",
     "startingCost": 300,
@@ -287,7 +287,12 @@
     "description": "",
     "startingCost": 200,
     "availability": "0-1 per army",
-    "options": []
+    "options": [
+      {
+        "choice": "May replace Turret mounted Medium Autocannon with",
+        "alternatives": ["Medium Anti-tank Gun for free"]
+      }
+    ]
   },
   {
     "name": "Bullfrog Light Tank",
