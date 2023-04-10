@@ -237,7 +237,7 @@
     ]
   },
   {
-    "name": "Ravager Tracked Assault Gun",
+    "name": "Ravager Assault Gun",
     "modelName": "Ravager",
     "movement": 9,
     "toughness": 7,
@@ -265,7 +265,7 @@
     "options": []
   },
   {
-    "name": "Maniac Tracked Assault Flamer",
+    "name": "Maniac Assault Flamer",
     "modelName": "Maniac",
     "movement": 9,
     "toughness": 7,
@@ -279,35 +279,35 @@
     "options": []
   },
   {
-    "name": "Butcher Mobile Anti-air Gun",
+    "name": "Sunderer Mobile Artillery",
+    "modelName": "Sunderer",
+    "movement": 12,
+    "toughness": 6,
+    "discipline": 9,
+    "baseSize": "40x110",
+    "equipment": "Turret mounted Medium Howitzer with Unwieldy",
+    "specialRules": "All-terrain(1), Open-topped, Spotter, Vehicle",
+    "description": "",
+    "startingCost": "100pts",
+    "availability": "0-1 per Army",
+    "options": []
+  },
+  {
+    "name": "Butcher Flak Truck",
     "modelName": "Butcher",
     "movement": 12,
     "toughness": 6,
     "discipline": 9,
     "baseSize": "40x110",
     "equipment": "Turret mounted Medium Autocannon",
-    "specialRules": "Open-topped, Vehicle",
+    "specialRules": "All-terrain(1), Open-topped, Vehicle",
     "description": "",
     "startingCost": "100pts",
     "availability": "0-1 per Army",
     "options": []
   },
   {
-    "name": "Sunderer Mobile Howitzer",
-    "modelName": "Sunderer",
-    "movement": 12,
-    "toughness": 6,
-    "discipline": 9,
-    "baseSize": "40x110",
-    "equipment": "Turret mounted Medium Howitzer",
-    "specialRules": "Open-topped, Spotter, Vehicle",
-    "description": "",
-    "startingCost": "100pts",
-    "availability": "0-1 per Army",
-    "options": []
-  },
-  {
-    "name": "Viking 4x6 Truck",
+    "name": "Viking Truck",
     "modelName": "Viking",
     "movement": 12,
     "toughness": 6,
@@ -321,17 +321,22 @@
     "options": []
   },
   {
-    "name": "Marauder 4x4 Truck",
+    "name": "Marauder Technical",
     "modelName": "Marauder",
     "movement": 12,
     "toughness": 6,
     "discipline": 9,
     "baseSize": "40x80",
-    "equipment": "Pintle mounted Heavy Machine Gun",
+    "equipment": "Forward mounted Anti-tank Rifle",
     "specialRules": "Open-topped, Transport(5), Vehicle",
     "description": "",
     "startingCost": "50pts",
     "availability": "Up to 1 Transport per transportable unit",
-    "options": []
+    "options": [
+      {
+        "choice": "May replace Anti-tank Rifle with",
+        "alternatives": ["Light Machine Gun for free"]
+      }
+    ]
   }
 ]

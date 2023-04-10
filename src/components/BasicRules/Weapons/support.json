@@ -39,6 +39,6 @@
     "range": 12,
     "shots": 1,
     "penetration": "-",
-    "specialRules": "Flamethrower(D6+1)"
+    "specialRules": "Flamethrower(2D6)"
   }
 ]
