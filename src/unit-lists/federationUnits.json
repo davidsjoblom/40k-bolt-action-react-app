@@ -27,7 +27,7 @@
     ]
   },
   {
-    "name": "PMC Infantry",
+    "name": "Contractors",
     "modelName": "Contractor",
     "movement": 6,
     "toughness": 4,
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "name": "Marines Infantry",
+    "name": "Marines",
     "modelName": "Marine",
     "movement": 6,
     "toughness": 5,
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "name": "Operators Infantry",
+    "name": "Operators",
     "modelName": "Operator",
     "movement": 6,
     "toughness": 4,
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "name": "Supers Infantry",
+    "name": "Supers",
     "modelName": "Super",
     "movement": 6,
     "toughness": 6,
@@ -349,7 +349,7 @@
     "specialRules": "All-terrain(1), Armored, Smoke Launchers, Transport(8) Vehicle",
     "description": "",
     "startingCost": "150pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": []
   },
   {
@@ -363,7 +363,7 @@
     "specialRules": "Armored, Smoke Launchers, Transport(12), Vehicle",
     "description": "",
     "startingCost": "75pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": []
   }
 ]

@@ -34,7 +34,7 @@
     ]
   },
   {
-    "name": "Cultists Infantry",
+    "name": "Cultists",
     "modelName": "Cultist",
     "movement": 6,
     "toughness": 4,
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "name": "Coverts Infantry",
+    "name": "Coverts",
     "modelName": "Covert",
     "movement": 6,
     "toughness": 3,
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "name": "Sleepers Infantry",
+    "name": "Sleepers",
     "modelName": "Sleeper",
     "movement": 6,
     "toughness": 4,
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "name": "Chosen Infantry",
+    "name": "Chosen",
     "modelName": "Chosen",
     "movement": 6,
     "toughness": 5,
@@ -217,7 +217,7 @@
     "specialRules": "All-terrain(2), Armored, Transport(20), Vehicle, Up-armored(Front)",
     "description": "",
     "startingCost": "125pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": []
   },
   {
@@ -231,7 +231,7 @@
     "specialRules": "All-terrain(2), Armored, Transport(8), Vehicle",
     "description": "",
     "startingCost": "100pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": []
   }
 ]

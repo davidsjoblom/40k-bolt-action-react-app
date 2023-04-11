@@ -317,7 +317,7 @@
     "specialRules": "All-terrain, Open-topped, Transport(10), Vehicle",
     "description": "",
     "startingCost": "75pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": []
   },
   {
@@ -331,7 +331,7 @@
     "specialRules": "Open-topped, Transport(5), Vehicle",
     "description": "",
     "startingCost": "50pts",
-    "availability": "Up to 1 Transport per transportable unit",
+    "availability": "Up to 1 Transport per Scoring unit",
     "options": [
       {
         "choice": "May replace Anti-tank Rifle with",
