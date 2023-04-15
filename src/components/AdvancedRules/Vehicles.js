@@ -146,8 +146,7 @@ function Vehicles() {
         take a Dangerous terrain test. The Vehicle temporarily stops upon
         contact with the terrain and a D6 is rolled, a roll of 4+ is a success
         and the Vehicle may continue moving as normal. If the test is failed the
-        Vehicle is moved D6" directly forwards as far as possible and then
-        immediately Immobilized.
+        Vehicle moves D6" directly forwards as far as possible, is Immobilized, its issued Order is flipped to Down and its activation is immediately ended.
       </p>
       <p>
         A Dangerous terrain test natural roll of 1 is always considered a fail

@@ -109,27 +109,39 @@
     "availability": "0-1 per army",
     "options": [
       {
-        "choice": "May add up to 5",
-        "alternatives": ["Operator for 13pts"]
-      },
-      {
-        "choice": "Squad Leader may replace Assault Rifle with",
+        "choice": "Squad Leader may replace Rifle with",
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "One Operator may replace Assault Rifle with",
+        "choice": "May replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
-          "Multiple Grenade Launcher for 5pts",
-          "Light Direct Energy for 10pts"
-        ]
-      },
-      {
-        "choice": "Or may replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
-        "alternatives": [
-          "Sniper for 10pts",
+          "Sniper for 5pts",
           "Light Machine Gun for 10pts",
           "Rocket Launcher for 20pts"
         ]
+      }
+    ]
+  },
+  {
+    "name": "Combat Engineers",
+    "modelName": "Engineer",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "SMG",
+    "specialRules": "Anti-tank Mines, Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Engineer for 50pts",
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "One Engineer may replace Assault Rifle with",
+        "alternatives": ["Flamer for 10pts", "Light Direct Energy for 10pts"]
+      },
+      {
+        "choice": "One Engineer may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
       }
     ]
   },

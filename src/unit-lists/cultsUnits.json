@@ -176,7 +176,12 @@
     "description": "",
     "startingCost": "200pts",
     "availability": "0-1 per army",
-    "options": []
+    "options": [
+      {
+        "choice": "May replace Heavy Directed Energy with",
+        "alternatives": ["Heavy Flamethrower for free"]
+      }
+    ]
   },
   {
     "name": "Reaper Tank Destroyer",

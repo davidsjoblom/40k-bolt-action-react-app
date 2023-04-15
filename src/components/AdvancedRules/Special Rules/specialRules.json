@@ -12,6 +12,10 @@
     "description": "Models with Anti-tank or models shooting with Anti-tank weapons targeting non-Vehicle units suffer an additional -1 Penalty to hit."
   },
   {
+    "name": "Anti-tank Mines",
+    "description": "A unit with Anti-tank Mines may once per game when issued a Fire Order, instead of shooting their weapons, place an AT-mine token within 1\" of the unit. Any Vehicle unit that moves within 3\" of the AT-mine token must immediately roll a die. On a result of 4+ the Vehicle is considered as if it had failed a Dangerous terrain test (see Vehicle section)."
+  },
+  {
     "name": "Booby Trap",
     "description": "When a unit with Booby Trap deploys it may mark one terrain feature it is in contact with as Booby Trapped. When another unit contacts the Booby Trapped terrain feature during a move roll a die and on 4+ the unit is hit by one Medium Blast hit, takes a Pin and then remove the Booby Trapped marker. If it is not triggered the marker is left in place."
   },
@@ -64,8 +68,8 @@
     "description": "May draw Line of Sight through friendly units when shooting (must still be able to see the target). May not target enemy units fully within X\"."
   },
   {
-    "name": "Jet Packs",
-    "description": "Units with Jump Packs may "
+    "name": "Jet Packs(X)",
+    "description": "Units with Jet Packs may choose to ignore all terrain features, treat Buildings as Impasse features and have their Move stat set to X for the duration of an Advance or Run move (the move still has to be ended in a legal position). Units moving in this manner that finish their move in contact with Rough terrain has to roll a die for each model in contact with Rough terrain and for each result of 1 the units suffers a casualty."
   },
   {
     "name": "Melee Specialist",

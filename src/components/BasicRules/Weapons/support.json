@@ -11,7 +11,7 @@
     "range": 24,
     "shots": 1,
     "penetration": "+5",
-    "specialRules": "Anti-tank or Blast(D3+1), Reload"
+    "specialRules": "Anti-tank or Blast(D3), Reload"
   },
   {
     "name": "Sniper",

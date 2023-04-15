@@ -153,6 +153,37 @@
     ]
   },
   {
+    "name": "Sappers",
+    "modelName": "Sapper",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": 25,
+    "equipment": "Carbine",
+    "specialRules": "Anti-tank Mines, Scoring",
+    "description": "",
+    "startingCost": "Squad Leader and 4 Sapper for 50pts",
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "Squad Leader may replace Carbine with",
+        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "Any Sapper may replace Carbine with",
+        "alternatives": ["Shotgun for free"]
+      },
+      {
+        "choice": "One Sapper may replace Carbine with",
+        "alternatives": ["Flamer for 10pts", "Light Direct Energy for 10pts"]
+      },
+      {
+        "choice": "One Sapper may take",
+        "alternatives": ["Explosive Charge(5) for 5pts"]
+      }
+    ]
+  },
+  {
     "name": "Lancers",
     "modelName": "Lancer",
     "movement": 9,
@@ -160,7 +191,7 @@
     "discipline": 9,
     "baseSize": 40,
     "equipment": "Pistol",
-    "specialRules": "Impact(2), Mounted",
+    "specialRules": "All-terrain(1), Impact(2), Mounted",
     "description": "Though mostly ceremonial, and the occasional riot suppression, the Lancers themselves certainly wouldn't agree with that characterization and are always keen to prove their usefulness in times of war. They serve as scouts and quick response forces and are known for incessant optimism and glory seeking.",
     "startingCost": "Squad Leader and 4 Lancers for 75pts",
     "availability": "0-1 per army",
