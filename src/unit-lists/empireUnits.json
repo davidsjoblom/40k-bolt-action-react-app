@@ -244,7 +244,7 @@
     "options": []
   },
   {
-    "name": "Support Gun",
+    "name": "Gun Team",
     "modelName": "Gun Crew",
     "movement": 6,
     "toughness": 4,
@@ -268,7 +268,7 @@
     ]
   },
   {
-    "name": "Heavy Support Gun",
+    "name": "Heavy Gun Team",
     "modelName": "Gun Crew",
     "movement": 6,
     "toughness": 4,

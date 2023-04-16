@@ -213,30 +213,6 @@
     "options": []
   },
   {
-    "name": "Support Gun",
-    "modelName": "Gun Crew",
-    "movement": 6,
-    "toughness": 4,
-    "discipline": 9,
-    "baseSize": "60x60",
-    "equipment": "",
-    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(4)",
-    "description": "",
-    "startingCost": 50,
-    "availability": "0-1 per army",
-    "options": [
-      {
-        "choice": "Must take one",
-        "alternatives": [
-          "Light Autocannon for free",
-          "Light AT Gun for free",
-          "Light Howitzer and Spotter for free",
-          "Medium Directed Energy for free"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Heavy Support Gun",
     "modelName": "Gun Crew",
     "movement": 6,
@@ -343,7 +319,7 @@
     "toughness": 8,
     "discipline": 9,
     "baseSize": "50x120",
-    "equipment": "Turret mounted Heavy AT-gun, Pintle mounted Medium Machine Gun",
+    "equipment": "Turret mounted Heavy AT-gun with Unwieldy, Pintle mounted Medium Machine Gun",
     "specialRules": "All-terrain(1), Armored, Smoke Launchers, Vehicle",
     "description": "",
     "startingCost": "150pts",
@@ -353,12 +329,12 @@
   {
     "name": "Protector Infantry Fighting Vehicle",
     "modelName": "Protector",
-    "movement": 12,
+    "movement": 9,
     "toughness": 8,
     "discipline": 9,
     "baseSize": "50x120",
-    "equipment": "Turret mounted Medium Autocannon with Coax Medium Machine Gun",
-    "specialRules": "All-terrain(1), Armored, Smoke Launchers, Transport(8) Vehicle",
+    "equipment": "Turret mounted Medium Autocannon with Coax Medium Machine Gun, Pintle mounted Rocket Launcher",
+    "specialRules": "All-terrain(2), Armored, Smoke Launchers, Transport(8), Vehicle",
     "description": "",
     "startingCost": "150pts",
     "availability": "Up to 1 Transport per Scoring unit",
@@ -372,7 +348,7 @@
     "discipline": 9,
     "baseSize": "50x100",
     "equipment": "Turret mounted Heavy Machine Gun",
-    "specialRules": "Armored, Smoke Launchers, Transport(12), Vehicle",
+    "specialRules": "Armored, Transport(12), Vehicle",
     "description": "",
     "startingCost": "75pts",
     "availability": "Up to 1 Transport per Scoring unit",
