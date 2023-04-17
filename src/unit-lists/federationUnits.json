@@ -213,31 +213,6 @@
     "options": []
   },
   {
-    "name": "Heavy Support Gun",
-    "modelName": "Gun Crew",
-    "movement": 6,
-    "toughness": 4,
-    "discipline": 9,
-    "baseSize": "75x75",
-    "equipment": "",
-    "specialRules": "Cumbersome, Fixed, Gun Shield, Move or Fire, Team(6)",
-    "description": "",
-    "startingCost": 75,
-    "availability": "0-1 per army",
-    "options": [
-      {
-        "choice": "Must take one",
-        "alternatives": [
-          "Medium Autocannon for free",
-          "Medium AT Gun for free",
-          "Medium Howitzer and Spotter for free",
-          "Heavy Directed Energy for free",
-          "Heavy Mortar, Spotter and lose Gun Shield for free"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Pacifier Battle Tank",
     "modelName": "Pacifier",
     "movement": 9,

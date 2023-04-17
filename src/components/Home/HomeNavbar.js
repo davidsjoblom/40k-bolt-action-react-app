@@ -14,7 +14,7 @@ export default function HomeNavbar({ setRememberedHomeSection }) {
             to="changes"
             onClick={() => setRememberedHomeSection("changes")}
           >
-            Changes
+            BA Changes
           </NavLink>
         </li>
       </ul>
