@@ -1,7 +1,7 @@
 {
   "name": "40k-bolt-action",
   "version": "0.1.0",
-  "homepage": "https://davidsjoblom.github.io/40k-bolt-action-react-app",
+  "homepage": "http://www.blowbackgame.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
