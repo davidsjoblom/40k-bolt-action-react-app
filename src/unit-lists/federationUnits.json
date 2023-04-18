@@ -96,8 +96,8 @@
     ]
   },
   {
-    "name": "Operators",
-    "modelName": "Operator",
+    "name": "Operatives",
+    "modelName": "Operative",
     "movement": 6,
     "toughness": 4,
     "discipline": 10,
@@ -105,7 +105,7 @@
     "equipment": "Rifle",
     "specialRules": "Scoring, Scout",
     "description": "The reach of the Federation Special Operations Command, FSOC, is long and it is commonly jested that FSOC has eyes on every world. This is something a FSOC operative would be quick to neither confirm nor deny, if you could find one that is.",
-    "startingCost": "Squad Leader and 4 Operators for 65pts",
+    "startingCost": "Squad Leader and 4 Operatives for 65pts",
     "availability": "0-1 per army",
     "options": [
       {
@@ -113,7 +113,7 @@
         "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "May replace 2 Operators for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
+        "choice": "May replace 2 Operatives for a weapon team with Base Size 40mm, Team(2), Unwieldy and",
         "alternatives": [
           "Sniper for 5pts",
           "Light Machine Gun for 10pts",

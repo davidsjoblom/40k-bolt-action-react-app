@@ -66,8 +66,8 @@
     ]
   },
   {
-    "name": "Coverts",
-    "modelName": "Covert",
+    "name": "Converts",
+    "modelName": "Convert",
     "movement": 6,
     "toughness": 3,
     "discipline": 8,
@@ -75,23 +75,23 @@
     "equipment": "Carbine",
     "specialRules": "Scoring",
     "description": "",
-    "startingCost": "Squad Leader and 4 Coverts for 25pts",
+    "startingCost": "Squad Leader and 4 Converts for 25pts",
     "availability": "No limit",
     "options": [
       {
         "choice": "May add up to 5",
-        "alternatives": ["Covert for 5pts"]
+        "alternatives": ["Convert for 5pts"]
       },
       {
         "choice": "Squad Leader may replace Carbine with",
         "alternatives": ["Pistol and Melee Specialist for free"]
       },
       {
-        "choice": "Any Covert may replace Carbine with",
+        "choice": "Any Convert may replace Carbine with",
         "alternatives": ["Shotgun for free"]
       },
       {
-        "choice": "One Covert may take",
+        "choice": "One Convert may take",
         "alternatives": ["Explosive charge(5) for 10pts"]
       }
     ]
@@ -149,6 +149,39 @@
         "alternatives": ["Light Machine Gun for 10pts"]
       }
     ]
+  },
+  {
+    "name": "Machine Gun Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Machine Gun",
+    "specialRules": "Fixed, Team(4)",
+    "description": "",
+    "startingCost": "40pts",
+    "availability": "0-2 per army",
+    "options": [
+      {
+        "choice": "May replace Medium Machine Gun with",
+        "alternatives": ["Heavy Machine Gun for 10pts"]
+      }
+    ]
+  },
+  {
+    "name": "Mortar Team",
+    "modelName": "Crew",
+    "movement": 6,
+    "toughness": 4,
+    "discipline": 9,
+    "baseSize": "60x60",
+    "equipment": "Medium Mortar",
+    "specialRules": "Fixed, Spotter, Team(4)",
+    "description": "",
+    "startingCost": "50pts",
+    "availability": "0-1 per army",
+    "options": []
   },
   {
     "name": "Preacher Assault Gun",
