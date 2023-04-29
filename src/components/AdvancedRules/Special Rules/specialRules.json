@@ -97,7 +97,7 @@
   },
   {
     "name": "Scoring",
-    "description": "Scoring units can take and count towards Objectives."
+    "description": "Scoring units can take and count towards Objectives. Scoring units mounted in a Transport are not considered Scoring until they dismount."
   },
   {
     "name": "Scout",
