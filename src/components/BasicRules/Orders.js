@@ -26,33 +26,30 @@ const Orders = function () {
         <tbody>
           <tr>
             <td>Fire</td>
-            <td>
-              The unit may either move up to double its Movement speed or it may
-              Charge an enemy unit.
-            </td>
+            <td>The unit may fire their weapons.</td>
           </tr>
           <tr>
             <td>Advance</td>
             <td>
-              The unit may move up to its Movement speed and then preform a
-              Shooting action.
+              The unit may move up to its Movement speed and then fire their
+              weapons.
             </td>
           </tr>
           <tr>
             <td>Run</td>
             <td>
-              The unit may either move up to double its Movement speed or it may
-              Charge an enemy unit.
+              The unit may move up to double its Movement speed or it may Charge
+              an enemy unit.
             </td>
           </tr>
           <tr>
             <td>Ambush</td>
             <td>
-              The unit does nothing immediately but may choose to at any point
-              during a move of an enemy unit spring its Ambush and preform a
-              Shooting action against that unit, interrupting its action. The
-              Order dice is then flipped to Fire, the unit is no longer in
-              ambush and the target may continue its action.
+              The unit does nothing immediately but may choose to at
+              any point during a move of an enemy unit spring its Ambush and
+              preform a Shooting action against that unit, interrupting its
+              action. The Order dice is then flipped to Fire, the unit is no
+              longer in ambush and the target may continue its action.
             </td>
           </tr>
           <tr>

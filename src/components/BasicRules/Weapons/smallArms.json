@@ -7,16 +7,16 @@
     "specialRules": "Quick to Fire"
   },
   {
-    "name": "Submachine Gun",
+    "name": "Shotgun",
     "range": 12,
-    "shots": 2,
+    "shots": 1,
     "penetration": "-",
     "specialRules": "Quick to Fire"
   },
   {
-    "name": "Shotgun",
+    "name": "Submachine Gun",
     "range": 12,
-    "shots": 1,
+    "shots": 2,
     "penetration": "-",
     "specialRules": "Quick to Fire"
   },

@@ -153,6 +153,37 @@
     ]
   },
   {
+    "name": "Ubers",
+    "modelName": "Uber",
+    "movement": 6,
+    "toughness": 6,
+    "discipline": 8,
+    "baseSize": 40,
+    "equipment": "Grenade Launcher",
+    "specialRules": "Bulky, Crushing Strength(1), Stubborn(2)",
+    "description": "The Ubers are the results of the Empires long standing ambition to create super-soldiers. Rumored to be based on stolen, and poorly understood, Federation research, Ubers are test tube babies that grow at staggering speeds. Most die painful deaths before their first birthday and fewer still make it through 'conditioning'. Those that remain are effectively child soldiers the size of a small tank. Should they evade the injury on the battlefield they eventually succumb to medical complications as their ceaselessly growing bodies tear themselves apart.",
+    "startingCost": "Squad Leader and 2 Ubers for 60pts",
+    "availability": "0-1 per army",
+    "options": [
+      {
+        "choice": "May add up to 3",
+        "alternatives": ["Ubers for 20pts"]
+      },
+      {
+        "choice": "Squad Leader may replace Grenade Launcher with",
+        "alternatives": ["Pistol and Melee Specialist for free"]
+      },
+      {
+        "choice": "One Uber may replace Grenade Launcher with",
+        "alternatives": [
+          "Multiple Grenade Launcher for 5pts",
+          "Flamethrower for 5pts",
+          "Anti-tank Rifle for 5pts"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Sappers",
     "modelName": "Sapper",
     "movement": 6,
@@ -166,11 +197,7 @@
     "availability": "0-1 per army",
     "options": [
       {
-        "choice": "Squad Leader may replace Carbine with",
-        "alternatives": ["SMG for free", "Pistol and Melee Specialist for free"]
-      },
-      {
-        "choice": "Any Sapper may replace Carbine with",
+        "choice": "Any model may replace Carbine with",
         "alternatives": ["Shotgun for free"]
       },
       {

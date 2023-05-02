@@ -11,7 +11,7 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
       <h2 onClick={onClose} className="cursor-pointer">
         {unit.name} <FontAwesomeIcon icon={faCaretDown} />
       </h2>
-      
+
       <table>
         <thead>
           <tr>
@@ -42,11 +42,7 @@ export default function UnitItem({ unit, isActive, onShow, onClose }) {
           </tr>
         </tbody>
       </table>
-      <img
-        src={thumbnailUrl}
-        alt={unit.name + ' thumbnail'}
-        className="unit-thumbnail"
-      />
+      <img src={thumbnailUrl} alt={''} className="unit-thumbnail" />
       <p>
         <i>{unit.description}</i>
       </p>

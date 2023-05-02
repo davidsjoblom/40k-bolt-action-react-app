@@ -1,5 +1,12 @@
 [
   {
+    "name": "Grenade Launcher",
+    "range": 18,
+    "shots": 1,
+    "penetration": "-",
+    "specialRules": "Blast(D3)"
+  },
+  {
     "name": "Multiple Grenade Launcher",
     "range": 18,
     "shots": 2,
