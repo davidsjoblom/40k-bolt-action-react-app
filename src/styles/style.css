@@ -168,3 +168,21 @@ th {
   margin: 1rem;
   box-shadow: 0 0 1rem #111;
 }
+
+.page-art {
+  height: auto;
+  width: 100%;
+  display: block;
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem #111;
+}
+
+.start-page-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.start-page-subtitle {
+  text-align: center;
+  font-size: 2rem;
+}
