@@ -84,6 +84,10 @@
     "description": "Mounted models treat terrain as if they were Vehicle models except that for each failed Dangerous terrain test the unit suffers a casualty instead of moving and being Immobilized (see Vehicles and Terrain in the Vehicle section). Mounted models may never voluntarily be issued a Down order and enemy units targeting a Mounted unit never suffers the penalty for target being Down."
   },
   {
+    "name": "Multi-purpose(X,Y)",
+    "description": "Multi-purpose weapons may be fired as either X or Y, chosen when declaring target."
+  },
+  {
     "name": "Open-topped",
     "description": "Open-topped units hit by weapons that cannot wound it still take Pins by them. Open-topped Transports may have up to half(rounding up) its transport capacity of models shoot out of it per turn, measuring range and LoS from the transport."
   },
